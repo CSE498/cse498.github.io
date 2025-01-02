@@ -1,0 +1,7 @@
+title: CSE 491
+logo: /assets/img/logo.png
+description: CSE 491 - Fall 2023 @ MSU
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+baseurl: CSE491

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_5_sample_A.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>1.</b> If you want to create a custom <code>new</code> operator that does some logging but otherwise does not change the functionality of <code>new</code>, what do you need to include?</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) A standards-compliant memory table</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) Your own heap data structure</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) A call to <code>malloc</code></label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) A call to <code>free</code></label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(E)">(E) This is not possible</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>2.</b> Given the following chunk of code: <br>
+&nbsp;&nbsp;<code>#include &lt;iostream&gt;</code><br>
+&nbsp;&nbsp;<code>#include &lt;memory&gt;  </code><br>
+&nbsp;&nbsp;<code>static int current_allocations = 0;</code><br>
+&nbsp;&nbsp;<code>void* operator new(size_t size){</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;current_allocations++;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;return malloc(size);</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;<code>void operator delete(void* memory){</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;current_allocations--;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;free(memory);</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;<code>int main(){</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;int* int_ptr = new int(5);</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;std::string* str_ptr = new std::string(&quot;foo&quot;);</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;delete int_ptr;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;std::unique_ptr&lt;double&gt; double_ptr = std::make_unique&lt;double&gt;(3.14);</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;std::cout &lt;&lt; current_allocations &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;delete str_ptr;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+What is the output of the code, and does it have a memory leak?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) &quot;0&quot;, yes</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) &quot;0&quot;, no</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) &quot;1&quot;, yes</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) &quot;1&quot;, no</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(E)">(E) &quot;2&quot;, yes</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(F)">(F) &quot;2&quot;, no</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(G)">(G) &quot;3&quot;, yes</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(H)">(H) &quot;3&quot;, no</label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 9 -->
+  <div class="question">
+    <p><b>3.</b> Given the following code:<br>
+&nbsp;&nbsp;<code>template &lt;int X, int Y&gt;</code><br>
+&nbsp;&nbsp;<code>struct IntegerSum{</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;static constexpr int value = X + Y;</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+How would we get the sum of 4 and 5?</p>
+    <div class="options"><label><input type="radio" name="q9" value="(A)">(A) <code>IntegerSum&lt;4,5&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(B)">(B) <code>IntegerSum&lt;4,5&gt;::value</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(C)">(C) <code>IntegerSum(4,5)</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(D)">(D) <code>IntegerSum(4,5)::value</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(E)">(E) <code>IntegerSum&lt;int, int&gt;(4,5)</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(F)">(F) <code>IntegerSum&lt;int, int&gt;(4,5)::value</code></label></div>
+  <div class="answer" data-question="q9"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>4.</b> What is the standard way to return a value from a metafunction?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) By returning the value from the constructor</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) By storing it as a static constexpr member of the class</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) By a normal return call, <code>return value;</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) By deriving from that value</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(E)">(E) By overriding <code>GetValue()</code> from the standard</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 18 -->
+  <div class="question">
+    <p><b>5.</b> Is it better to benchmark in debug or release mode? </p>
+    <div class="options"><label><input type="radio" name="q18" value="(A)">(A) Release mode, to measure the efficiency of the most optimized version of the code</label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(B)">(B) You should use neither debug nor release, but instead a profiling mode that includes both optimizations and asserts</label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(C)">(C) Debug mode, to catch errors via checks like <code>assert</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(D)">(D) There is no meaningful difference between the two when benchmarking</label></div>
+  <div class="answer" data-question="q18"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>6.</b> If we profile a scope that has a lot of code and see that it is taking longer than expected, which of the following is NOT typically an effective next step for identifying the problem?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) Divide up the scope into a set of sub-scopes and time each one to narrow down the problem</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) Track the memory allocations occurring in that function to see if any of them are the problem</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) Pick a function call that you think might be the problem and time it to test your suspicion</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) Pick any function that is called and start optimizing it</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(E)">(E) Run your profiler additional times to get average values, in case the original numbers were outliers</label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 13 -->
+  <div class="question">
+    <p><b>7.</b> Which of the following features helps to facilitate efficient pass-by-value for classes with a large memory footprint?</p>
+    <div class="options"><label><input type="radio" name="q13" value="(A)">(A) Templates</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(B)">(B) Lambda expressions</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(C)">(C) Range-based <code>for</code> loops</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(D)">(D) Move semantics</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(E)">(E) Use of the commands <code>new</code> and <code>delete</code></label></div>
+  <div class="answer" data-question="q13"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>8.</b> What is the direct result of profiling your code?</p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) Improvements in the efficiency of your code</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) Reductions in the energy usage needed to run your code</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) Reductions in the memory usage of your code</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) Data on the timing of different portions of your code</label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>9.</b> Which of the following is a benefit of benchmarking your code?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) Identifying race conditions in your concurrent code</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) Ensuring that your code can handle various edge cases</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) Identifying the slowest parts of your code</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) Pinpointing memory leaks in your code</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(E)">(E) Exposing vulnerabilities that attackers could use to exploit your code</label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 5 -->
+  <div class="question">
+    <p><b>10.</b> Is the following code legal? If not, why not?<br>
+&nbsp;&nbsp;<code>constexpr int x = 20;</code><br>
+&nbsp;&nbsp;<code>if constexpr (x &lt; 100) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; &quot;You win!&quot; &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>} else {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; &quot;You lose: x = &quot; &lt;&lt; x.size() &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q5" value="(A)">(A) Yes it is legal, but it will always print &quot;You win!&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(B)">(B) No, it is not legal because <code>x &lt; 100</code> is an invalid condition for an <code>if constexpr</code></label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(C)">(C) No, it is not legal because you cannot use <code>std::cout</code> in an <code>if constexpr</code></label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(D)">(D) No, it is not legal because type <code>int</code> does not have any member functions</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(E)">(E) No, it is not legal because only derived types can be marked <code>constexpr</code>, not <code>int</code>s</label></div>
+  <div class="answer" data-question="q5"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_5_sample_A.js"></script>
+</body>
+</html>

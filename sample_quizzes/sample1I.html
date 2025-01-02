@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1I.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 51 -->
+  <div class="question">
+    <p><b>1.</b> Which of the following will initialize the variable x to the numerical value 0?</p>
+    <div class="options"><label><input type="radio" name="q51" value="(A)">(A) <code>char x = &quot;&quot;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q51" value="(B)">(B) <code>char x = &apos;0&apos;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q51" value="(C)">(C) <code>char x = &apos;\0&apos;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q51" value="(D)">(D) <code>char x = std::endl;</code></label></div>
+  <div class="answer" data-question="q51"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 53 -->
+  <div class="question">
+    <p><b>2.</b> What will happen if you do not explicitly initialize an <code>int</code> variable?</p>
+    <div class="options"><label><input type="radio" name="q53" value="(A)">(A) The variable will be automatically initialized to zero by default.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(B)">(B) The variable&apos;s scope will be adjust to where it is first used.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(C)">(C) The variable will not have any memory allocated for it.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(D)">(D) Setting the variable later will be considered undefined behavior.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(E)">(E) The value of that variable will be undefined.</label></div>
+  <div class="answer" data-question="q53"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 54 -->
+  <div class="question">
+    <p><b>3.</b> When would you mark a stand-alone function as <code>const</code>?</p>
+    <div class="options"><label><input type="radio" name="q54" value="(A)">(A) When the first argument is a reference to an object that should not be altered</label></div>
+    <div class="options"><label><input type="radio" name="q54" value="(B)">(B) When it doesn&apos;t modify any of its parameters</label></div>
+    <div class="options"><label><input type="radio" name="q54" value="(C)">(C) When it doesn&apos;t modify any global variables</label></div>
+    <div class="options"><label><input type="radio" name="q54" value="(D)">(D) None of the above (only member functions should be marked const)</label></div>
+  <div class="answer" data-question="q54"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 13 -->
+  <div class="question">
+    <p><b>4.</b> What is the value of <code>var2</code> after the following code executes?<br>
+&nbsp;&nbsp;<code>int var1 = 5;</code><br>
+&nbsp;&nbsp;<code>var1 += 5;</code><br>
+&nbsp;&nbsp;<code>int var2 = 2 * var1++;</code></p>
+    <div class="options"><label><input type="radio" name="q13" value="(A)">(A) 21</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(B)">(B) 20</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(C)">(C) 22</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(D)">(D) 10</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(E)">(E) Nothing: it is illegal C++ code</label></div>
+  <div class="answer" data-question="q13"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>5.</b> Which of the following is an illegal use of the keyword &quot;auto&quot;?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) <code>const auto &amp; my_err = std::cerr;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) <code>auto i;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) <code>auto my_str = std::string(&quot;Test.&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) <code>auto my_var = std::string(&quot;abcd&quot;);</code></label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 28 -->
+  <div class="question">
+    <p><b>6.</b> Why should you use &quot;include guards&quot; (or <code>#pragma once</code>) in your header files?</p>
+    <div class="options"><label><input type="radio" name="q28" value="(A)">(A) They limit access to your code to trusted parties</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(B)">(B) They link the header file with the associated code (.cpp) file</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(C)">(C) They ensure that you do not duplicate identifiers if you include a file multiple times</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(D)">(D) They ensure that files are included in the correct order</label></div>
+  <div class="answer" data-question="q28"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>7.</b> What will the following code print?<br>
+&nbsp;&nbsp;<code>char x = &apos;A&apos;;</code><br>
+&nbsp;&nbsp;<code>while (x &lt;= &apos;E&apos;) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; x++;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) <code>ABCDE</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) <code>BCDEF</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) <code>ABCD</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) <code>A</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(E)">(E) <code>ABCDEF</code></label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 20 -->
+  <div class="question">
+    <p><b>8.</b> If you make a function call TestFunction(91), which version of the function will be called?</p>
+    <div class="options"><label><input type="radio" name="q20" value="(A)">(A) <code>void TestFunction(double param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(B)">(B) <code>void TestFunction(int param1, int param2=0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(C)">(C) <code>void TestFunction(std::string param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(D)">(D) <code>void TestFunction();</code></label></div>
+  <div class="answer" data-question="q20"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>9.</b> What will the following code print?<br>
+&nbsp;&nbsp;<code>for (int i = 0; i &lt; 6; ++i) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;if (i == 2) continue;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;if (i == 4) break;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; i;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) <code>013</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) <code>0134</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) <code>012345</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) <code>01</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) <code>0123</code></label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>10.</b> What is the correct syntax for declaring a template function in C++?</p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) <code>template &lt;typename T&gt; void foo(T);</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) <code>void foo(T) &lt;- template &lt;typename T&gt;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) <code>void foo&lt;template T&gt;(T);</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) <code>&lt;template typename T&gt; void foo(T);</code></label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1I.js"></script>
+</body>
+</html>

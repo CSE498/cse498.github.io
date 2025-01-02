@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_4_sample_B.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>1.</b> What does &quot;template instantiation&quot; refer to?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) The process of defining the body of a function template.</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) The process of generating code for a specific type based on the template definition.</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) The process of instantiating an object from a class template, every time you build one.</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) The process of deriving one class template from another.</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) The process of deducing types for a function template based on the specific arguments passed in.</label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>2.</b> What will the following code snippet output?<br>
+&nbsp;&nbsp;<code>int x = 5;</code><br>
+&nbsp;&nbsp;<code>auto my_lambda = [x]() {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;x += 1;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; x &lt;&lt; &quot; &quot;;</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+&nbsp;&nbsp;<code>my_lambda();</code><br>
+&nbsp;&nbsp;<code>my_lambda();</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; x &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) &quot;5 6 5&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) &quot;5 6 6&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) &quot;6 6 5&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) &quot;6 7 5&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(E)">(E) &quot;6 7 7&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(F)">(F) The code will not compile</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 34 -->
+  <div class="question">
+    <p><b>3.</b> What is the type of the captured variable in the following lambda?<br>
+&nbsp;&nbsp;<code>const double pi = 3.14;</code><br>
+&nbsp;&nbsp;<code>auto get_area = [pi](int r){ </code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;return std::to_string(pi * r * r);</code><br>
+&nbsp;&nbsp;<code>}; </code></p>
+    <div class="options"><label><input type="radio" name="q34" value="(A)">(A) <code>std::string</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(B)">(B) <code>const double</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(C)">(C) <code>const int</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(D)">(D) It will have to be created by the compiler</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(E)">(E) This code will not compile</label></div>
+  <div class="answer" data-question="q34"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 10 -->
+  <div class="question">
+    <p><b>4.</b> What is an explicit specialization of a template?</p>
+    <div class="options"><label><input type="radio" name="q10" value="(A)">(A) A complete set of substitute code to use if a template is called with a specific set of arguments.</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(B)">(B) Any specification of arguments when using a template.</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(C)">(C) A mechanism to add additional functionality to a class template after it is already created.</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(D)">(D) The process of defining any new template based on an existing one.</label></div>
+  <div class="answer" data-question="q10"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 1 -->
+  <div class="question">
+    <p><b>5.</b> Which of that following is a potential downside of excessive use of templates, even when fully adhering to the C++ standard?</p>
+    <div class="options"><label><input type="radio" name="q1" value="(A)">(A) It can lead to reduced accuracy in floating-point calculations.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(B)">(B) It is likely to reduce the final execution speed of the program.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(C)">(C) It is likely to make it more difficult to figure out which types are being used.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(D)">(D) It can prevent the use of concurrency.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(E)">(E) It is likely to cause memory leaks.</label></div>
+  <div class="answer" data-question="q1"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>6.</b> Given the following function template:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>bool CompareToZero(T in) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;return in == static_cast&lt;T&gt;(0);</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+Which function call will NOT cause a compilation error?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) <code>CompareToZero(0, 0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) <code>CompareToZero(std::vector&lt;int&gt;{0});</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) <code>CompareToZero(&apos;c&apos;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) <code>CompareToZero&lt;std::string&gt;(&quot;12&quot;);</code></label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <p><b>7.</b> Consider this code:<br>
+&nbsp;&nbsp;<code>template &lt;typename T=int&gt;</code><br>
+&nbsp;&nbsp;<code>T getValue() {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;&nbsp;&nbsp;return T();</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+What will getValue() return if called without any arguments?</p>
+    <div class="options"><label><input type="radio" name="q3" value="(A)">(A) The character value <code>&apos;a&apos;</code></label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(B)">(B) nullptr</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(C)">(C) The integer value 0</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(D)">(D) An empty string (<code>&quot;&quot;</code>)</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(E)">(E) The character values <code>&apos;\0&apos;</code></label></div>
+  <div class="answer" data-question="q3"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>8.</b> Consider the function template:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>void func(T arg) { /* ... */ }</code><br>
+If you call <code>func(42)</code>, what will be the type of <code>T</code>?</p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) <code>int&amp;</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) <code>void</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) <code>int*</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) It depends on how <code>arg</code> is used in the function body.</label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>9.</b> In which of the following scenarios is the <code>typename</code> keyword mandatory to disambiguate a declaration?</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) Whenever you are defining a member function inside a class template.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) Whenever you are instantiating a class template with an integral type.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) Whenever you are referring to a type nested inside a class template when the type otherwise depends on one or more template parameters.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) Whenever you are declaring a full template specialization.</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>10.</b> Given the following function template:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>void Print(const T &amp; item) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; item &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+Which call to <code>Print</code> would cause a compile-time error?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) <code>Print(&quot;This is my literal string&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) <code>Print(22);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) <code>Print(x)</code> where <code>x</code> is of type <code>std::map&lt;std::string, std::string&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) <code>Print(nullptr);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(E)">(E) All of the above would cause compile-time errors.</label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_4_sample_B.js"></script>
+</body>
+</html>

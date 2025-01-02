@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_5_sample_B.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 6 -->
+  <div class="question">
+    <p><b>1.</b> In the context of C++ metaprogramming, how would a metafunction typically be implemented?</p>
+    <div class="options"><label><input type="radio" name="q6" value="(A)">(A) As a lambda function wrapper around an existing function</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(B)">(B) As a macro</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(C)">(C) As a class/struct that takes arguments via templates and stores info as members</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(D)">(D) As a function that takes another function as an argument</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(E)">(E) As a typical function that can return different values depending on the context in which it was called </label></div>
+  <div class="answer" data-question="q6"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>2.</b> Why would you return std::optional from a function?</p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) To avoid exceptions when a function fails to compute a valid result, offering a way to check for a result without the overhead of exception handling</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) To indicate that the function may or may not exist</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) To improve the performance of the function by avoiding value copying</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) To enable automatic memory management and prevent memory leaks</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(E)">(E) To allow the function to return multiple values of different types at the same time</label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 20 -->
+  <div class="question">
+    <p><b>3.</b> There are several things to make sure you understand when benchmarking, which of the following is NOT a reasonable expectation?</p>
+    <div class="options"><label><input type="radio" name="q20" value="(A)">(A) Ensuring that you understand which portions of your code you are actually benchmarking</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(B)">(B) Ensuring you understand how your benchmarking code interacts with the compiler&apos;s optimizations </label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(C)">(C) Ensuring that only benchmark your code via short, almost trivial use cases to save time</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(D)">(D) Ensuring you know which compiler flags you are using and how they will effect benchmarking</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(E)">(E) Ensuring your benchmarking code does not needlessly inflate your timing results</label></div>
+  <div class="answer" data-question="q20"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 14 -->
+  <div class="question">
+    <p><b>4.</b> When an argument is passed by value into a function parameter, which of the following statements is true?</p>
+    <div class="options"><label><input type="radio" name="q14" value="(A)">(A) The function can modify the original value of the argument that was passed in</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(B)">(B) It is almost always more memory efficient than passing by reference</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(C)">(C) The function receives a copy of the argument</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(D)">(D) It is almost always less memory efficient than passing by reference</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(E)">(E) The original object&apos;s destructor is called when the function parameter goes out of scope</label></div>
+  <div class="answer" data-question="q14"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>5.</b> Which standard C++ library provides time-based tools that can be used for benchmarking?</p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) <code>chrono</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) <code>duration</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) <code>metrics</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) <code>time</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) <code>snapshot</code></label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 10 -->
+  <div class="question">
+    <p><b>6.</b> What does the <code>typename</code> keyword do in the following snippet?<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>using my_type_t = typename MyType&lt;T&gt;::type;</code></p>
+    <div class="options"><label><input type="radio" name="q10" value="(A)">(A) Extracts and returns the type of the variable <code>MyType&lt;T&gt;::type</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(B)">(B) It is ignored by the compiler, but it tells other users that <code>my_type_t</code> is a type</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(C)">(C) Removes <code>const</code> and <code>volatile</code> qualifiers from <code>MyType&lt;T&gt;::type</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(D)">(D) Tells the compiler that <code>MyType&lt;T&gt;::type</code> will eventually resolve to a type</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(E)">(E) Converts a string, like <code>int</code>, into an actual C++ type</label></div>
+  <div class="answer" data-question="q10"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>7.</b> What is the standard way to return a value from a metafunction?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) By overriding <code>GetValue()</code> from the standard</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) By a normal return call, <code>return value;</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) By returning the value from the constructor</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) By deriving from that value</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(E)">(E) By storing it as a static constexpr member of the class</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 4 -->
+  <div class="question">
+    <p><b>8.</b> When should you avoid marking a function as <code>constexpr</code>?</p>
+    <div class="options"><label><input type="radio" name="q4" value="(A)">(A) When the function is called from many different places in your code</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(B)">(B) When the function has a recursive call to itself</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(C)">(C) When the function is overly long</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(D)">(D) When it needs to interact with a library that does not use <code>constexpr</code></label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(E)">(E) When the function will sometimes need to be called at run time</label></div>
+  <div class="answer" data-question="q4"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 11 -->
+  <div class="question">
+    <p><b>9.</b> If you have a function template with two types <code>T1</code> and <code>T2</code> and want to change what code is run based on whether they are the same or different, what condition would you put inside your <code>if constexpr</code>?</p>
+    <div class="options"><label><input type="radio" name="q11" value="(A)">(A) <code>std::is_same&lt;T1 == T2&gt;()</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(B)">(B) <code>std::is_same&lt;typename T1, typename T2&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(C)">(C) <code>std::is_same(T1, T2)</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(D)">(D) <code>std::is_same&lt;T1,T2&gt;::value</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(E)">(E) <code>std::is_same(T1)(T2)</code></label></div>
+  <div class="answer" data-question="q11"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 12 -->
+  <div class="question">
+    <p><b>10.</b> If you want to use value semantics on objects of a given class, which of the following is most important to implement?</p>
+    <div class="options"><label><input type="radio" name="q12" value="(A)">(A) An <code>operator&lt;&lt;</code> for printing</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(B)">(B) A set of data accessors</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(C)">(C) A virtual destructor</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(D)">(D) A copy constructor</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(E)">(E) A friend class</label></div>
+  <div class="answer" data-question="q12"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_5_sample_B.js"></script>
+</body>
+</html>

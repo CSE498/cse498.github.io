@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1B.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 28 -->
+  <div class="question">
+    <p><b>1.</b> Why should you use &quot;include guards&quot; (or <code>#pragma once</code>) in your header files?</p>
+    <div class="options"><label><input type="radio" name="q28" value="(A)">(A) They guard against malicious code being injected into your program</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(B)">(B) They ensure that you do not duplicate identifiers if you include a file multiple times</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(C)">(C) They make sure that your functions can only be called a single time</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(D)">(D) They link the header file with the associated code (.cpp) file</label></div>
+  <div class="answer" data-question="q28"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>2.</b> You want to execute code if either <code>var1</code> is true or <code>var2</code> is true, but not if they are both true.  Given that both variables are type <code>bool</code>, three of the following techniques work; which one will NOT work?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) <code>if ( var1 ^^ var2) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) <code>if ( (var1 &amp;&amp; !var2) || (var2 &amp;&amp; !var1) ) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) <code>if ( var1 != var2) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) <code>if ( (var1 || var2) &amp;&amp; !(var1 &amp;&amp; var2) ) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 38 -->
+  <div class="question">
+    <p><b>3.</b> Which of the following is a correct syntax for defining a lambda function in C++?</p>
+    <div class="options"><label><input type="radio" name="q38" value="(A)">(A) <code>lambda(int x) { return x * x; };</code></label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(B)">(B) <code>[](int x){ return x * x; };</code></label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(C)">(C) <code>(int x) =&gt; x * x;</code></label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(D)">(D) <code>auto f = (int x) { return x * x; };</code></label></div>
+  <div class="answer" data-question="q38"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>4.</b> Given that a Node is defined as:<br>
+&nbsp;&nbsp;<code>struct Node{  </code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int value = 0;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;Node * next = nullptr;</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+Consider the following code:<br>
+&nbsp;&nbsp;<code>Node * node = new Node;</code><br>
+&nbsp;&nbsp;<code>node-&gt;value = 100;</code><br>
+&nbsp;&nbsp;<code>node-&gt;next = new Node;</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; node-&gt;next-&gt;value;</code><br>
+&nbsp;&nbsp;<code>delete node;</code><br>
+&nbsp;&nbsp;<code>delete node-&gt;next;</code><br>
+Which of the following is a problem with this code:</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) The member variable <code>value</code> should be <code>unsigned</code> since it never goes negative</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) It prints <code>node-&gt;next-&gt;value</code> without ever setting it</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) It may crash because <code>node</code> is used after it is deleted</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) It won&apos;t compile because no arguments were provided to the constructors in new</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>5.</b> What will the following code print?<br>
+&nbsp;&nbsp;<code>for (int i = 0; i &lt; 6; ++i) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;if (i == 2) continue;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;if (i == 4) break;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; i;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) <code>01</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) <code>2</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) <code>013</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) <code>0123</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) <code>012345</code></label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>6.</b> If you make a function call TestFunction(&apos;a&apos;) and all of the following options are available, which version of the function will be called?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) <code>void TestFunction(double param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) <code>void TestFunction(char param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) <code>void TestFunction(int param1, int param2=0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) <code>void TestFunction(std::string param);</code></label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 34 -->
+  <div class="question">
+    <p><b>7.</b> Given the following templated function:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>void PrintBoth(T in1, T in2) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; in1 &lt;&lt; &quot;, &quot; &lt;&lt; in2 &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+Which function call will cause a compilation error?</p>
+    <div class="options"><label><input type="radio" name="q34" value="(A)">(A) <code>PrintBoth(12, 34);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(B)">(B) <code>PrintBoth(&apos;a&apos;, &apos;b&apos;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(C)">(C) <code>PrintBoth(&quot;12, 34&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(D)">(D) <code>PrintBoth(&quot;12&quot;, &quot;34&quot;);</code></label></div>
+  <div class="answer" data-question="q34"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 39 -->
+  <div class="question">
+    <p><b>8.</b> When compiling a large C++ project with many files, which of the following is NOT always good advice?</p>
+    <div class="options"><label><input type="radio" name="q39" value="(A)">(A) Make sure to have include guards in both header and code files</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(B)">(B) Avoid polluting the global namespace in headers since it will cascade to filesthat include them</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(C)">(C) Fully define template functions in the header file</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(D)">(D) Declare most regular functions in a header, define them in the .cpp file</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(E)">(E) Use a build system rather than always compiling by hand</label></div>
+  <div class="answer" data-question="q39"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 42 -->
+  <div class="question">
+    <p><b>9.</b> What is a difference between a native array (such as &quot;<code>int a[100]</code>&quot;) and std::vector (such as &quot;<code>std::vector&lt;int&gt; v(100)</code>&quot;)?</p>
+    <div class="options"><label><input type="radio" name="q42" value="(A)">(A) A native array will always warn you at compile time if you index out of bounds, but a vector will not</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(B)">(B) A native array can be used in a range-based for loop, but a vector cannot</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(C)">(C) A native array is a fixed size, but a vector can change its size</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(D)">(D) The first index in a native array is 1, but the first index in a vector is 0</label></div>
+  <div class="answer" data-question="q42"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>10.</b> Which of these numeric types is represented using the fewest bytes in C++?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) <code>long</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) <code>uint64_t</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) <code>double</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) <code>char</code></label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1B.js"></script>
+</body>
+</html>

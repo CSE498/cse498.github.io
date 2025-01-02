@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1G.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>1.</b> Which of these numeric types is represented using the fewest bytes in C++?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) <code>long long</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) <code>char</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) <code>float</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) <code>long</code></label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 44 -->
+  <div class="question">
+    <p><b>2.</b> If I created an array of strings with &quot;<code>std::string word_list[5000]</code>&quot;, what should I do when I&apos;m done using word_list?</p>
+    <div class="options"><label><input type="radio" name="q44" value="(A)">(A) <code>for (auto x : word_list) delete x;</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(B)">(B) <code>delete [] word_list</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(C)">(C) <code>delete word_list</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(D)">(D) Let the compiler take care of it when it falls out of scope</label></div>
+  <div class="answer" data-question="q44"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>3.</b> You want to execute code if either <code>var1</code> is true or <code>var2</code> is true, but not if they are both true.  Given that both variables are type <code>bool</code>, three of the following techniques work; which one will NOT work?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) <code>if ( var1 XOR var2) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) <code>if ( var1 != var2) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) <code>if ( (var1 || var2) &amp;&amp; !(var1 &amp;&amp; var2) ) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) <code>if ( (var1 &amp;&amp; !var2) || (var2 &amp;&amp; !var1) ) {</code> &lt;i&gt;...code...&lt;/i&gt; <code>}</code></label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 41 -->
+  <div class="question">
+    <p><b>4.</b> Which of the following is NOT a good reason a to define a member variable in the private section of a class definition?</p>
+    <div class="options"><label><input type="radio" name="q41" value="(A)">(A) It will only be used in classes derived from this one</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(B)">(B) It does not have a value that is meaningful outside of this class</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(C)">(C) It is a pointer to memory that we don&apos;t want accessible outside of this class</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(D)">(D) We may want to change the internals of the class in the future and don&apos;t want other classes depending on it</label></div>
+  <div class="answer" data-question="q41"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>5.</b> What does the following line of code do?<br>
+&nbsp;&nbsp;<code>assert(x == 10);</code></p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) It checks to see if <code>x</code> is equal to <code>10</code>; if not it sets <code>x</code> to <code>10</code> to ensure safe execution</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) It checks to see if <code>x</code> is equal to <code>10</code>; if not it prints an error and aborts the program</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) It checks to see if <code>x</code> is equal to <code>10</code>; if not it writes a warning and keeps going</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) It prevents the program from compiling if it is possible for x to be a value other than 10</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 42 -->
+  <div class="question">
+    <p><b>6.</b> What is a difference between a native array (such as &quot;<code>int a[100]</code>&quot;) and std::vector (such as &quot;<code>std::vector&lt;int&gt; v(100)</code>&quot;)?</p>
+    <div class="options"><label><input type="radio" name="q42" value="(A)">(A) A vector has member functions, but a native array does not</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(B)">(B) A native array can be used in a range-based for loop, but a vector cannot</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(C)">(C) A native array will always warn you at compile time if you index out of bounds, but a vector will not</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(D)">(D) Vectors can be any number of dimensions, but arrays are limited to being one dimensional</label></div>
+  <div class="answer" data-question="q42"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 28 -->
+  <div class="question">
+    <p><b>7.</b> Why should you use &quot;include guards&quot; (or <code>#pragma once</code>) in your header files?</p>
+    <div class="options"><label><input type="radio" name="q28" value="(A)">(A) They ensure that files are included in the correct order</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(B)">(B) They ensure that you do not duplicate identifiers if you include a file multiple times</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(C)">(C) They guard against malicious code being injected into your program</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(D)">(D) They make sure that your functions can only be called a single time</label></div>
+  <div class="answer" data-question="q28"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>8.</b> Which of the following is an illegal use of the keyword &quot;auto&quot;?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) <code>const auto &amp; my_err = std::cerr;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) <code>auto my_str = std::string(&quot;Test.&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) <code>auto my_var = std::string(&quot;abcd&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) <code>auto i;</code></label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 53 -->
+  <div class="question">
+    <p><b>9.</b> What will happen if you do not explicitly initialize an <code>int</code> variable?</p>
+    <div class="options"><label><input type="radio" name="q53" value="(A)">(A) The variable will not have any memory allocated for it.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(B)">(B) The variable&apos;s scope will be adjust to where it is first used.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(C)">(C) Setting the variable later will be considered undefined behavior.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(D)">(D) The value of that variable will be undefined.</label></div>
+    <div class="options"><label><input type="radio" name="q53" value="(E)">(E) The variable will be automatically initialized to zero by default.</label></div>
+  <div class="answer" data-question="q53"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 36 -->
+  <div class="question">
+    <p><b>10.</b> What will the following code output?<br>
+&nbsp;&nbsp;<code>std::vector&lt;int&gt; v{1,2,3,4};</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; std::accumulate(v.begin()+1, v.end()-1, 0) &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q36" value="(A)">(A) <code>1</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(B)">(B) <code>5</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(C)">(C) <code>10</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(D)">(D) <code>6</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(E)">(E) <code>0</code></label></div>
+  <div class="answer" data-question="q36"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1G.js"></script>
+</body>
+</html>

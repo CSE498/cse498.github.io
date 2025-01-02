@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_2_sample_B.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 12 -->
+  <div class="question">
+    <p><b>1.</b> Is the following C++ code valid and safe?  Why or why not?<br>
+&nbsp;&nbsp;<code>const char * HelloString() {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;return &quot;Hello&quot;;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q12" value="(A)">(A) Yes.  String literals are always copied when returned from a function, so it is safe to return one</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(B)">(B) No. The string <code>&quot;Hello&quot;</code> is local to this function and as such may result in corrupted memory</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(C)">(C) Yes.  String literals are valid for the lifetime of your program, so it is safe to return one</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(D)">(D) No. Any function that returns a string literal must be marked <code>const</code></label></div>
+  <div class="answer" data-question="q12"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 30 -->
+  <div class="question">
+    <p><b>2.</b> What types of optimizations do C++ compilers give you if you don&apos;t specify an optimization level?</p>
+    <div class="options"><label><input type="radio" name="q30" value="(A)">(A) Only quick optimizations (that do not slow compilation) are turned on, the rest are turned off</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(B)">(B) The specific optimizations vary substantially from one compiler to another</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(C)">(C) All optimizations that don&apos;t affect debugging are turned on, the rest are turned off</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(D)">(D) All optimizations are enabled by default (you must disable them if you don&apos;t want them)</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(E)">(E) Most optimizations are disabled</label></div>
+  <div class="answer" data-question="q30"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>3.</b> When should you use a standard library algorithm instead of writing a <code>for</code> loop to do the same task?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) If the <code>for</code> loop would be substantially longer than the standard-library algorithm</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) If the algorithm is too complicated to write quickly as a <code>for</code> loop</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) Every time an appropriate algorithm already exists in the standard library</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) If the <code>for</code> loop would take more than one line</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>4.</b> Why should you use smart pointers rather than directly calling <code>new</code> and <code>delete</code> yourself?</p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) Because new and delete are deprecated</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) To simplify debugging</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) Because smart pointers are always faster</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) To automatically manage object lifetimes and make memory leaks less likely</label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 42 -->
+  <div class="question">
+    <p><b>5.</b> Which of the following will not compile?<br>
+Assume <code>std::vector&lt;int&gt; vec = GetVector();</code></p>
+    <div class="options"><label><input type="radio" name="q42" value="(A)">(A) <code>auto iter = std::ranges::min_element(vec.begin(), vec.end());</code></label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(B)">(B) <code>auto iter = std::ranges::min_element(vec);</code></label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(C)">(C) <code>auto iter = std::min_element(vec);</code></label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(D)">(D) All of these will compile</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(E)">(E) None of these will compile</label></div>
+  <div class="answer" data-question="q42"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 45 -->
+  <div class="question">
+    <p><b>6.</b> What is the output of the following code snippet? <br>
+&nbsp;&nbsp;<code>std::vector&lt;int&gt; vec{3, 1, -2};</code><br>
+&nbsp;&nbsp;<code>auto rng = vec</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;| std::views::transform([](int j){ return (j % 2 == 0) ? j : 2 * j;})</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;| std::views::transform([](int j){ return j*j;});</code><br>
+&nbsp;&nbsp;<code>for(auto i : rng){</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; i &lt;&lt; &quot; &quot;;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q45" value="(A)">(A) &quot;36 4 4&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q45" value="(B)">(B) &quot;9 1 16&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q45" value="(C)">(C) &quot;18 2 4&quot;</label></div>
+    <div class="options"><label><input type="radio" name="q45" value="(D)">(D) &quot;9 1 8&quot;</label></div>
+  <div class="answer" data-question="q45"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>7.</b> What functionality is NOT provided by Doxygen?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) Documentation of your code that resides in the code file itself</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) Checks to determine if your code is tested</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) Additional Markdown files that are formatted along with documentation</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) All of these are provided by Doxygen</label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 47 -->
+  <div class="question">
+    <p><b>8.</b> What is small string optimization?</p>
+    <div class="options"><label><input type="radio" name="q47" value="(A)">(A) Dedicating heap space to optimize empty strings (&quot;&quot;)</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(B)">(B) Compressing strings to require less memory</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(C)">(C) Handling short strings using preallocated memory shared among strings</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(D)">(D) Handling short strings without allocating extra memory</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(E)">(E) Splitting longer strings into multiple shorter substrings, with some substrings being shared</label></div>
+  <div class="answer" data-question="q47"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>9.</b> How should you handle &quot;magic numbers&quot; in the code, such as 3.141592 for PI?</p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) You should never use magic numbers in code</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) Have it returned by a function so that its definition is placed in a header file, e.g.:<br>
+&nbsp;&nbsp;<code>double PI() { return 3.141592; }  // In a header file</code><br>
+&nbsp;&nbsp;<code>double area = PI() * r * r;       // Later, where you&apos;re using it</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) Set it to a variable so that it can be optimized effectively; e.g.:<br>
+&nbsp;&nbsp;<code>constexpr double PI = 3.141592;</code><br>
+&nbsp;&nbsp;<code>double area = PI * r * r;</code></label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) Specify the value directly so that it can be optimized effectively; e.g.:<br>
+&nbsp;&nbsp;<code>double area = 3.141592 * r * r;</code></label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 8 -->
+  <div class="question">
+    <p><b>10.</b> You should use an std::array from the C++ standard library (e.g., <code>std::array&lt;int, 10&gt; my_array</code> rather than a C-style array (e.g., <code>int my_array[10]</code>).  Which of the following is NOT a reason why?</p>
+    <div class="options"><label><input type="radio" name="q8" value="(A)">(A) <code>std::array</code> tracks size information, while C-style arrays require you to track size yourself</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(B)">(B) <code>std::array</code> provides helper functions, such as <code>.at</code> or <code>.back</code>; C-style arrays do not</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(C)">(C) <code>std::array</code> can be used in range-based for loops; C-style arrays can not</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(D)">(D) C-style arrays will often decay into pointers when you pass them into a function, losing some type information</label></div>
+  <div class="answer" data-question="q8"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_2_sample_B.js"></script>
+</body>
+</html>
