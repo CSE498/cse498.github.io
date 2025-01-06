@@ -13,7 +13,7 @@ layout: default
 4. [Name]
 
 ## Preamble:
-This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Fall semester 2023 in CSE 491. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
+This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Fall semester 2024 in CSE 498. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
 
 ## Roles & Responsibilities:
 
