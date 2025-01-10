@@ -65,8 +65,7 @@ There will be five quizzes over the course of the semester. You will have three 
 At three points during the semester you will be expect to conduct a peer review of another group's project, identifying potential problems and making suggestions for improvement. You will be provided with a specific rubric to follow and are expected to do a detailed review.  You will be granted up to four points per review. The group being reviewed will have an opportunity to fix any identified problems before being graded by the instructors.
 
 ### Participation Questions
- During class we will discuss that session's material in addition to doing live coding, code review, quizzes, etc. In order to understand and be able to contribute to the discussion, you will be expected to watch videos before each class. To ensure that you watch/read the material, we will ask you craft a multiple-choice question for each class. These questions should be specifically about that class session's material and we will pick some questions at random to talk about in class.
- [GRADING...]
+During class we will discuss that session’s material in addition to doing live coding, code review, quizzes, etc. In order to understand and be able to contribute to the discussion, you will be expected to watch videos before each class. To ensure that you watch the videos, we will ask you a multiple-choice question about them on at least 8 occasions. These questions should be easy if you watched the video, but impossible to answer confidently otherwise (e.g., “Which of the following example problems was used throughout the video?”). Each correct answer will earn you 1 point to a maximum of 6 points for the semester (so you can get 2 wrong and still get a perfect score).
 
 **A note about participation**: If you engage in conversation, you provide us with another source of information as to how well you are learning the material, and how much effort you are putting into the course. Let's have an active class! Class participation will never harm your grade; always ask any questions you may have about the material.
 
@@ -75,8 +74,9 @@ Unlike most CSE classes, we encourage you to discuss any course material with ea
 
 Because a primary goal of this course is to teach professionalism, any academic dishonesty will be grounds for receiving a failing grade for the semester. Specific examples of academic dishonesty include (but are not limited to):
 + Copying another student’s quiz answers.
-+ Using code or text not written by yourself without attributing credit.
++ Using code or text not written by someone in your group without attributing credit (i.e., you can use tools, libraries, code snippits from the web, or even LLMs, but tell us!)
 + Asking (or, worse, paying) someone outside of the course to write project code for you.
++ Including code as your own that no one in your group understands (you must be able to explain, at least at a high level, any code that you use.)
 + Providing false information to an instructor about matters related to the course.
 + Facilitating another student in committing academic dishonesty.
 
