@@ -30,7 +30,7 @@ Students will develop large C\+\+ projects and gain expertise with the language.
 Understanding of C++ basics (as taught in CSE 232 and CSE 335), completion of all 300-level CSE requirements and at least two other 400-level CSE courses.
 
 ### Teaching Style
-This course will be taught using a “flipped classroom” methodology. Students will be expected to watch provided videos (or read assigned web pages) before each class session. Sessions will briefly review these topics, but focus on discussion of concepts and live implementation, debugging, or code reviews, as well as quizzes, small group discussions, and student presentations of their progress. The course [schedule](schedule.html) will include the required material at least a week before it is due (and likely much sooner than that).
+Many sessions of this course will be taught using a “flipped classroom” methodology. Students will be expected to watch provided videos (or read assigned web pages) before each session where they are assigned. Sessions will briefly review these topics, but focus on discussion of concepts and live implementation, supplemental lectures, debugging demonstrations, code reviews, quizzes, small group discussions, and student presentations of their progress. The course [schedule](schedule.html) will include any required material at least a week before it is due (and typically sooner than that).
 
 ## Grading
 In this course you will have the opportunity to earn up to 100 points toward your final grade.  Grades will be based on:
@@ -42,9 +42,8 @@ In this course you will have the opportunity to earn up to 100 points toward you
 | **Participation Questions** | 6 points |
 | **TOTAL**          | 100 points |
 
-Each area is important: If you get fewer than half the points in any single category, that is grounds for receiving a zero as a final course grade. You will need 90 of the 100 possible points to guarantee a 4.0, 85 points for 3.5, 80 points for 3.0, 75 points for 2.5, 70 points for 2.0, 65 points for 1.5, and 60 points for 1.0.
-
-You will need 90 of the 100 possible points to guarantee a 4.0, 86 points for 3.5, 82 points for 3.0, 78 points for 2.5, 74 points for 2.0, 70 points for 1.5, and 66 points for 1.0.
+Each area is important: If you get fewer than half the points in any single category, that is grounds for receiving a zero as a final course grade. <!--- You will need 90 of the 100 possible points to guarantee a 4.0, 85 points for 3.5, 80 points for 3.0, 75 points for 2.5, 70 points for 2.0, 65 points for 1.5, and 60 points for 1.0.-->
+You will need 90 of the 100 possible points to guarantee a 4.0, 86 points for 3.5, 82 points for 3.0, 78 points for 2.5, 74 points for 2.0, 70 points for 1.5, and 66 points for 1.0.  I do reserve the right to adjust these numbers (almost certainly in your favor) to account for an unexpected challenges during the semester.
 
 ### [Project](projects.html)
 You will work in a group on a semester-long project. You may earn up to 45 points this way, based on both consistent progress and the quality of the final product. Your final project grade will be based on three main factors: Functionality (Meeting the project goals), Code Quality (Consistent style, documentation, function modularity, file layout, test coverage, etc.), and your Individual Contributions (Teammate ratings, info in weekly progress reports, and git logs).
@@ -59,13 +58,13 @@ Each Friday before midnight (starting in week 2) students will be expected to tu
 Some reports might have extra specific questions that you will be told at least 48 hours ahead of time. Reports are worth 1 point each and will be graded on a pass/fail basis (honest attempts will be given a "pass" as long as problems are corrected in future reports). Overall you are expected to turn in 14 of these reports, but a maximum of 12 points will count toward your final grade, so two can be missed without penalty.
 
 ### [Quizzes](quizzes.html)
-There will be five quizzes over the course of the semester. You will have three attempts at versions of each quiz with only the highest score counting toward your final grade (at 5% per quiz). Quizzes will occur each Wednesday for the first 20 minutes of class.
+There will be five quizzes over the course of the semester. You will have two to three attempts at versions of each quiz with only the highest score counting toward your final grade (at 5% per quiz). Quizzes will occur most Wednesdays during the final 15 minutes of class.
 
 ### [Peer Reviews](reviews.html)
 At three points during the semester you will be expect to conduct a peer review of another group's project, identifying potential problems and making suggestions for improvement. You will be provided with a specific rubric to follow and are expected to do a detailed review.  You will be granted up to four points per review. The group being reviewed will have an opportunity to fix any identified problems before being graded by the instructors.
 
 ### Participation Questions
-During class we will discuss that session’s material in addition to doing live coding, code review, quizzes, etc. In order to understand and be able to contribute to the discussion, you will be expected to watch videos before each class. To ensure that you watch the videos, we will ask you a multiple-choice question about them on at least 8 occasions. These questions should be easy if you watched the video, but impossible to answer confidently otherwise (e.g., “Which of the following example problems was used throughout the video?”). Each correct answer will earn you 1 point to a maximum of 6 points for the semester (so you can get 2 wrong and still get a perfect score).
+During class we will discuss that session’s material in addition to any other activities. In order to understand and be able to contribute to the discussion, you are expected to watch videos or read assigned material before each class. To ensure that you complete this pre-class activity, we will ask you a multiple-choice question about them on at least 8 occasions. These questions should be easy if you did the assigned work, but impossible to answer confidently otherwise (e.g., “Which of the following example problems was used throughout the video?”). Each correct answer will earn you 1 point to a maximum of 6 points for the semester (so you can get 2 wrong and still get a perfect score).
 
 **A note about participation**: If you engage in conversation, you provide us with another source of information as to how well you are learning the material, and how much effort you are putting into the course. Let's have an active class! Class participation will never harm your grade; always ask any questions you may have about the material.
 

@@ -18,7 +18,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 1/20/25   | **NO CLASS** (MLK Day)            | |
 | 1/22/25   | **C++ Core Guidelines** <br> *Video:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
 | **Week 3** | |
-| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Video:* [L-Values/R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) | |
+| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Video:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) <br> *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | |
 | 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 1c; **Due:** Project specs; team agreements |
 
 ## Unit II: Writing Reliable Code
