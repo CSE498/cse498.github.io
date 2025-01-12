@@ -19,7 +19,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 1/22/25   | **C++ Core Guidelines** <br> *Video:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
 | **Week 3** | |
 | 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Video:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) <br> *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | |
-| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 1c; **Due:** Project specs; team agreements |
+| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 1c; **Due:** Specs for initial C\+\+ classes; team agreements |
 
 ## Unit II: Writing Reliable Code
 
@@ -27,10 +27,10 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 4** | | |
 | 2/3/25  | **Avoiding Undefined Behavior** <!--- <br> *Video:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) --> | |
-| 2/5/25  | **Tools: Setting up Testing Frameworks** <!--- <br> *Video:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | **Out:** Quiz 2a; **Due:** Project Design, spec comments |
+| 2/5/25  | **Tools: Setting up Testing Frameworks** <!--- <br> *Video:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | **Out:** Quiz 2a; **Due:** Initial working C\+\+ classes, spec comments |
 | **Week 5** | | |
 | 2/10/25  | **Debugging your code** <!--- <br> *Video:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> | |
-| 2/12/25  | **Memory Management** + **Casting** <!--- <br> *Video:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Video:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> *Video:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | **Out:** Quiz 2b; **Due:** Test suite, proof-of-concept |
+| 2/12/25  | **Memory Management** + **Casting** <!--- <br> *Video:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Video:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> *Video:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | **Out:** Quiz 2b; **Due:** Test suite, class asserts |
 
 ## Unit III: Writing Generic Code
 
@@ -38,29 +38,28 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
 | 2/17/25  | **Template Rules** <!--- <br> *Video:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | |
-| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Video:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a |
+| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Video:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a; **Out:** Code review assignments and rubrics; **Due:** Fully functional initial C\+\+ classes |
 | **Week 7** | | |
-| 2/24/25  | **Lambdas** <!--- <br> *Video:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | |
-| 2/26/25 | **Ranges and Views** <!--- <br> *Video:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | **Out:** Quiz 3b; **Due:** Project Prototypes |
+| 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | **Due:** Specs for advanced C\+\+ classes |
+| 2/26/25 | **STATUS UPDATES** | **Out:** Quiz 3b |
+| **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
-| 3/10/25 | **STATUS UPDATES** | **Due:** Project Updates / Full Demos |
-| 3/12/25 | **STATUS UPDATES** |  |
-
-### Spring Break
+| 3/10/25 | **Lambdas** <!--- <br> *Video:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | **Due:** Working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
+| 3/12/25 | **Ranges and Views** <!--- <br> *Video:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> |  |
 
 ## Unit IV: Writing Efficient Code
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 9** | | |
-| 3/17/25 | **Concurrency** <!--- <br> *Video:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | |
-| 3/19/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Video:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Video:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | **Out:** Quiz 4a |
+| 3/17/25 | **Compile-time execution** <!--- <br> *Video:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> | **Due:** Integrate lambdas into C++ classes. |
+| 3/19/25 | **Value semantics** <!--- <br> *Video:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | **Out:** Quiz 4a |
 | **Week 10** | | |
-| 3/24/25 | **Value semantics** <!--- <br> *Video:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |  |
+| 3/24/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Video:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Video:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | **Due:** Integrate compile-time operations OR value semantics into C++ classes. |
 | 3/26/25  | **Custom Memory Management** <!--- <br> *Video:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | **Out:** Quiz 4b; |
 | **Week 11** | | |
-| 3/31/25  | **Compile-time execution** <!--- <br> *Video:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> |
-| 4/2/25  | **Meta-programming: building and using type traits** <!--- <br> *Video:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Out:** Quiz 5a **Due:** Updated plans |
+| 3/31/25  | **Concurrency** <!--- <br> *Video:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> |
+| 4/2/25  | **Meta-programming** <!--- <br> *Video:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Out:** Quiz 5a |
 
 ## Unit V: Advanced Topics
 
