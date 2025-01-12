@@ -18,13 +18,13 @@ layout: default
 | Credits      | 4                              |
 | Textbook     | None                           |
 | Web Site     | [https://cse498.github.io/](https://cse498.github.io/) |
-| Project repo | [https://github.com/MSU-CSE491/cse_491_fall_2023](https://github.com/MSU-CSE491/cse_491_fall_2023) |
+| Project repo | [https://github.com/CSE498/Spring2025](https://github.com/CSE498/Spring2025) |
 
 ### Required Technology
 Students are expected to bring a laptop running a modern operating system (Windows, MacOS or Linux) to each class session. This laptop must be capable of running a modern C++ compiler and have access to the web.
 
 ### Description
-Students will develop large C++ projects and gain expertise with the language. Topics include modern features of C++, effective use of the standard library, and developing custom libraries, with links to other areas of computer science. Emphasis will be placed on writing code that is secure, reliable, efficient, and generic, including good memory management practices, avoiding undefined behavior, automating through testing, and up-to-date documentation. 
+Students will develop large C\+\+ projects and gain expertise with the language. Topics include modern features of C\+\+, effective use of the standard library, and developing custom libraries, with links to other areas of computer science. Emphasis will be placed on writing code that is secure, reliable, efficient, and generic, including good memory management practices, avoiding undefined behavior, automating through testing, and up-to-date documentation. 
 
 ### Pre-requisites
 Understanding of C++ basics (as taught in CSE 232 and CSE 335), completion of all 300-level CSE requirements and at least two other 400-level CSE courses.

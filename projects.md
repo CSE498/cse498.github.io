@@ -47,6 +47,10 @@ You will be in a group of three to five people to work on a semester-long projec
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
 
+# Project License
+
+To simplify working together and allowing all students in the course to be able to use the code we develop after the course is over, all communal code will be created under the [MIT Public License](https://en.wikipedia.org/wiki/MIT_License).  This license allow others to use the provided code however they want as long as they include the Copyright notice with it.  Once you contribute to the project, make sure to add your own name to the license.
+
 # Project Topics
 
 Each group will be assigned a number of modules to develop equal to the number of students in that group. While each student should plan to take the lead on one of the modules, they should participate in the development of all of them.  Indeed, some of the modules will be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
