@@ -41,7 +41,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a; **Out:** Code review assignments and rubrics; **Due:** Fully functional initial C\+\+ classes |
 | **Week 7** | | |
 | 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | **Due:** Specs and tests for advanced C\+\+ classes |
-| 2/26/25 | **STATUS UPDATES** | **Out:** Quiz 3b |
+| 2/26/25 | **STATUS UPDATES** | **Out:** Quiz 3b; **Due:** Code Reviews |
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | **Due:** Working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
@@ -56,10 +56,10 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 3/19/25 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | **Out:** Quiz 4a |
 | **Week 10** | | |
 | 3/24/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | **Due:** Integrate compile-time operations OR value semantics into C++ classes. |
-| 3/26/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | **Out:** Quiz 4b; |
+| 3/26/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | **Out:** Quiz 4b; **Out:** Code review assignments and rubrics |
 | **Week 11** | | |
 | 3/31/25  | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | **Due:** Specs and tests for main C++ App|
-| 4/2/25  | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Out:** Quiz 5a |
+| 4/2/25  | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Out:** Quiz 5a; **Due:** Code Reviews |
 
 ## Unit V: Advanced Topics
 
@@ -77,7 +77,8 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 14** | | |
-| 4/21/25 | **Other missing topics (Attributes, User-defined Literals, etc)** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> | |
-| 4/23/25 | **FINAL PRESENTATIONS** | **Due:** Final Project! |
+| 4/21/25 | **Other missing topics (Attributes, User-defined Literals, etc)** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> | **Due:** Final Project! **Out:** Code review assignments and rubrics|
+| 4/23/25 | **FINAL PRESENTATIONS** | |
 | **Week 15** | (Finals Week) | |
 | 4/28/25 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm |
+| 4/30/25 | | **Due:** Reviews of Final Projects! |
