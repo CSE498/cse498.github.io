@@ -18,8 +18,8 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 1/20/25   | **NO CLASS** (MLK Day)            | |
 | 1/22/25   | **C++ Core Guidelines** <br> *Video:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (62 min) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
 | **Week 3** | |
-| 1/27/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | |
-| 1/29/25  | ??? | **Out:** Quiz 2a; **Due:** Project specs; team agreements |
+| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (from 4:18 to 12:42; ~8 minutes) | |
+| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 2a; **Due:** Project specs; team agreements |
 
 ## Unit II: Writing Reliable Code
 
