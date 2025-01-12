@@ -16,10 +16,10 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 1/15/25  | **Tools: Compiler Features and Static Analysis** <br> *Video:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) <br> *Video*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) <br> *Video*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | **Out:** Quiz 1a |
 | **Week 2** | |
 | 1/20/25   | **NO CLASS** (MLK Day)            | |
-| 1/22/25   | **C++ Core Guidelines** <br> *Video:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (62 min) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
+| 1/22/25   | **C++ Core Guidelines** <br> *Video:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
 | **Week 3** | |
-| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (from 4:18 to 12:42; ~8 minutes) | |
-| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 2a; **Due:** Project specs; team agreements |
+| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Video:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Video:* [L-Values/R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) | |
+| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Video:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Video:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | **Out:** Quiz 1c; **Due:** Project specs; team agreements |
 
 ## Unit II: Writing Reliable Code
 
@@ -27,10 +27,10 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 4** | | |
 | 2/3/25  | **Avoiding Undefined Behavior** <!--- <br> *Video:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) --> | |
-| 2/5/25  | **Tools: Setting up Testing Frameworks** <!--- <br> *Video:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | **Out:** Quiz 2b; **Due:** Project Design, spec comments |
+| 2/5/25  | **Tools: Setting up Testing Frameworks** <!--- <br> *Video:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | **Out:** Quiz 2a; **Due:** Project Design, spec comments |
 | **Week 5** | | |
 | 2/10/25  | **Debugging your code** <!--- <br> *Video:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> | |
-| 2/12/25  | **Memory Management** + **Casting** <!--- <br> *Video:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Video:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> *Video:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | **Out:** Quiz 3a; **Due:** Test suite, proof-of-concept |
+| 2/12/25  | **Memory Management** + **Casting** <!--- <br> *Video:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Video:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> *Video:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | **Out:** Quiz 2b; **Due:** Test suite, proof-of-concept |
 
 ## Unit III: Writing Generic Code
 
@@ -38,10 +38,10 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
 | 2/17/25  | **Template Rules** <!--- <br> *Video:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | |
-| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Video:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3b |
+| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Video:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a |
 | **Week 7** | | |
 | 2/24/25  | **Lambdas** <!--- <br> *Video:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | |
-| 2/26/25 | **Ranges and Views** <!--- <br> *Video:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | **Due:** Project Prototypes |
+| 2/26/25 | **Ranges and Views** <!--- <br> *Video:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | **Out:** Quiz 3b; **Due:** Project Prototypes |
 | **Week 8** | | |
 | 3/10/25 | **STATUS UPDATES** | **Due:** Project Updates / Full Demos |
 | 3/12/25 | **STATUS UPDATES** |  |
