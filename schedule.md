@@ -13,7 +13,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 1** | | |
 | 1/13/25  | **A review of 232 and 335**         | |
-| 1/15/25  | **Tools: Compiler Features and Static Analysis** <br> *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) <br> *Video*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) <br> *Video*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | **Out:** Quiz 1a |
+| 1/15/25  | **Tools: Compiler Features and Static Analysis** <br> *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) <br> *Video*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) <br> *Video*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | <b style="color: blue">Out:</b> Quiz 1a |
 | **Week 2** | |
 | 1/20/25   | **NO CLASS** (MLK Day)            | |
 | 1/22/25   | **C++ Core Guidelines** <br> *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | **Out:** Project Group Assignments; **Out:** Quiz 1b |
@@ -37,11 +37,11 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
-| 2/17/25  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | |
-| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a; **Out:** Code review assignments and rubrics; **Due:** Fully functional initial C\+\+ classes |
+| 2/17/25  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | **Due:** Fully functional initial C\+\+ classes ; **Out:** Code review assignments and rubrics |
+| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | **Out:** Quiz 3a |
 | **Week 7** | | |
-| 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | **Due:** Specs and tests for advanced C\+\+ classes |
-| 2/26/25 | **STATUS UPDATES** | **Out:** Quiz 3b; **Due:** Code Reviews |
+| 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | **Due:** Code Reviews |
+| 2/26/25 | **STATUS UPDATES** | **Out:** Quiz 3b; **Due:** Specs and tests for advanced C\+\+ classes |
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | **Due:** Working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
