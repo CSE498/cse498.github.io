@@ -57,20 +57,20 @@ This course is divided up into six units, each of which is two to three weeks lo
 | **Week 10** | | |
 | 3/24/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | **Due:** Integrate compile-time operations OR value semantics into C++ classes. |
 | 3/26/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | **Out:** Quiz 4b; **Out:** Code review assignments and rubrics |
-| **Week 11** | | |
-| 3/31/25  | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | **Due:** Specs and tests for main C++ App|
-| 4/2/25  | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Out:** Quiz 5a; **Due:** Code Reviews |
 
 ## Unit V: Advanced Topics
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
+| **Week 11** | | |
+| 3/31/25  | **Compiling C++ into WebAssembly with Emscripten** <!--- <br> *Watch:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) --> | **Due:** Specs and tests for main C++ App|
+| 4/2/25  | **Deep Dive: Bit Sets** | **Out:** Quiz 5a; **Due:** Code Reviews |
 | **Week 12** | | |
-| 4/7/25 | **Deep Dive: Bit Sets**  | **Due:** Alpha version of C++ app complete. |
+| 4/7/25 | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Due:** Alpha version of C++ app complete. |
 | 4/9/25 | **Advanced Template use** <!--- <br> *Watch:* [From C++ Templates to C++ Concepts - Metaprogramming: an Amazing Journey](https://www.youtube.com/watch?v=_doRiQS4GS8) (53 min) --> | **Out:** Quiz 5b |
 | **Week 13** | | |
-| 4/14/25 | **Compiling C++ into WebAssembly with Emscripten** <!--- <br> *Watch:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) --> |  |
-| 4/16/25 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | Quiz redos; **Due:** Feature Freeze; Efficiency reports? |
+| 4/14/25 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | **Due:** Efficiency reports |
+| 4/16/25 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | **Out:** Quiz redos |
 
 ## Unit VI: Wrap Up
 
