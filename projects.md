@@ -42,7 +42,7 @@ Additionally, we have two other categories that will be given out quite sparingl
 
 # Project Groups
 
-You will be in a group of three to five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will also help students form groups as needed, trying to match appropriate skill combinations and interests.
+You will be in a group of three to five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
@@ -53,11 +53,11 @@ To simplify working together and allowing all students in the course to be able 
 
 # Project Topics
 
-Each group will be assigned a number of modules to develop equal to the number of students in that group. While each student should plan to take the lead on one of the modules, they should participate in the development of all of them.  Indeed, some of the modules will be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
+Each group will be assigned a number of modules to develop proportional to the number of students in that group. While each student should plan to take the lead on at least one of the modules, they should participate in the development of all of them.  Indeed, some of the modules will be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
 
 Some example modules include:
 * Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
-* Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other.
-* Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use.
+* Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
+* Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
 * Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
 * And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
