@@ -60,7 +60,7 @@ Some reports might have extra specific questions that you will be told at least 
 ### [Quizzes](quizzes.html)
 There will be five quizzes over the course of the semester. You will have two to three attempts at versions of each quiz with only the highest score counting toward your final grade (at 5% per quiz). Quizzes will occur most Wednesdays during the final 15 minutes of class.
 
-### [Peer Reviews](reviews.html)
+### Peer Reviews
 At three points during the semester you will be expect to conduct a peer review of another group's project, identifying potential problems and making suggestions for improvement. You will be provided with a specific rubric to follow and are expected to do a detailed review.  You will be granted up to four points per review. The group being reviewed will have an opportunity to fix any identified problems before being graded by the instructors.
 
 ### Participation Questions
