@@ -45,7 +45,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | **Due:** Working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
-| 3/12/25 | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> |  |
+| 3/12/25 | **Compiling C++ into WebAssembly with Emscripten** <!--- <br> *Watch:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) --> |  |
 
 ## Unit IV: Writing Efficient Code
 
@@ -63,7 +63,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 11** | | |
-| 3/31/25  | **Compiling C++ into WebAssembly with Emscripten** <!--- <br> *Watch:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) --> | **Due:** Specs and tests for main C++ App|
+| 3/31/25  | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | **Due:** Specs and tests for main C++ App|
 | 4/2/25  | **Deep Dive: Bit Sets** | <b style="color: blue">Quiz:</b> 5a; **Due:** Code Reviews |
 | **Week 12** | | |
 | 4/7/25 | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | **Due:** Alpha version of C++ app complete. |
