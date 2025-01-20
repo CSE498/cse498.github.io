@@ -11,6 +11,7 @@ Each group is provided a set of class modules that it will be expected to develo
 **Notable Strengths**: Databases, Web Development
 
 ### Classes to Build
+
 | Class           | Description |
 | :-------------: | ----------- |
 | `Distribution`  | Create or manage a discrete distribution of values that can be used (with random numbers) to draw from whatever distribution you need. (for example, a Binomial distribution) |
