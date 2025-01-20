@@ -19,7 +19,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 1/22/25   | **C++ Core Guidelines** <br> *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | <b style="color: green">Out:</b> Project Group Assignments<br><b style="color: blue">Quiz:</b> 1b |
 | **Week 3** | |
 | 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) <br> *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) <br> *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | |
-| 1/29/25  | **Deep Dive: Implementing `std::string`** + **Using Doxygen** <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) <br> *Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
+| 1/29/25  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**<br> *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) <br>*Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) <br> *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min)| <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
 
 ## Unit II: Writing Reliable Code
 
@@ -45,7 +45,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | <b style="color: red">Due:</b> Working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
-| 3/12/25 | **Compiling C++ into WebAssembly with Emscripten** <!--- <br> *Watch:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) --> |  |
+| 3/12/25 | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> |  |
 
 ## Unit IV: Writing Efficient Code
 
@@ -56,14 +56,14 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 3/19/25 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | <b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | | |
 | 3/24/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
-| 3/26/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | <b style="color: blue">Quiz:</b> 4b<br><b style="color: green">Out:</b> Code review assignments and rubrics |
+| 3/26/25  | **Deep Dive: Implementing `std::string`** <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) | <b style="color: blue">Quiz:</b> 4b<br><b style="color: green">Out:</b> Code review assignments and rubrics |
 
 ## Unit V: Advanced Topics
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 11** | | |
-| 3/31/25  | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | <b style="color: red">Due:</b> Specs and tests for main C++ App|
+| 3/31/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | <b style="color: red">Due:</b> Specs and tests for main C++ App|
 | 4/2/25  | **Deep Dive: Bit Sets** | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | | |
 | 4/7/25 | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
