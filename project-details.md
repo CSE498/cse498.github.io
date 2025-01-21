@@ -42,8 +42,7 @@ A **graph generator and analyzer**.  The user would be able to specify the type 
 Suggested **challenge**: I'd recommend a web interface (to allow anyone to easily create graphs), but another good option would be more advanced graph algorithms for analyses.
 
 
-<a id="group-2"></a>
-## <span style="color: blue">Group 2: Ritchie</span>
+## <span id="group-2" style="color: blue">Group 2: Ritchie</span>
 
 **Members**: Nitish Maindoliya, Dominik Leisinger, Rahul Baragur, Bram Hogg, and Matthew Hawkins
 
@@ -68,8 +67,7 @@ A **productivity dungeon** where players adventure through a dungeon, but some o
 Suggested **challenge**: Web interface. Add enough features in the dungeon where there are many possible things for a player to do, including collecting items and using magic.
 
 
-<a id=group-3></a>
-## <span style="color: blue">Group 3: Hopper</span>
+## <span id="group-3" style="color: blue">Group 3: Hopper</span>
 
 **Members**: Sanya Nigam, Wendy Jiang, Owen Garcia, Riley Vernon, and Alex Bodell
 
@@ -94,8 +92,7 @@ A **physics-based [cellular automaton](https://en.wikipedia.org/wiki/Cellular_au
 Suggested **challenge**: Web app.  Perhaps allow users to set up rules in real time.  Or even turn this into a proper game, perhaps where a player controls one of the circles and is trying to aim for a particular outcome (e.g., making the infected cells all die out so the uninfected population can fully takeover).
 
 
-<a id=group-4></a>
-## <span style="color: blue">Group 4: Torvalds</span>
+## <span id="group-4" style="color: blue">Group 4: Torvalds</span>
 
 **Members**: Chris Paul, Grant Davis, Krishna Patel, Kyle Gunger, and Rose Spangler
 
@@ -120,8 +117,7 @@ A **rich text translation app**. Translate between a pair of formats; some to ch
 Suggested **challenge**: Add more than two targets so that the user specifies on the command line what they want to do.  Or make your own flexible format (if you like this direction, Dr. Ofria can provide more ideas).  Or even make this a web app for doing the translation.
 
 
-<a id=group-5></a>
-## <span style="color: blue">Group 5: Hamilton</span>
+## <span id="group-5" style="color: blue">Group 5: Hamilton</span>
 
 **Members**: Max Krawec, Calen Green, Pedro Mitkiewicz, Shahaab Ali, and Muhammad Asif Masood
 
@@ -147,8 +143,7 @@ Suggested **challenge**: Setup scripts in order to process data in a step-by-ste
 
 
 
-<a id=group-6></a>
-## <span style="color: blue">Group 6: Lamport</span>
+## <span id="group-6" style="color: blue">Group 6: Lamport</span>
 
 **Members**: Emil Rahn-Siegel, Will Crawford, Ivan Bega, Mehmet Efe Caylan, and Orhan Aydin
 
@@ -173,8 +168,7 @@ A **Word-manipulation Language**. Build a simple scripting language that allows 
 Suggested **challenge**: Add some puzzle-specific features into the language.  For example, providing an exact result for a Wordle guess and automatically filtering the possibilities down.  Or asking it what the next best word to guess would be given the current word list remaining.
 
 
-<a id=group-7></a>
-## <span style="color: blue">Group 7: Euler</span>
+## <span id="group-7" style="color: blue">Group 7: Euler</span>
 
 **Members**: Anand Pinnamaneni, Bao Tran, Duong Tran, Siddhartha Bhattacharya, and Nathan Staniszewski
 
@@ -200,8 +194,7 @@ Suggested **challenge**: This is an obvious choice for a web app, and it would b
 
 
 
-<a id=group-8></a>
-## <span style="color: blue">Group 8: Turing</span>
+## <span id="group-8" style="color: blue">Group 8: Turing</span>
 
 **Members**: Joanna Rodriguez Zamarron, Ryon Baldwin-Williams, Kelsi Elliott, Hannah Dale, and Caden McDonald
 
@@ -227,8 +220,7 @@ Suggested **challenge**: Adding security to a system like this would be valuable
 
 
 
-<a id=group-9></a>
-## <span style="color: blue">Group 9: Liskov</span>
+## <span id="group-9" style="color: blue">Group 9: Liskov</span>
 
 **Members**: Allie Ianello, Mia Bodenhorn, Mary Holt, Grace Fitzgerald, and Owen Haiar
 
@@ -253,8 +245,7 @@ A **Choose-Your-Own Presentation** manager.  The goal would be to create a simpl
 Suggested **challenge**: Add extra features for real-time customization, such as entering something in a textbox (like a name or an example animal) that they system stores and can use on later slides.
 
 
-<a id=group-10></a>
-## <span style="color: blue">Group 10: Bellman</span>
+## <span id="group-10" style="color: blue">Group 10: Bellman</span>
 
 **Members**: Alex Mueller, Blake Crimmins, Amery Johnson, Devon FoxElster, and Ephraim Bennett
 
