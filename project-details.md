@@ -33,7 +33,7 @@ Each group is provided a set of class modules that it will be expected to develo
 | **`WeightedSet`**   | Like an std::set, but each item has a numerical "weight" associated with it.  A user should be able to index into the set with a value between 0.0 and total weight of all items.  For example, if there are three items, A, B, and C, with associated weights 0.5, 3.1, and 1.5, then the total weight would be 5.1.  In that range, 0.0 to 0.5 would give you A, >0.5 through 3.6 would give you B, and >3.6 through 5.1 would give you C.  Randomly indexing in allows you to pull a weighted random value from the set.  The tricky part is making this fast even when there are many items in the set.
 | **`Distribution`**  | Create or manage a discrete distribution of values that can be used to draw from whatever distribution you need (for example, a Binomial distribution). You can use `Random` and `WeightedSet` to build this class and make it quite useful  Pre-calculation of distributions can allow for fast random draws. |
 | **`Graph`**         | A class to manage a collection of vertices and edges; should be useful for conducting graph algorithms.  The class should be able to load from files, save to file, access connection information, and add or remove vertices and edges. |
-| **`GraphPosition`** | A position on the Graph object, useful for implementing more complex graph algorithms. |
+| **`GraphPosition`** | A position on the Graph object, useful for implementing more complex graph algorithms.  For example, it might be usable for iterating through each vertex during a graph traversal. |
 
 ### Application Suggestion
 
@@ -54,15 +54,15 @@ Suggested **challenge**: I'd recommend a web interface (to allow anyone to easil
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`ActionMap`**     | A map of strings to functions that can be triggered.  Can be useful in supplying user actions when building a dynamic interface |
-| **`AuditedVector`** | Functionality of std::vector but in "DEBUG" mode, checks every index to ensure it is valid and in range; similar checks for iterators. |
-| **`DataMap`**       | A dynamic map that can match names to arbitrary data.  The user will need to provide the type at both setting and getting the value; the object should detect of wrong types are used. |
-| **`StateGrid`**     | A dynamic 2D grid where each position is one of a set of states. |
+| **`DataMap`**       | A dynamic map that can match names to arbitrary data.  The user will need to provide the type it was set to when getting the value; the object should detect of wrong types are used.  For example, `Set("health", 45.0)` would set a variable named "health" to a double of value 45.0.  To get it again, you would need to use `Get<double>("health")` to make sure the type is know at compile time. Get should have an `assert` that is tripped if the wrong type is specified. |
+| **`StateGrid`**     | A dynamic 2D grid where each position is one of a set of pre-defined states. Each state type should have a name, a symbol, and any other information the define that state (perhaps as a DataMap). For example, if a StateGrid was used to represent a maze, you might give it two types: a "wall" with the symbol '#' and the property "Hardness" set to 20, as well as an "open" state with the symbol ' ' (space) and no properties. |
 | **`StateGridPosition`** | Track a single position (and orientation?) in the state grid to manage an individual agent moving through it. |
+| **`ActionMap`**     | A map of strings to functions that can be triggered.  Can be useful in supplying a list of user actions when building a dynamic interface.  It should have member function like `AddFunction(std::string name, std::function<void()> fun);` and `Trigger(std::string name);` |
+| **`AuditedVector`** | Functionality of `std::vector` but in debug mode, checks every index to ensure it is valid and in range; similar checks for iterators.  You can make your `cse::vector` derive from `std::vector` to get started (e.g., `template <typename T, typename... Ts> class vector : public std::vector<T,Ts...> { ... }`) and then add in a helper so you know the base type `using base_t = std::vector<T,Ts...>;`. In functions that you need to simply pass a call to the base type, this is easy to do: `size_t size() const { return base_t::size(); }` |
 
 ### Application Suggestion
 
-A **productivity dungeon** where players adventure through a dungeon, but some of the boss battles are entries from your to-do list that you must complete in order to defeat them. 
+A **productivity dungeon** where players adventure through a dungeon, but some of the boss battles are entries from your to-do list that you must complete in order to defeat them. Alternatively, you can place actual learning challenges in the dungeon and turn it into a gamified learning experience.
 
 Suggested **challenge**: Web interface. Add enough features in the dungeon where there are many possible things for a player to do, including collecting items and using magic.
 
@@ -79,11 +79,11 @@ Suggested **challenge**: Web interface. Add enough features in the dungeon where
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`DataTracker`**   | An object to track a series of data values over time.  Should be able to give you the mean, median, min, max, or value count at any point in time; other stats could also be helpful. |
-| **`FixedPoint`**    | A simple class that can handle decimal values, but with a fixed precision; likely an integer type under the hood. |
-| **`FunctionSet`**   | A container that can hold a collection of functions, all with the same signature.  All of these functions can be called simultaneously. |
-| **`Circle`**        | A simple geometric shape that can identify overlaps with each other. |
-| **`Surface`**       | An area that tracks a set of shapes in sectors, identifying all overlaps.  |
+| **`FixedPoint`**    | A simple class that can handle decimal values, but with a fixed precision; likely an integer type under the hood.  You should plan to overload all of the standard mathematical operators and set up conversions to other mathematical types. Conduct speed tests to determine if this will be a faster choice than `double` for the project. |
+| **`FunctionSet`**   | A container that can hold a collection of functions, all with the same signature.  All of these functions can be called simultaneously with a single set of arguments passed in. |
+| **`Circle`**        | A simple geometric shape that tracks its position and radius and can identify overlaps with other Circles. |
+| **`Surface`**       | An area that tracks a set of shapes, identifying all overlaps; particularly useful as the basis for a simple physics model. Make sure it can handle shapes moving and detecting overlaps as soon as they occur. For a speedup, you can either use sectors (where a circle can only overlap with circles in the same or neighboring sectors) or a [quadtree](https://en.wikipedia.org/wiki/Quadtree).  |
+| **`DataTracker`**   | An object to track a series of data values over time.  It should be able to return the mean, median, min, max, or number of values collect at any point in time; other stats could also be helpful. If you want to scale up it's capabilities, you can set template flags that specify what it should track, even to the point of saving all values. |
 
 ### Application Suggestion
 
@@ -104,11 +104,11 @@ Suggested **challenge**: Web app.  Perhaps allow users to set up rules in real t
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`Assert`**        | A better version of "assert" than the one supplied by "assert.h".  Should be able to print the current value supplied variables or targeted messages |
-| **`AuditedPointer`** | Template class that behaves like a raw pointer outside of "DEBUG" mode, but does extra correctness checks when debugging |
-| **`BitVector`**     | Similar to an std::bistet, but allows for size changing.  Should be a drop-in replacement for std::vector<bool>, but extra functionality for bitwise operations. |
+| **`BitVector`**     | Similar to an `std::bistet`, but allows for size changing.  Should be a drop-in replacement for std::vector<bool>, but extra functionality for bitwise operations. |
 | **`IndexSet`**      | A collection of indices from another container.  This is a quick way to track subsets. |
 | **`Text`**          | A string-like object that also tracks formatting of the string (such as bold, italic, colors, maybe even links) |
+| **`Assert`**        | A better version of "assert" than the one supplied by "assert.h", perhaps calling it cse_assert instead. Your new version should be able to print targeted messages as well as the current value of supplied variables.  Ideally, you should be able to have something like `cse_assert(x < 200, "Outside of Bounding Box!");` and if the assert gets triggered it should print an error like `Assert error in "filename" on line X: Outside of Bounding Box! (x = 255).` NOTE: You will need to learn about macros to make an effective assert. |
+| **`AuditedPointer`** | Template class that behaves like a raw pointer outside of "DEBUG" mode, but does extra correctness checks when debugging.  For example once a pointer is deleted, it should not allow you to dereference it (or delete it a second time).  What a program terminates, it should check to make sure that all AuditedPointers have been deleted. You can either override C++'s `new` and `delete` or use `New()` and `Delete()` style member functions.  I also recommend a stand-along `MakeAudited` template function that works similarly to [`std::make_shared()`](https://en.cppreference.com/w/cpp/memory/shared_ptr/make_shared). |
 
 ### Application Suggestion
 
