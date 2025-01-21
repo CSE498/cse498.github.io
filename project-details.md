@@ -17,8 +17,7 @@ Each group is provided a set of class modules that it will be expected to develo
 - [Group 9: Liskov](#group-9)
 - [Group 10: Bellman](#group-10)
 
-<a id=group-1></a>
-## <span style="color: blue">Group 1: Stroustrup</span>
+## <span id="group-1" style="color: blue">Group 1: Stroustrup</span>
 
 **Members**:  Jerry Chen, George Faraj, Leonardo Specht, Kollin Bartz, and Tyler Pritchett
 
@@ -43,7 +42,7 @@ A **graph generator and analyzer**.  The user would be able to specify the type 
 Suggested **challenge**: I'd recommend a web interface (to allow anyone to easily create graphs), but another good option would be more advanced graph algorithms for analyses.
 
 
-<a id=group-2></a>
+<a id="group-2"></a>
 ## <span style="color: blue">Group 2: Ritchie</span>
 
 **Members**: Nitish Maindoliya, Dominik Leisinger, Rahul Baragur, Bram Hogg, and Matthew Hawkins
