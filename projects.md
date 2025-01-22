@@ -61,3 +61,13 @@ Some example modules include:
 * Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
 * Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
 * And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
+
+# Write-up for Initial Class Development (Due: Jan 29, 2025)
+
+For each of the assigned classes, you should include in your writeup:
+- A **class description**, including what it's goals are, and what it's high-level functionality should look like.  This does not need to perfectly match the description you were given, but it should be in the same general spirit unless you confirm any changes with the instructors ahead of time.
+- A list of **similar classes** in the standard library that you should be familiar with or use to inform the functionality you will be developing.
+- A list of **key functions** that you plan to implement.  This does not need to be an exhaustive list, but it should give a strong indication of how the the class should be used.
+- A set of **error conditions** that you will be responsive to.  For each, indicate if it's source was (1) *programmer error*, such as invalid arguments to a function, which should be caught by an assert, (2) a potentially *recoverable error*, such as a resource limitation, which should trigger an exception, or (3) a *user error*, such as invalid input, which needs to simply return a special condition for the programmer to respond to (note: these can usually be handled with exceptions as well if you prefer.)
+- Any **expected challenges** that you will be facing, an especially any extra topics you need to learn about.  This information will help me make sure to cover topics early in the course or else provide your group with extra guidance on the project.
+- A list of any **other class projects** from other groups that you think you may want to use, either in the development of your own classes or in your final application.
