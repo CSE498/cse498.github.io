@@ -4,7 +4,7 @@ layout: default
 
 # Project Overview
 
-The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 45 points, plus an additional 12 points associated with turning in weekly updates.
+The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 45 points, plus an additional 12 points associated with turning in weekly updates.  [Here](project-details.html) are the project details for each group.
 
 Your final grade on the project will be based on three factors:
 
