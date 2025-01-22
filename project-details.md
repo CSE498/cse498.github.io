@@ -208,11 +208,11 @@ Suggested **challenges**: This is an obvious choice for a web app, and it would 
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`AnnotatedWrapper`** | A base class that provides "annotating" features to any derived class.  A simple form of annotations would be tags assocated with the class. |
-| **`DynamicString`** | An intersperced mix of strings and functions.  Can convert to a regular string by calling the functions and making the results into strings.  Functions will be called again each conversion, so the string could change.  For example, it could have a time stamp in it, or be tracking the value of a variable. |
-| **`RandomAccessSet`** | The std::set object is supposed to rapidly tell whether an object is a member, as well as add or remove members.  A random_access set should also keep an array back-end for when stepping through entries. |
+| **`AnnotatedWrapper`** | A base class that provides "annotating" features to any derived class.  A simple form of annotations would be tags associated with the class. |
 | **`TagManager`**    | A pseudo-container to track string tags on entires and be able to quickly identify all entries associated with a particular tag. |
-| **`AuditedPointer`** | Template class that behaves like a raw pointer outside of "DEBUG" mode, but does extra correctness checks when debugging.  For example once a pointer is deleted, it should not allow you to dereference it (or delete it a second time).  What a program terminates, it should check to make sure that all AuditedPointers have been deleted. You can either override C++'s `new` and `delete` or use `New()` and `Delete()` style member functions.  I also recommend a stand-along `MakeAudited` template function that works similarly to [`std::make_shared()`](https://en.cppreference.com/w/cpp/memory/shared_ptr/make_shared). |
+| **`DynamicString`** | An interspersed mix of `std::string`s and functions.  It should have a `ToString()` function that will append each of these together, calling the functions and making the results into strings.  Functions will be called each time conversions occur, so the string can dynamically change over time.  For example, if a string has a time stamp in it, the current time would be printed.  Or you could track the current value of a variable: `DynamicString str("x = ", x);`. |
+| **`RandomAccessSet`** | The std::set object is supposed to rapidly tell whether an object is a member, as well as step through members, or add or remove members.  A random_access set should also keep an array back-end for when stepping through entries.  If you use an array-style index, you should be able to access a consistent element (unless you modify the contents of the set),  |
+| *Audited Pointer* | Template class that behaves like a raw pointer outside of "DEBUG" mode, but does extra correctness checks when debugging.  For example once a pointer is deleted, it should not allow you to dereference it (or delete it a second time).  What a program terminates, it should check to make sure that all AuditedPointers have been deleted. You can either override C++'s `new` and `delete` or use `New()` and `Delete()` style member functions.  I also recommend a stand-along `MakeAudited` template function that works similarly to [`std::make_shared()`](https://en.cppreference.com/w/cpp/memory/shared_ptr/make_shared). |
 
 ### Application Suggestion
 
@@ -234,11 +234,11 @@ Suggested **challenges**: Adding security to a system like this would be valuabl
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`EventQueue`**    | Track a series of events to trigger based on priority or timepoint; likely a heap data structure. |
-| **`EventManager`**  | A handler for an EventQueue that can deal with repeating events (putting them back in, as appropriate) when triggered.  Can also handle clock based timings to space out when events are triggered. |
-| **`Image`**         | A representation of a web image; should maintain the URL of the image, its size, and eventually able to trigger JS code to put it on the web. |
-| **`TextBox`**       | Management object for a web-based text box |
-| **`WebLayout`**     | A manager for web pages, including what text or images are on the page and where they should go. |
+| **`EventQueue`**    | Track a series of events to trigger based on priority or time point; you should likely use a heap data structure to track which event is next.  A user of the class should be able to request the timing of the next event (peeking at it without removing it), as well and pop the event out of the queue. If two events have the same timing, you should have a consistent method of breaking ties (perhaps by first added or by using secondary value) |
+| **`EventManager`**  | A handler for an EventQueue that can handle clock based timings to appropriately trigger events at appropriate times.  An EventManager should also be able to deal with "repeating events" (putting them back in, as appropriate) when triggered, as well as pausing events.  |
+| **`Image`**         | A representation of a web image; should maintain the URL of the image, its size, and eventually able to trigger JS code to put it on the web. It should also support alt text (for accessability) and fixed aspect ratios during resizing. |
+| **`TextBox`**       | Management object for a web-based version of a presentation text box.  Should be able to hand bullet points, fonts and font-sizes, as both position and size of the box.  One technique you may want use is the have two related functions: `AddText(...)` and `AddRawText(...)`.  The first of these will preserve any special characters (for example, converting a `<` used into a `&lt;` so it still appears correctly.  The second does not alter the text, thus allowing the user to specify any HTML tags they want to use, but needing to appropriately encode things themselves. Other techniques are also possible, such as requiring a `\\` before any tags to indicate that they should not be converted. |
+| **`WebLayout`**     | A manager for web pages, including what text or images are on the page and where they should go. Should be able to trigger the appropriate JavaScript code to set up the page and place any images or text boxes, as needed.  You should decide of pages should be static or dynamic and how transitions between layouts should work. |
 
 ### Application Suggestion
 
@@ -253,20 +253,20 @@ Suggested **challenges**: Add extra features for real-time customization, such a
 
 **Shared Interests**: Science / Social Media
 
-**Notable Strengths**: A.I. / Web Development
+**Notable Strengths**: A.I. / Algorithms / Web Development
 
 ### Classes to Build
 
 | Class               | Description |
 | ------------------- | ----------- |
-| **`BruteForceOptimizer`** | A tool to explore all possible combinations of a set of inputs to maximize a value function.  Should handle backtracking and bounding (if the value function is NaN, backtrack, include a second MAX value function to help bounding) |
-| **`ComboManager`** | A tool to manage combinations of items from a container.  Should be able to step through them all or do branching with each included / excluded. |
 | **`StaticVector`**  | Like `std::vector`, but a maximum vector size is specified in the template parameter and all memory is allocated at object creation.  Size cannot go over the static limit, but it will likely be much faster than `std::vector` in many instances. |
-| **`MemoFunction`** | A function wrapper that automatically caches inputs to output -- if the same input is used a second time, it should immediately return the output rather than call the function again. |
-| **`MemoryFactory`** | A simple memory manager where collections of the same type are stored to be given out as requested (more should get allocated when an existing supply is exhausted) |
+| **`MemoFunction`** | A function wrapper that automatically caches inputs to output -- if the same input is used a second time, it should immediately return the output rather than call the function again.  Start by making MemoFunction handle a single input, but for a harder challenge you can set it up to handle functions with multiple parameters.  You could also add an eviction policy if you want to limit the number of values stored (typically you would remove the oldest stored values, but you may also want to remove values due to collisions in the hash table.) |
+| **`ComboManager`** | A tool to manage combinations of items from a container.  Should be able to step through all possible combinations, or do branching with each included / excluded in order to facilitate bounding and backtracking. It should have some helper function, such as pre-calculating the total number of combination possible. |
+| **`BruteForceOptimizer`** | A tool to explore all possible combinations of a set of inputs to maximize a value function.  Should handle backtracking and bounding (if the value function is NaN, backtrack, include a second MAX value function to help bounding) or other optimization techniques. |
+| **`MemoryFactory`** | A simple memory manager where collections of the same type are stored to be given out as requested (more should get allocated when an existing supply is exhausted).  When a new object of the factory type is created, the factory should provide the memory for it.  When an object is deleted, the factory should reclaim the memory to be handed out again.  Since object sizes are fixed in C++, this provides a faster way of allocating object if you know you are going to need to do frequent allocations and freeing of memory. |
 
 ### Application Suggestion
 
-A **Citizen-Science web console**.  It can be challenging to build a citizen-science application where the data is fed back in to the central hub in a useful manner.  Pick an NP-Hard problem that you build a solver for (using the tools above) and then a website where problem instances can be placed, along with a spot for people to run it.  It should be included with the result on the site after being solved.
+A **Citizen-Science web console**.  It can be challenging to build a citizen-science application where the data is fed back in to the central hub in a useful manner.  You will build a tool to simplify this for people interested in developing such an application.  To demonstrate the tool, pick an NP-Complete problem that you build a solver for (using the tools above) and then a website where problem instances can be placed, along with a spot for people to run it.  Some good options might be instances of the Knapsack problem, Satisfiability, or Maximum Independent Set.  When a user solves and instance of the problem locally, the results should be included on the site.
 
-Suggested **challenges**: One fun challenge would be to attach the citizen-science console to a different problem, perhaps one you find online or else the projects put together by one of the other groups (groups 3 or 7 might work particularly well.)
+Suggested **challenges**: One fun challenge would be to attach the citizen-science console to a more interesting problem, perhaps one you find online or (even better) one of the projects put together by one of the other groups;  group 3 (a physics-based cellular automaton) or group 7 (ecology simulator) might work particularly well, assuming they use the suggested project.
