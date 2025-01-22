@@ -11,18 +11,20 @@ layout: default
 2. [Name]
 3. [Name]
 4. [Name]
+5. [Name]
 
 ## Preamble:
-This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Fall semester 2024 in CSE 498. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
+This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Spring semester 2025 in CSE 498. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
 
 ## Roles & Responsibilities:
 
 | **Team Member** | **Role Title** | **Responsibilities** |
 | --------------- | -------------- | -------------------- |
-| [Name]          | Coordination Lead | Will organize a team plan to meet project milestones. Will set up team meetings, track status of goals, and help facilitate effective communication among team members.  |
-| [Name]          | Integration Lead       | Will take point on collaborating with other teams on the project's overall API design; will handle inter-team code reviews and assist with merge requests; will address questions or issues from other teams.  |
+| [Name]          | Coordination Lead      | Will organize a team plan to meet project milestones. Will set up team meetings, track status of goals, and help facilitate effective communication among team members.  |
+| [Name]          | Integration Lead       | Will take point on collaborating with other teams on the project's overall API design; will assist with merge requests; will address questions or issues from other teams.  |
 | [Name]          | Quality Assurance Lead | Will oversee the creation, execution, and maintenance of test suites; will track code quality, including functionality, performance, and security issues, and prioritize fixes.  |
-| [Name]          | Documentation Lead     | Will ensure the team produces clear, concise, and comprehensive documentation for end-users and other developers, as well as code that meets all style standards. Will represent the team in developing the overall project's README, contributing guidelines, and any user manuals or guides.  |
+| [Name]          | Documentation Lead     | Will ensure the team produces clear, concise, and comprehensive documentation for both end-users and other developers, as well as code that meets all style standards. |
+| [Name]          | User-Experience Lead   | Will lead the effort to ensure that all C++ classes and the final application being developed are as useful and intuitive as possible to the intended audience. |
 
 ## Team Expectations:
 
@@ -36,7 +38,7 @@ This agreement serves to outline the roles, responsibilities, and expectations o
 
 5. **Work Distribution**: Work will be fairly divided, and each team member commits to completing their tasks by mutually agreed-upon deadlines.
 
-6. **Re-evaluation of Roles**: We acknowledge that the project's needs may change, and we are open to re-evaluating and adjusting roles as required.
+6. **Re-evaluation of Roles**: We acknowledge that the project's needs may change, and different people may want experience in different roles.  We are open to re-evaluating and adjusting roles as required.  Specifically, we will reevaluate roles after major milestones in weeks 6 and 10, or at any point that two or more group members request it.
 
 ## Acknowledgment of Agreement:
 
