@@ -23,7 +23,7 @@ While the ultimate functionality of your code is clearly important, being able t
 You will be getting regular in-class advice and feedback on these topics throughout the semester, including peer reviews from fellow students.  A total of up to 10 points will be awarded during development and up to an additional 10 for the final product.
 
 
-## 3. Individual Contribution (A multiple applied to the other points)
+## 3. Individual Contribution (A multiplier applied to the other points)
 
 It is important that each group member provides a meaningful contribution to the overall group effort and to the course-level project as a whole.  Based on ratings by your teammates and your role on the team (and audited by the instructors, if needed, using progress reports, git logs, and the work agreement) you will receive a qualification for how effective of a contributor you were to the project.
 
@@ -42,7 +42,7 @@ Additionally, we have two other categories that will be given out quite sparingl
 
 # Project Groups
 
-You will be in a group of three to five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
+You will be in a group of five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
@@ -62,7 +62,8 @@ Some example modules include:
 * Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
 * And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
 
-# Write-up for Initial Class Development (Due: Jan 29, 2025)
+# Write-up for Initial Class Development
+### Due: Jan 29, 2025
 
 For each of the assigned classes, you should include in your writeup:
 
