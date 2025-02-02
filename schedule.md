@@ -29,7 +29,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 2/3/25  | **Avoiding Undefined Behavior** <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) | |
 | 2/5/25  | **Tools: Setting up Testing Frameworks** <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) | <b style="color: blue">Quiz:</b> 2a<br><b style="color: red">Due:</b> Initial working C\+\+ classes, spec comments |
 | **Week 5** | | |
-| 2/10/25  | **Debugging your code** <!--- *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) | |
+| 2/10/25  | **Debugging your code** <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) | |
 | 2/12/25  | **Memory Management** + **Casting** <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> <!--- *Watch:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | <b style="color: blue">Quiz:</b> 2b<br><b style="color: red">Due:</b> Test suite, class asserts |
 
 ## Unit III: Writing Generic Code
