@@ -15,6 +15,7 @@ Quiz 1 will focus on **C++ Pre-Requisites**, composed entirely of C++ material d
 + [Sample Quiz 1B](sample_quizzes/sample1B.html)
 
 Quiz 2 will be **C++ Fundamentals**
++ [Sample Quiz 2](sample_quizzes/quiz_2/Quiz2-Example.html)
 
 Quiz 3 will be **Reliable C++ Code**
 
