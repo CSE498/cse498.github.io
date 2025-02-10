@@ -37,8 +37,8 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
-| 2/17/25  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
-| 2/19/25  | **Template Specialization and Variadic templates** <br> <!--- *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | <b style="color: blue">Quiz:</b> 3a |
+| 2/17/25  | **Template Rules** <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
+| 2/19/25  | **Template Specialization and Variadic templates** <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) | <b style="color: blue">Quiz:</b> 3a |
 | **Week 7** | | |
 | 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | <b style="color: red">Due:</b> Code Reviews |
 | 2/26/25 | **STATUS UPDATES** | <b style="color: blue">Quiz:</b> 3b<br><b style="color: red">Due:</b> Specs and tests for advanced C\+\+ classes |
