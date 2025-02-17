@@ -78,3 +78,31 @@ For each of the assigned classes, you should include in your writeup:
 5) Any **expected challenges** that you will be facing, an especially any extra topics you need to learn about.  This information will help me make sure to cover topics early in the course or else provide your group with extra guidance on the project.
 
 6) A list of any **other class projects** from other groups that you think you may want to use, either in the development of your own classes or in your final application.
+
+# Rubric for code reviews (Round 1)
+
+### Design
+- **Informative identifiers**.  Are names of variables, functions, types, etc, clear and helpful for a reader to understand the code.  For example, if you need to track the number of students in a class, good variable names might be `num_students` or `student_count`, whereas you don't want something too short to be confusing (like `N` or `num_s`) or too verbose that it's annoying (like `total_number_of_students_in_class`).
+- **Avoids "magic numbers"**.  Similar to above, you should use constant variables with informative names instead of arbitrary numbers throughout your code, and instead set constants.  For example, I have a virtual CPU class with 6 virtual registers, but rather than using "6" throughout, I set `static constexpr size_t NUM_REGS = 6;` at the top of the class to make it clearer what the 6 refers to (and, in this case so that I can change it if needed.)
+- **Intuitive and functional interface**. Does the class expose only the necessary functionality, and is it easy to use correctly while hard to misuse? Are member variables private?  Is there an obvious function to use for common tasks, with relevant default arguments for parameters? Are any of the functions misleading, like potentially confusing uses of operator overloading?  (Feel free to provide suggestions on how to improve the interface for better usability)
+- **Informative comments**. Do comments help someone new to the code understand it more rapidly?  Did the coder properly avoid redundant or obvious comments that clutter the code (e.g., `++x; // increments x`).  In general, comments should focus on _why_ code is helpful, rather than belabor _what_ that code does (though with complex code, the latter is useful too.)
+- **Consistent style**. Are style choices (like naming schemes, brace placement, etc) used in a consistent and informative manner throughout the code?  Is there consistency in how different naming conventions are used? (e.g., `camelCase`, `snake_case`, `ALL_CAPS`, or `PascalCase`, or prefixes and suffixes, like `m_` at the beginning of a member variable.).
+- **Visual appearance**. Is the code easy to scan through and visually well structured with good use of whitespace, indentation, and line breaks?  Do there appear to be consistent limits on line widths?
+
+### Implementation
+- **No warnings during compilation.**  Does the code compile with the `-Wall` and `-Wextra` flags without producing warnings?  One option is to add `-Werror` to your list of options, which turns all warnings into errors and thus halts compilation when one occurs.
+- **Proper uses of namespaces**.  Is all code within `namespace cse { ... }` ?  Does the code avoid the generic `using namespace std` as well as avoiding ALL namespace pollution in header files that will spread to users of those files.
+- **Adheres to the C++ standard**.  Does the code avoid undefined behavior?  If possible, make sure the code compiles and runs properly on different compilers and different platforms.
+- **Appropriate Modularity**. Are common procedures grouped into useful helper functions? Are helper classes used where needed?  Is unnecessary code duplication avoided?
+- **Uses modern C++ constructs**.  Where applicable, does the code use range-based for loops, `std::optional`, or other modern C++ techniques?  (In the future we will also look for proper use of templates, move semantics, lambdas, and `constexpr`, but only once we cover those topics).
+- **Uses standard library algorithms**.   Does the code avoid extraneous loops when equivalent functionality exists in the standard library?  For example, `std::fill` will fill a vector, `std::remove_if` will remove elements from a container based on a condition, or `std::is_sorted` will tell you if the values in a container are in order.  See https://en.cppreference.com/w/cpp/algorithm for a full list (it's LONG, but well worth being familiar with).
+- **Pointer handling.**  Is memory management done carefully, with either smart pointers (`std::unique_ptr`, `std::shared_ptr`) or, only if needed, careful use of raw pointers with `new` and `delete`?
+- **`const` correctness**.  Are member functions to `const` if they don't change the state of the class?  Are parameters (especially reference parameters) marked `const` if they don't change inside the function?
+
+### Testing and Error Checking
+- **Unit testing.**  Are unit tests present for all public member functions (including constructors) and well organized?  Do they trigger cases that will exercise most private portions of the class' code?
+- **Edge cases.** Does testing cover most edge cases, as possible?  For example, for pointers, does it test null pointers (if they are allowed)?  Does it test for empty containers being used?  Does it test for 0 or other boundary conditions on parameters?
+- **Assertions**.  Are `assert` statements used properly throughout the code to enforce invariants and ensure a valid state?  (for example, checking that valid arguments are passed into functions.) Note that asserts should be used only to identify conditions that should never occur in properly working code; if code is expected to recover, error handling must be performed.
+- **Error handling.** Are error conditions that can occur during correct execution (such as resource limitations, files not available, or division by zero) checked for and reported back with either exceptions, return conditions, or some other technique?
+
+**NOTE**: All feedback is expected to be constructive and helpful.  You should identify helpful improvements or places to refactor, but never denigrate the code or its authors.  Constructive criticism is fine, but should be frames positively; any needlessly hurtful comments will result in points deducted from the review.
