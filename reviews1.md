@@ -16,6 +16,12 @@ layout: default
 - [Group 9: Liskov](#group-9)
 - [Group 10: Bellman](#group-10)
 
+Below are each individual's assignments for code to review; please get reviews in by Monday, February 24th.
+If it is unclear which pull request to review, contact the associated group on their public discord channel.
+If your code is being reviewed, please feel free to reply to reviewer comments and start a discussion.
+
+The guidelines for what you should be looking for in the code reviews can be found [here](project.html#review-1).
+
 ## <span id="group-1" style="color: blue">Group 1: Stroustrup</span>
 
 **Review Assignments**
