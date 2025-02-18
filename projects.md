@@ -79,7 +79,7 @@ For each of the assigned classes, you should include in your writeup:
 
 6) A list of any **other class projects** from other groups that you think you may want to use, either in the development of your own classes or in your final application.
 
-# Rubric for code reviews (Round 1)
+# <span id="review-1">Rubric for code reviews (Round 1)</span>
 
 ### Design
 - **Informative identifiers**.  Are names of variables, functions, types, etc, clear and helpful for a reader to understand the code.  For example, if you need to track the number of students in a class, good variable names might be `num_students` or `student_count`, whereas you don't want something too short to be confusing (like `N` or `num_s`) or too verbose that it's annoying (like `total_number_of_students_in_class`).
