@@ -41,11 +41,11 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 2/19/25  | **Template Specialization and Variadic templates** <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) | <b style="color: blue">Quiz:</b> 3a |
 | **Week 7** | | |
 | 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | <b style="color: red">Due:</b> Code Reviews |
-| 2/26/25 | **STATUS UPDATES** | <b style="color: blue">Quiz:</b> 3b<br><b style="color: red">Due:</b> Specs and tests for advanced C\+\+ classes |
+| 2/26/25 | **STATUS UPDATES** | <b style="color: red">Due FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) | |
-| 3/12/25 | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
+| 3/12/25 | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
 
 ## Unit IV: Writing Efficient Code
 
