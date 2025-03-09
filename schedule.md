@@ -45,17 +45,17 @@ This course is divided up into six units, each of which is two to three weeks lo
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
 | 3/10/25 | **Lambdas** <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) | |
-| 3/12/25 | **Ranges and Views** <!--- <br> *Watch:* [C++20 Ranges in Practice](https://www.youtube.com/watch?v=L0bhZp6HMDM) (62 min) --> | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
+| 3/12/25 | **Ranges and Views** <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
 
 ## Unit IV: Writing Efficient Code
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 9** | | |
-| 3/17/25 | **Compile-time execution** <!--- <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
-| 3/19/25 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | <b style="color: blue">Quiz:</b> 4a |
+| 3/17/25 | **Compile-time execution** <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
+| 3/19/25 | **Value semantics** <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) | <b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | | |
-| 3/24/25 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
+| 3/24/25 | **Measuring Efficiency** + **Profiling Code** <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
 | 3/26/25  | **Deep Dive: Implementing `std::string`** <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes <br> <b style="color: blue">Quiz:</b> 4b <br><b style="color: green">Out:</b> Code review assignments and rubrics |
 
 ## Unit V: Advanced Topics
