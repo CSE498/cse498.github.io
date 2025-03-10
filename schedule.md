@@ -63,7 +63,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 11** | | |
-| 3/31/25  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | <b style="color: red">Due:</b> Specs and tests for main C++ App|
+| 3/31/25  | **Custom Memory Management** <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) | <b style="color: red">Due:</b> Specs and tests for main C++ App|
 | 4/2/25  | **Deep Dive: Bit Sets** | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | | |
 | 4/7/25 | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
