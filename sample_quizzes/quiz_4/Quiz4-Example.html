@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz4EX.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 18 -->
+  <div class="question">
+    <p><b>1.</b> Consider the function template:<br>
+&nbsp;&nbsp;<code>template &lt;typename T, typename U&gt;</code><br>
+&nbsp;&nbsp;<code>void pair(T a, U b) { /* ... */ }</code><br>
+When calling pair(5, 3.14), what types are deduced for T and U respectively?</p>
+    <div class="options"><label><input type="radio" name="q18" value="(A)">(A) Both would be promoted to <code>double</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(B)">(B) <code>int</code> and <code>double</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(C)">(C) <code>double</code> and <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(D)">(D) Both would be demoted to <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(E)">(E) It depends on how <code>a</code> and <code>b</code> are used in the function body.</label></div>
+  <div class="answer" data-question="q18"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 4 -->
+  <div class="question">
+    <p><b>2.</b> Given the following code:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>std::string Version(T in) { return &quot;Generic&quot;; }</code><br>
+&nbsp;&nbsp;<code>template &lt;&gt;</code><br>
+&nbsp;&nbsp;<code>std::string Version(std::string in) { return &quot;String&quot;; }</code><br>
+What would happen if you ran <code>Version(&quot;test&quot;)</code>?</p>
+    <div class="options"><label><input type="radio" name="q4" value="(A)">(A) The type of <code>&quot;test&quot;</code> is natively <code>std::string</code>, so &quot;String&quot; would be returned.</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(B)">(B) The type of <code>&quot;test&quot;</code> is natively <code>const char *</code>, which can be used in either Version, so the call is ambiguous.</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(C)">(C) The type of <code>&quot;test&quot;</code> is natively <code>const char *</code>, so <code>&quot;Generic&quot;</code> would be returned.</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(D)">(D) The type <code>std::string</code> has a constructor to take the type of <code>&quot;test&quot;</code>, giving it priority, so &quot;String&quot; is returned.</label></div>
+  <div class="answer" data-question="q4"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>3.</b> Which of the following statements about reference collapsing is TRUE?</p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) It can cause an rvalue argument (&amp;&amp;) to be converted into an lvalue reference (&amp;)</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) It always results in an rvalue reference if either the argument or the parameter is an rvalue reference.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) It is a feature that was deprecated in C++14 and should no longer be used.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) It only applies when arguments are rvalue references.</label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 27 -->
+  <div class="question">
+    <p><b>4.</b> How does the keyword <code>mutable</code> modify a lambda?</p>
+    <div class="options"><label><input type="radio" name="q27" value="(A)">(A) It allows the lambda to modify captured variables</label></div>
+    <div class="options"><label><input type="radio" name="q27" value="(B)">(B) It allows the lambda to be reassigned to a different function</label></div>
+    <div class="options"><label><input type="radio" name="q27" value="(C)">(C) It allows the captured value to be changed outside of the lambda</label></div>
+    <div class="options"><label><input type="radio" name="q27" value="(D)">(D) It makes all captures capture-by-reference</label></div>
+    <div class="options"><label><input type="radio" name="q27" value="(E)">(E) It means the types of any parameters to the lambda will have to be deduced</label></div>
+  <div class="answer" data-question="q27"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>5.</b> Is there a problem with the following code? Why or why not?<br>
+&nbsp;&nbsp;<code>auto iter = std::ranges::min_element(std::vector&lt;int&gt;{3, 1 , 2});</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; *iter &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) Yes, it will throw an exception inside of the first statement when you try to get an iterator of an r-value</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) Yes, it will crash at the end of the first statement when the temporary vector ceases to exist</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) Yes, it will trigger undefined behavior when you dereference a dangling iterator</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) Yes, it will trip an assertion when you try to print the contents of the iterator  </label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(E)">(E) No, the ranges library fixes any of the above issues</label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 12 -->
+  <div class="question">
+    <p><b>6.</b> Template parameters are processed in two phases.  Which of the following happens in the SECOND phase?</p>
+    <div class="options"><label><input type="radio" name="q12" value="(A)">(A) All functionality that is depending on template parameters is double-checked.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(B)">(B) Basic syntax errors are identified.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(C)">(C) All undefined behavior is analyzed and errors are issued.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(D)">(D) Static assertions that don&apos;t depend on template parameters are checked.</label></div>
+  <div class="answer" data-question="q12"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>7.</b> Given the following function template:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>bool CompareToZero(T in) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;return in == static_cast&lt;T&gt;(0);</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+Which function call will NOT cause a compilation error?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) <code>CompareToZero&lt;std::string&gt;(&quot;12&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) <code>CompareToZero(&apos;c&apos;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) <code>CompareToZero(0, 0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) <code>CompareToZero(std::vector&lt;int&gt;{0});</code></label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 1 -->
+  <div class="question">
+    <p><b>8.</b> Which of that following is a potential downside of excessive use of templates, even when fully adhering to the C++ standard?</p>
+    <div class="options"><label><input type="radio" name="q1" value="(A)">(A) It is likely to cause memory leaks.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(B)">(B) It can lead to reduced accuracy in floating-point calculations.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(C)">(C) It can lead to larger binary sizes due to code bloat.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(D)">(D) It is likely to reduce the final execution speed of the program.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(E)">(E) It is likely to interfere with any pre-processor macros that were set up.</label></div>
+  <div class="answer" data-question="q1"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 8 -->
+  <div class="question">
+    <p><b>9.</b> What is a template specialization?</p>
+    <div class="options"><label><input type="radio" name="q8" value="(A)">(A) Any template that will work with only a subset of possible template parameters.</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(B)">(B) Any template that is divided into multiple pieces in its definition.</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(C)">(C) Any template that is focused to solve a small, well-defined problem.</label></div>
+    <div class="options"><label><input type="radio" name="q8" value="(D)">(D) Any template recipe with the specific template parameters filled in.</label></div>
+  <div class="answer" data-question="q8"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 32 -->
+  <div class="question">
+    <p><b>10.</b> When does capturing occur in a lambda?</p>
+    <div class="options"><label><input type="radio" name="q32" value="(A)">(A) It depends on whether the variables are being captured by reference or by value</label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(B)">(B) It is up to the compiler to decide</label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(C)">(C) When the variable being captured was first created</label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(D)">(D) When the lambda is called</label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(E)">(E) When the lambda is created</label></div>
+  <div class="answer" data-question="q32"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz4EX.js"></script>
+</body>
+</html>

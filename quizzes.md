@@ -18,9 +18,10 @@ Quiz 2 will be **C++ Fundamentals**
 + [Sample Quiz 2](sample_quizzes/quiz_2/Quiz2-Example.html)
 
 Quiz 3 will be **Reliable C++ Code**
-+ [Sample Quiz 2](sample_quizzes/quiz_3/Quiz3-Example.html)
++ [Sample Quiz 3](sample_quizzes/quiz_3/Quiz3-Example.html)
 
 Quiz 4 will be **Generic C++ Code**
++ [Sample Quiz 4](sample_quizzes/quiz_4/Quiz4-Example.html)
 
 Quiz 5 will be **Efficient C++ Code**.
 
