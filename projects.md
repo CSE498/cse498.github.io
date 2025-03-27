@@ -105,4 +105,29 @@ For each of the assigned classes, you should include in your writeup:
 - **Assertions**.  Are `assert` statements used properly throughout the code to enforce invariants and ensure a valid state?  (for example, checking that valid arguments are passed into functions.) Note that asserts should be used only to identify conditions that should never occur in properly working code; if code is expected to recover, error handling must be performed.
 - **Error handling.** Are error conditions that can occur during correct execution (such as resource limitations, files not available, or division by zero) checked for and reported back with either exceptions, return conditions, or some other technique?
 
+# <span id="review-2">Rubric for code reviews of more advanced C++ classes (Round 2)</span>
+
+During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
+
+The five areas where review needs to be done are:
+1) Code Design
+2) Implementation Quality
+3) Testing and Error Checking
+4) Use of Advanced C++ Features (e.g., templates, lambdas, constexpr, value semantics, etc.)
+5) Code optimization and flexibility.
+
+Items 1 through 3 are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
+
+For Item 4, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not ever advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
+
+For Item 5, you should identify ways that the code could be better optimized or be made more flexible (without being made too much more complex).
+
+## Writing your Reviews
+
+For these reviews, you should look at the appropriate pull request and comment on the specific areas that you are assigned.  Any review comments that you can place directly on the code, that's where it should go (note that code that has not changed will not be able to be commented on in place).  All other comments (and review summaries) should be placed in a general review comment.
+
+Keep a tab on the comments and please engage with any questions or comments the developers have, as appropriate, especially if clarifications are requested.
+
+For your specific review assignments, go [here](reviews2.html)
+
 **NOTE**: All feedback is expected to be constructive and helpful.  You should identify helpful improvements or places to refactor, but never denigrate the code or its authors.  Constructive criticism is fine, but should be frames positively; any needlessly hurtful comments will result in points deducted from the review.
