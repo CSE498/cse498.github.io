@@ -25,7 +25,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Jerry Chen      | [Group 4](project-details.html#group-4) | Code Design | Advanced C++ Features |
 | George Faraj    | [Group 4](project-details.html#group-4) | Implementation Quality | Testing & Error Checking |
@@ -38,7 +38,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Nitish Maindoliya | [Group 5](project-details.html#group-5) | Code Design | Advanced C++ Features |
 | Dominik Leisinger | [Group 5](project-details.html#group-5) | Implementation Quality | Testing & Error Checking |
@@ -51,7 +51,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Sanya Nigam  | [Group 6](project-details.html#group-6) | Code Design | Advanced C++ Features |
 | Wendy Jiang  | [Group 6](project-details.html#group-6) | Implementation Quality | Testing & Error Checking |
@@ -65,7 +65,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Chris Paul    | [Group 7](project-details.html#group-7) | Code Design | Advanced C++ Features |
 | Grant Davis   | [Group 7](project-details.html#group-7) | Implementation Quality | Testing & Error Checking |
@@ -78,7 +78,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Max Krawec           | [Group 8](project-details.html#group-8) | Code Design | Advanced C++ Features |
 | Calen Green          | [Group 8](project-details.html#group-8) | Implementation Quality | Testing & Error Checking |
@@ -92,7 +92,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Emil Rahn-Siegel  | [Group 9](project-details.html#group-9) | Code Design | Advanced C++ Features |
 | Will Crawford     | [Group 9](project-details.html#group-9) | Implementation Quality | Testing & Error Checking |
@@ -106,7 +106,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Anand Pinnamaneni       | [Group 10](project-details.html#group-10) | Code Design | Advanced C++ Features |
 | Bao Tran                | [Group 10](project-details.html#group-10) | Implementation Quality | Testing & Error Checking |
@@ -120,7 +120,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Joanna Rodriguez Zamarron | [Group 1](project-details.html#group-1) | Code Design | Advanced C++ Features |
 | Ryon Baldwin-Williams     | [Group 1](project-details.html#group-1) | Implementation Quality | Testing & Error Checking |
@@ -134,7 +134,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Allie Ianello    | [Group 2](project-details.html#group-2) | Code Design | Advanced C++ Features |
 | Mia Bodenhorn    | [Group 2](project-details.html#group-2) | Implementation Quality | Testing & Error Checking |
@@ -148,7 +148,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 
 **Review Assignments**
 
-| Reviewer | Projects | Review Topic 1 | Review Topic 2 |
+| Reviewer | Project | Review Topic 1 | Review Topic 2 |
 | -------- | -------- | -------------- | -------------- |
 | Alex Mueller    | [Group 3](project-details.html#group-3) | Code Design | Advanced C++ Features |
 | Blake Crimmins  | [Group 3](project-details.html#group-3) | Implementation Quality | Testing & Error Checking |
