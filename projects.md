@@ -110,11 +110,11 @@ For each of the assigned classes, you should include in your writeup:
 During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
 
 The five areas where review needs to be done are:
-1) Code Design
-2) Implementation Quality
-3) Testing and Error Checking
-4) Use of Advanced C++ Features (e.g., templates, lambdas, constexpr, value semantics, etc.)
-5) Code optimization and flexibility.
+1. Code Design
+2. Implementation Quality
+3. Testing and Error Checking
+4. Use of Advanced C++ Features (e.g., templates, lambdas, constexpr, value semantics, etc.)
+5. Code optimization and flexibility.
 
 Items 1 through 3 are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
