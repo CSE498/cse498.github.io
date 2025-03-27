@@ -110,17 +110,17 @@ For each of the assigned classes, you should include in your writeup:
 During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
 
 The five areas where review needs to be done are:
-1. Code Design
-2. Implementation Quality
-3. Testing and Error Checking
-4. Use of Advanced C++ Features (e.g., templates, lambdas, constexpr, value semantics, etc.)
-5. Code optimization and flexibility.
+1. **Code Design**
+2. **Implementation Quality**
+3. **Testing and Error Checking**
+4. **Use of Advanced C++ Features** (e.g., templates, lambdas, constexpr, value semantics, etc.)
+5. **Code Optimization and Flexibility.**
 
-Items 1 through 3 are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
+**Items 1 through 3** are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
-For Item 4, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not ever advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
+For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not ever advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
 
-For Item 5, you should identify ways that the code could be better optimized or be made more flexible (without being made too much more complex).
+For **Item 5**, you should identify ways that the code under review could be better optimized or be made more flexible (ideally without being made too much more complex).
 
 ## Writing your Reviews
 
