@@ -64,20 +64,20 @@ This course is divided up into six units, each of which is two to three weeks lo
 |:--------:|-------------------------------------| ------ |
 | **Week 11** | | |
 | 3/31/25  | **Custom Memory Management** <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) | <b style="color: red">Due:</b> Specs and tests for main C++ App|
-| 4/2/25  | **Deep Dive: Bit Sets** | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
+| 4/2/25  | **Concepts** <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | | |
-| 4/7/25 | **Meta-programming** <!--- <br> *Watch:* [Template Metaprogramming: Type Traits (part 1)](https://www.youtube.com/watch?v=tiAVWcjIF6o) (60 min)<br> *OPTIONAL:* [Template Metaprogramming: Type Traits (part 2)](https://www.youtube.com/watch?v=dLZcocFOb5Q) (59 min) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
-| 4/9/25 | **Advanced Template use** <!--- <br> *Watch:* [From C++ Templates to C++ Concepts - Metaprogramming: an Amazing Journey](https://www.youtube.com/watch?v=_doRiQS4GS8) (53 min) --> | <b style="color: blue">Quiz:</b> 5b |
+| 4/7/25 | **Deep Dive: Sorting** <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
+| 4/9/25 | **Attributes** and **User-defined Literals** <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | | |
-| 4/14/25 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | <b style="color: red">Due:</b> Efficiency reports |
-| 4/16/25 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | <b style="color: blue">Quiz:</b> redos |
+| 4/14/25 | **Concurrency** <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) | <b style="color: red">Due:</b> Efficiency reports |
+| 4/16/25 | **Understanding Code Licenses** <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) | <b style="color: blue">Quiz:</b> redos |
 
 ## Unit VI: Wrap Up
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 14** | | |
-| 4/21/25 | **Other missing topics (Attributes, User-defined Literals, etc)** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
+| 4/21/25 | **Newer features in C++** <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8)| <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
 | 4/23/25 | **FINAL PRESENTATIONS** | |
 | **Week 15** | (Finals Week) | |
 | 4/28/25 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm |
