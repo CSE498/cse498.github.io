@@ -77,7 +77,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 14** | | |
-| 4/21/25 | **Newer features in C++** <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8)| <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
+| 4/21/25 | **Newer features in C++** <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
 | 4/23/25 | **FINAL PRESENTATIONS** | |
 | **Week 15** | (Finals Week) | |
 | 4/28/25 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm |
