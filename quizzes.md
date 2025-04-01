@@ -24,6 +24,7 @@ Quiz 4 will be **Generic C++ Code**
 + [Sample Quiz 4](sample_quizzes/quiz_4/Quiz4-Example.html)
 
 Quiz 5 will be **Efficient C++ Code**.
++ [Sample Quiz 5](sample_quizzes/quiz_5/Quiz5EX.html)
 
 The advanced topics unit will not have an associated quiz.
 
