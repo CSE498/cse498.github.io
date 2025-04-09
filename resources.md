@@ -22,6 +22,10 @@ Lots of useful links and bonus videos below.  These resources will be expanded a
 
 [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) - A set of guidelines to help you leverage "modern" C++.
 
+[C++ Cheat Sheets](https://hackingcpp.com/cpp/cheat_sheets.html) - A bunch of quick references for how to use C++ and especially the standard library.
+
+[C++ Quiz](https://cppquiz.org/quiz/random) - A random question about C++ (1 to 3 dot difficulty; 3 dots is VERY hard.)
+
 ## Video suggestions
 
 On the class [schedule](schedule.md) you will see class-by-class videos to watch for discussion.  Here are some additional videos that were informative.  
