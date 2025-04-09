@@ -10,20 +10,20 @@ There will be a total of five quizzes over the course of the semester, worth a t
 
 The five quizzes will follow the topics that we are covering in the course.
 
-Quiz 1 will focus on **C++ Pre-Requisites**, composed entirely of C++ material drawn from CSE 232 or CSE 335 exams (if you cannot do well on this first quiz, you are likely to struggle with the rest of this course).
+Quiz 1 focuses on **C++ Pre-Requisites**, composed entirely of C++ material drawn from CSE 232 or CSE 335 exams (if you cannot do well on this first quiz, you are likely to struggle with the rest of this course).
 + [Sample Quiz 1A](sample_quizzes/sample1A.html)
 + [Sample Quiz 1B](sample_quizzes/sample1B.html)
 
-Quiz 2 will be **C++ Fundamentals**
+Quiz 2 focuses on **C++ Fundamentals**
 + [Sample Quiz 2](sample_quizzes/quiz_2/Quiz2-Example.html)
 
-Quiz 3 will be **Reliable C++ Code**
+Quiz 3 focuses on **Reliable C++ Code**
 + [Sample Quiz 3](sample_quizzes/quiz_3/Quiz3-Example.html)
 
-Quiz 4 will be **Generic C++ Code**
+Quiz 4 focuses on **Generic C++ Code**
 + [Sample Quiz 4](sample_quizzes/quiz_4/Quiz4-Example.html)
 
-Quiz 5 will be **Efficient C++ Code**.
+Quiz 5 focuses on **Efficient C++ Code**.
 + [Sample Quiz 5](sample_quizzes/quiz_5/Quiz5EX.html)
 
 The advanced topics unit will not have an associated quiz.
