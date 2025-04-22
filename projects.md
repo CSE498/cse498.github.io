@@ -118,7 +118,7 @@ The five areas where review needs to be done are:
 
 **Items 1 through 3** are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
-For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not ever advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
+For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not every advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
 
 For **Item 5**, you should identify ways that the code under review could be better optimized or be made more flexible (ideally without being made too much more complex).
 
@@ -129,5 +129,24 @@ For these reviews, you should look at the appropriate pull request and comment o
 Keep a tab on the comments and please engage with any questions or comments the developers have, as appropriate, especially if clarifications are requested.
 
 For your specific review assignments, go [here](reviews2.html)
+
+# <span id="review-3">Rubric for code reviews of more advanced C++ classes (Round 3)</span>
+
+During this final round of code reviews, you will again have a more specific assignment for what aspects of the target code you need to review.  This time, however, we are testing code that produces an actual application, not just a library, so we need to be doing more thorough testing considering how the application is likely to be used.
+
+The five areas where review needs to be done are:
+1. **Code Design**: Is the code designed in a logical and intuitive manner that allows others to easily understand it?  Feel free to refer to the list of specific topics in the round 1 reviews, but you should also consider other subjective areas, identifying any point that you may be confused in your own attempt to understand the code.  Please try to provide suggestions for how to fix any problems.
+2. **Implementation Quality**: Is the code written to be safe, efficient, and flexible? Feel free to refer to the specific topics in round 1, but you should more generally be looking for any places where implementation may currently be problematic, inefficient, or likely to have problems in the future as new added features cause other issues to arise.
+3. **Testing and Error Checking**: Has sufficient testing been performed to verify the reliability of the current state of the code?  This should include both internal testing (e.g., asserts *that are avoided*, exceptions *that are caught* in the app, or returning of error codes / optional *that are checked*) and external testing (e.g., unit tests including thorough checking of edge cases as well as actual alpha testing of the app itself.)  In particular, make sure that bad user input is caught and handled properly; if you can cause the app to crash (as opposed to it reporting a coherent error), that is a problem to report.
+4. **Use of Modern C++**: Have the authors of the app made good use of modern featured in C++, such as appropriate use of templates, use of concepts, use of std::optional, use of \[\[attributes\]\] etc.? Not all code will be expected to use every technique, but it is still helpful to point out where more modern techniques improve the code quality and the experience of the authors.
+5. **User Experience**: Is the app easy to use with an intuitive interface? Most of this course has focused on good code development practices, but most applications are built for end users and user experience ia a critical quality that always needs to be considered.  Are app features easy to find?  Are the most common use cases placed in intuitive places?  Make suggestions on how the user experience can be improved overall.
+
+## Writing your Reviews
+
+For these reviews, you should look at the appropriate pull request and comment on the specific areas that you are assigned.  Any review comments that you can place directly on the code, that's where it should go.  All other comments (and review summaries) should be placed in a general review comment.  Your final review should be done as a proper GitHub review and should include a checklist of the biggest points that you believe are most in need of fixing.
+
+Keep a tab on the comments and please engage with any questions or comments the developers have, as appropriate, especially if clarifications are requested.
+
+For your specific review assignments, go [here](reviews3.html)
 
 **NOTE**: All feedback is expected to be constructive and helpful.  You should identify helpful improvements or places to refactor, but never denigrate the code or its authors.  Constructive criticism is fine, but should be frames positively; any needlessly hurtful comments will result in points deducted from the review.
