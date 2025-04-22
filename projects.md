@@ -79,7 +79,7 @@ For each of the assigned classes, you should include in your writeup:
 
 6) A list of any **other class projects** from other groups that you think you may want to use, either in the development of your own classes or in your final application.
 
-# <span id="review-1">Rubric for code reviews (Round 1)</span>
+# <span id="review-1">Rubric for initial code reviews (Round 1)</span>
 
 ### Design
 - **Informative identifiers**.  Are names of variables, functions, types, etc, clear and helpful for a reader to understand the code.  For example, if you need to track the number of students in a class, good variable names might be `num_students` or `student_count`, whereas you don't want something too short to be confusing (like `N` or `num_s`) or too verbose that it's annoying (like `total_number_of_students_in_class`).
@@ -105,7 +105,7 @@ For each of the assigned classes, you should include in your writeup:
 - **Assertions**.  Are `assert` statements used properly throughout the code to enforce invariants and ensure a valid state?  (for example, checking that valid arguments are passed into functions.) Note that asserts should be used only to identify conditions that should never occur in properly working code; if code is expected to recover, error handling must be performed.
 - **Error handling.** Are error conditions that can occur during correct execution (such as resource limitations, files not available, or division by zero) checked for and reported back with either exceptions, return conditions, or some other technique?
 
-# <span id="review-2">Rubric for code reviews of more advanced C++ classes (Round 2)</span>
+# <span id="review-2">Rubric for Code Reviews of Advanced C++ Classes (Round 2)</span>
 
 During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
 
@@ -130,15 +130,15 @@ Keep a tab on the comments and please engage with any questions or comments the 
 
 For your specific review assignments, go [here](reviews2.html)
 
-# <span id="review-3">Rubric for code reviews of more advanced C++ classes (Round 3)</span>
+# <span id="review-3">Rubric for Code Reviews of Final Applications (Round 3)</span>
 
-During this final round of code reviews, you will again have a more specific assignment for what aspects of the target code you need to review.  This time, however, we are testing code that produces an actual application, not just a library, so we need to be doing more thorough testing considering how the application is likely to be used.
+During this final round of code reviews, you will again have a more specific assignment for what aspects of the target code you need to review.  This time, however, we are testing code that produces an actual application, not just a C\+\+ library, so we need to be doing more thorough testing considering how the application is likely to be used.
 
 The five areas where review needs to be done are:
 1. **Code Design**: Is the code designed in a logical and intuitive manner that allows others to easily understand it?  Feel free to refer to the list of specific topics in the round 1 reviews, but you should also consider other subjective areas, identifying any point that you may be confused in your own attempt to understand the code.  Please try to provide suggestions for how to fix any problems.
 2. **Implementation Quality**: Is the code written to be safe, efficient, and flexible? Feel free to refer to the specific topics in round 1, but you should more generally be looking for any places where implementation may currently be problematic, inefficient, or likely to have problems in the future as new added features cause other issues to arise.
 3. **Testing and Error Checking**: Has sufficient testing been performed to verify the reliability of the current state of the code?  This should include both internal testing (e.g., asserts *that are avoided*, exceptions *that are caught* in the app, or returning of error codes / optional *that are checked*) and external testing (e.g., unit tests including thorough checking of edge cases as well as actual alpha testing of the app itself.)  In particular, make sure that bad user input is caught and handled properly; if you can cause the app to crash (as opposed to it reporting a coherent error), that is a problem to report.
-4. **Use of Modern C++**: Have the authors of the app made good use of modern featured in C++, such as appropriate use of templates, use of concepts, use of std::optional, use of \[\[attributes\]\] etc.? Not all code will be expected to use every technique, but it is still helpful to point out where more modern techniques improve the code quality and the experience of the authors.
+4. **Use of Modern C++**: Have the authors of the app made good use of modern featured in C++, such as appropriate use of templates, use of concepts, use of std::optional, use of \[\[attributes\]\], etc.? Not all code will be expected to use every technique, but it is still helpful to point out where more modern techniques improve the code quality and the experience of the authors.
 5. **User Experience**: Is the app easy to use with an intuitive interface? Most of this course has focused on good code development practices, but most applications are built for end users and user experience ia a critical quality that always needs to be considered.  Are app features easy to find?  Are the most common use cases placed in intuitive places?  Make suggestions on how the user experience can be improved overall.
 
 ## Writing your Reviews
