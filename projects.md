@@ -2,7 +2,15 @@
 layout: default
 ---
 
-# Project Overview
+- [Project Overview](#overview)
+- [Project Groups](#groups)
+- [Project License](#license)
+- [Project Topics](#topics)
+- [Review 1 Instructions](#review-1) (Initial C\+\+ classes)
+- [Review 2 Instructions](#review-2) (Advanced C\+\+ classes)
+- [Review 3 Instructions](#review-3) (Final Applications)
+
+# <span id="overview">Project Overview</span>
 
 The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 45 points, plus an additional 12 points associated with turning in weekly updates.  [Here](project-details.html) are the project details for each group.
 
@@ -40,18 +48,18 @@ Additionally, we have two other categories that will be given out quite sparingl
 + **_Exemplary Contributor_**: You went substantially beyond project requirements, turning in code that is impressive on all levels.  You will receive the full 45 points on the project, but this qualification also recognizes the incredible effort that you put forth with an "Exemplary Contributor" award that can be added to a resume.  We are unlikely to give more than one of these per semester.
 
 
-# Project Groups
+# <span id="groups">Project Groups</span>
 
 You will be in a group of five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
 
-# Project License
+# <span id="license">Project License</span>
 
 To simplify working together and allowing all students in the course to be able to use the code we develop after the course is over, all communal code will be created under the [MIT Public License](https://en.wikipedia.org/wiki/MIT_License).  This license allow others to use the provided code however they want as long as they include the Copyright notice with it.  Once you contribute to the project, make sure to add your own name to the license.
 
-# Project Topics
+# <span id="topics">Project Topics</span>
 
 Each group will be assigned a number of modules to develop proportional to the number of students in that group. While each student should plan to take the lead on at least one of the modules, they should participate in the development of all of them.  Indeed, some of the modules will be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
 
@@ -131,6 +139,7 @@ Keep a tab on the comments and please engage with any questions or comments the 
 For your specific review assignments, go [here](reviews2.html)
 
 # <span id="review-3">Rubric for Code Reviews of Final Applications (Round 3)</span>
+### Due: April 28th, 2025
 
 During this final round of code reviews, you will again have a more specific assignment for what aspects of the target code you need to review.  This time, however, we are testing code that produces an actual application, not just a C\+\+ library, so we need to be doing more thorough testing considering how the application is likely to be used.
 
