@@ -4,7 +4,7 @@ layout: default
 
 # Collaborative Design
 ## Section 2: Secure and Efficient C++ Software Development
-## Fall 2025
+## Spring 2025
 
 | Instructor | **Charles Ofria**                             |
 |            | [ofria@cse.msu.edu](mailto:ofria@cse.msu.edu) |
