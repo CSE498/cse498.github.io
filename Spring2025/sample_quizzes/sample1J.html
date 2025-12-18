@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1J.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>1.</b> If you make a function call TestFunction(&apos;a&apos;) and all of the following options are available, which version of the function will be called?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) <code>void TestFunction();</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) <code>void TestFunction(int param1, int param2=0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) <code>void TestFunction(std::string param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) <code>void TestFunction(char param);</code></label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>2.</b> What is the correct syntax for declaring a template function in C++?</p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) <code>template &lt;typename T&gt; void foo(T);</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) <code>&lt;template&gt; void foo(T);</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) <code>void foo&lt;template T&gt;(T);</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) <code>&lt;template typename T&gt; void foo(T);</code></label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 6 -->
+  <div class="question">
+    <p><b>3.</b> How can the logical AND operator (<code>&amp;&amp;</code>) be used in C++? </p>
+    <div class="options"><label><input type="radio" name="q6" value="(A)">(A) To test if two boolean expressions have identical values</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(B)">(B) To test if two boolean expressions are both true</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(C)">(C) To output a boolean value to the console</label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(D)">(D) To test if two boolean expressions have different values</label></div>
+  <div class="answer" data-question="q6"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 32 -->
+  <div class="question">
+    <p><b>4.</b> If the following code compiles successfully, which is NOT a possible type for &quot;<code>out_stream</code>&quot;?<br>
+&nbsp;&nbsp;<code>out_stream &lt;&lt; &quot;Hello test taker!&quot;;</code></p>
+    <div class="options"><label><input type="radio" name="q32" value="(A)">(A) <code>std::ofstream</code></label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(B)">(B) <code>std::ostream &amp;</code></label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(C)">(C) <code>std::stringstream</code></label></div>
+    <div class="options"><label><input type="radio" name="q32" value="(D)">(D) <code>std::string</code></label></div>
+  <div class="answer" data-question="q32"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 39 -->
+  <div class="question">
+    <p><b>5.</b> When compiling a large C++ project with many files, which of the following is NOT always good advice?</p>
+    <div class="options"><label><input type="radio" name="q39" value="(A)">(A) Combined definitions into as few header files as possible</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(B)">(B) Avoid having header files include each other (circular includes)</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(C)">(C) Fully define template functions in the header file</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(D)">(D) Declare most regular functions in a header, define them in the .cpp file</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(E)">(E) Avoid polluting the global namespace in headers since it will cascade to filesthat include them</label></div>
+  <div class="answer" data-question="q39"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 21 -->
+  <div class="question">
+    <p><b>6.</b> What is a difference between pointers and references in C++? +</p>
+    <div class="options"><label><input type="radio" name="q21" value="(A)">(A) Pointers can point to multiple addresses at once, while references point to a single address</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(B)">(B) Pointers can change the value of an object, while references cannot</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(C)">(C) Pointers can be reassigned, while references cannot</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(D)">(D) Pointers can be set at run time, while references are locked in at compile time</label></div>
+  <div class="answer" data-question="q21"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 29 -->
+  <div class="question">
+    <p><b>7.</b> If you have an <code>int</code> variable called &quot;<code>id_num</code>&quot; and you want to convert it to a <code>std::string</code> called &quot;<code>id_name</code>&quot;, which of these lines will work?</p>
+    <div class="options"><label><input type="radio" name="q29" value="(A)">(A) <code>std::string id_name(id_num);</code></label></div>
+    <div class="options"><label><input type="radio" name="q29" value="(B)">(B) <code>std::string id_name = std::stol(id_num);</code></label></div>
+    <div class="options"><label><input type="radio" name="q29" value="(C)">(C) <code>std::string id_name = static_cast&lt;std::string&gt;(id_num);</code></label></div>
+    <div class="options"><label><input type="radio" name="q29" value="(D)">(D) <code>std::string id_name = std::to_string(id_num);</code></label></div>
+  <div class="answer" data-question="q29"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 36 -->
+  <div class="question">
+    <p><b>8.</b> What will the following code output?<br>
+&nbsp;&nbsp;<code>std::vector&lt;int&gt; v{1,2,3,4};</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; std::accumulate(v.begin()+1, v.end()-1, 0) &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q36" value="(A)">(A) <code>0</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(B)">(B) <code>10</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(C)">(C) <code>5</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(D)">(D) <code>9</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(E)">(E) <code>4</code></label></div>
+  <div class="answer" data-question="q36"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>9.</b> What does the following line of code do?<br>
+&nbsp;&nbsp;<code>assert(x == 10);</code></p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) It checks to see if <code>x</code> is equal to <code>10</code>; if not it prints an error and aborts the program</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) It checks to see if <code>x</code> is equal to <code>10</code>; if so it prints an error and aborts the program</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) It checks to see if <code>x</code> is equal to <code>10</code>; if not it writes a warning and keeps going</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) It is only a reminder to the programmer about what to expect about this region of code</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>10.</b> Which of the following is an illegal use of the keyword &quot;auto&quot;?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) <code>auto &amp; my_stream = std::cout;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) <code>auto i;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) <code>auto my_var = std::string(&quot;abcd&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) <code>auto my_str = std::string(&quot;Test.&quot;);</code></label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1J.js"></script>
+</body>
+</html>

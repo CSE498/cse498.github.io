@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="Quiz5EX.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 21 -->
+  <div class="question">
+    <p><b>1.</b> If a variable is declared as <code>constexpr</code>, will its value be set at compile time?</p>
+    <div class="options"><label><input type="radio" name="q21" value="(A)">(A) Yes, always</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(B)">(B) Only if you set the compiler to use optimizations</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(C)">(C) Only if it is also marked <code>static</code></label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(D)">(D) Usually, but it is up to the compiler and the programmer can never guarantee that it will.</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(E)">(E) Usually, but it is only guaranteed if the value is used elsewhere at compile time</label></div>
+  <div class="answer" data-question="q21"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 11 -->
+  <div class="question">
+    <p><b>2.</b> How do move semantics contribute to the efficiency of classes with value semantics?</p>
+    <div class="options"><label><input type="radio" name="q11" value="(A)">(A) They eliminate the need to manually define destructors as resources are recycled instead of freed.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(B)">(B) They enable the compiler to inline all member functions automatically.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(C)">(C) They enforce deep copies to avoid the need to ever share resources.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(D)">(D) They guarantee that no actual copies will ever occur.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(E)">(E) They allow the resources of temporary objects to be transferred rather than copied.</label></div>
+  <div class="answer" data-question="q11"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>3.</b> If you want to use value semantics on objects of a custom class, which of the following is most important to implement?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) A friend class</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) A copy constructor</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) A default constructor</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) An <code>operator&lt;&lt;</code> for printing</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(E)">(E) A virtual destructor</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 15 -->
+  <div class="question">
+    <p><b>4.</b> Which standard C++ library provides time-based tools that can be used for benchmarking?</p>
+    <div class="options"><label><input type="radio" name="q15" value="(A)">(A) <code>&lt;chrono&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(B)">(B) <code>&lt;measure&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(C)">(C) <code>&lt;record&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(D)">(D) <code>&lt;metrics&gt;</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(E)">(E) <code>&lt;snapshot&gt;</code></label></div>
+  <div class="answer" data-question="q15"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>5.</b> What is a common pitfall when writing a microbenchmark in C++?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) The operating system may require the code to be compiled in debug mode.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) Clocks are only guaranteed to be accurate to the second, while many tests you need to time will be much faster than that.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) Activating the timing code may alter how the CPU processes instructions, altering the algorithms being tested.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) The compiler might optimize away the code being benchmarked if its results are not used.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(E)">(E) The use of &lt;chrono&gt; may introduce significant overhead in the timing measurements.</label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 30 -->
+  <div class="question">
+    <p><b>6.</b> What is the standard way to implement custom memory allocation in C++?</p>
+    <div class="options"><label><input type="radio" name="q30" value="(A)">(A) Via the constructor and destructor of each class you want to customize</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(B)">(B) By replacing the <code>new</code> and <code>delete</code> operators</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(C)">(C) By replacing the <code>malloc</code> and <code>free</code> functions</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(D)">(D) You cannot implement custom global memory management</label></div>
+  <div class="answer" data-question="q30"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <p><b>7.</b> Which of the following factors would make it impossible to effectively profile a function?</p>
+    <div class="options"><label><input type="radio" name="q3" value="(A)">(A) Code marked <code>constexpr</code>, since we don&apos;t know if it will run at compile-time or run-time</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(B)">(B) Exceptions, since they may radically change the flow of code</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(C)">(C) Virtual functions, since we may not know which version of a function will be run</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(D)">(D) Lambdas, because they don&apos;t have a pre-defined type</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(E)">(E) User interaction, especially code that needs to wait for a user response</label></div>
+  <div class="answer" data-question="q3"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>8.</b> Many <code>std::string</code> implementations maintain an instance of the empty string rather than just using a null pointer. Why?</p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) It reduces the amount of memory needed to maintain strings.</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) It eliminates the need for a conditional to test if the string is empty.</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) The use of null pointers is fundamentally a bad programming practice.</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) It provides a built-in mechanism for overloading operators specifically for empty strings.</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(E)">(E) It allows empty strings to be garbage collected, reducing memory leaks.</label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 33 -->
+  <div class="question">
+    <p><b>9.</b> What is small string optimization?</p>
+    <div class="options"><label><input type="radio" name="q33" value="(A)">(A) Handling small strings in existing space without allocating extra memory</label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(B)">(B) Dedicating heap space to optimize empty strings (&quot;&quot;)</label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(C)">(C) Splitting longer strings into multiple shorter substrings, with some substrings being shared</label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(D)">(D) Handling small strings using preallocated memory shared among strings</label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(E)">(E) Compressing strings to require less memory</label></div>
+  <div class="answer" data-question="q33"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>10.</b> How does <code>if constexpr</code> differ from a regular <code>if</code> statement?</p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) Only the branch whose condition is a compile-time constant and evaluates to true is compiled.</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) It requires that both branches can be fully evaluated at compile time, similar to a <code>constexpr</code> function.</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) It allows dynamic evaluation of conditions during either compile time or runtime, depending on the inputs.</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) Both branches are compiled, but the result of the condition is pre-calculated at compile-time.</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(E)">(E) It only accepts integer constant expressions for its condition.</label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="Quiz5EX.js"></script>
+</body>
+</html>

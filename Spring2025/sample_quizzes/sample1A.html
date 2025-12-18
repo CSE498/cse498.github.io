@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1A.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>1.</b> Which of the following is an illegal use of the keyword &quot;auto&quot;?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) <code>auto my_var = std::string(&quot;abcd&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) <code>auto &amp; my_stream = std::cout;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) <code>auto i;</code></label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) <code>auto my_str = std::string(&quot;Test.&quot;);</code></label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 11 -->
+  <div class="question">
+    <p><b>2.</b> What is the output from the following code fragment?<br>
+&nbsp;&nbsp;<code>char var = &apos;a&apos;;</code><br>
+&nbsp;&nbsp;<code>{</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int var = 10;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; var;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; var &lt;&lt; std::endl;</code></p>
+    <div class="options"><label><input type="radio" name="q11" value="(A)">(A) <code>10a</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(B)">(B) <code>a</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(C)">(C) <code>a10</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(D)">(D) <code>10</code></label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(E)">(E) Nothing: it is illegal C++ code</label></div>
+  <div class="answer" data-question="q11"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 41 -->
+  <div class="question">
+    <p><b>3.</b> Which of the following is NOT a good reason a to define a member variable in the private section of a class definition?</p>
+    <div class="options"><label><input type="radio" name="q41" value="(A)">(A) It does not have a value that is meaningful outside of this class</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(B)">(B) We may want to change the internals of the class in the future and don&apos;t want other classes depending on it</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(C)">(C) It will only be used in classes derived from this one</label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(D)">(D) It is a pointer to memory that we don&apos;t want accessible outside of this class</label></div>
+  <div class="answer" data-question="q41"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>4.</b> You have two variables &apos;day&apos; and &apos;temperature&apos;.  You want to stop a loop if either day becomes greater than 365 or if temperature goes below zero.  You want to keep looping as long as neither of those conditions triggers.  What should your loop look like?</p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) <code>while (day &lt;= 365 || temperature &gt;= 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) <code>while (day &lt;= 365 &amp;&amp; temperature &gt;= 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) <code>while (day &gt; 365 &amp;&amp; temperature &lt; 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) <code>while (day &gt; 365 || temperature &lt; 0) {</code> <i>...code...</i> <code>}</code></label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 47 -->
+  <div class="question">
+    <p><b>5.</b> How is <code>std::npos</code> used in the standard library?</p>
+    <div class="options"><label><input type="radio" name="q47" value="(A)">(A) It means &quot;no possible output stream&quot; and is used when no <code>std::ostream</code> can be returned from a function</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(B)">(B) It means &quot;negative-positive operator switch&quot; and is used when a mathematical error has occurred</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(C)">(C) It means &quot;no position&quot; and is used when a return value for a position is invalid or out of range</label></div>
+    <div class="options"><label><input type="radio" name="q47" value="(D)">(D) It is a function for &quot;negate position&quot; and will rotate a position value to the other side of a string</label></div>
+  <div class="answer" data-question="q47"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 4 -->
+  <div class="question">
+    <p><b>6.</b> What is the value of y after these lines are run in C++?<br>
+&nbsp;&nbsp;<code>int x = 6;</code><br>
+&nbsp;&nbsp;<code>int y = 4 + x * 3 - 1;</code></p>
+    <div class="options"><label><input type="radio" name="q4" value="(A)">(A) 29</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(B)">(B) 21</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(C)">(C) 18</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(D)">(D) 20</label></div>
+  <div class="answer" data-question="q4"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>7.</b> Which of these numeric types is represented using the fewest bytes in C++?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) <code>float</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) <code>uint64_t</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) <code>char</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) <code>double</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) <code>long</code></label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 9 -->
+  <div class="question">
+    <p><b>8.</b> Assuming that the variable <code>cost</code> is set to 5.1, how can you print it as &quot;$5.10&quot;?</p>
+    <div class="options"><label><input type="radio" name="q9" value="(A)">(A) <code>std::cout &lt;&lt; std::setprecision(2) &lt;&lt; std::fixed &lt;&lt; &apos;$&apos; &lt;&lt; cost;</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(B)">(B) <code>std::cout &lt;&lt; std::as_dollars &lt;&lt; cost;</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(C)">(C) <code>std::cout &lt;&lt; &apos;$&apos; &lt;&lt; std::insert_dot(cost*100, 2);</code></label></div>
+    <div class="options"><label><input type="radio" name="q9" value="(D)">(D) <code>std::cout &lt;&lt; $cost;</code></label></div>
+  <div class="answer" data-question="q9"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>9.</b> What does the following line of code do?<br>
+&nbsp;&nbsp;<code>assert(x == 10);</code></p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) It checks to see if <code>x</code> is equal to <code>10</code>; if not it prints an error and aborts the program</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) It prevents the program from compiling if it is possible for x to be a value other than 10</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) It checks to see if <code>x</code> is equal to <code>10</code>; if so it prints an error and aborts the program</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) It checks to see if <code>x</code> is equal to <code>10</code>; if not it sets <code>x</code> to <code>10</code> to ensure safe execution</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 43 -->
+  <div class="question">
+    <p><b>10.</b> If we have an array defined as &quot;<code>int my_array[3117];</code>&quot;, one way to get a pointer to index 42 is &quot;<code>&amp;(my_array[42])</code>&quot;.  What is another way?</p>
+    <div class="options"><label><input type="radio" name="q43" value="(A)">(A) <code>my_array{42}</code></label></div>
+    <div class="options"><label><input type="radio" name="q43" value="(B)">(B) <code>my_array &amp; 42</code></label></div>
+    <div class="options"><label><input type="radio" name="q43" value="(C)">(C) <code>my_array + 42</code></label></div>
+    <div class="options"><label><input type="radio" name="q43" value="(D)">(D) <code>*(my_array[42])</code></label></div>
+  <div class="answer" data-question="q43"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1A.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1H.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 33 -->
+  <div class="question">
+    <p><b>1.</b> !If you are creating a C++ class, you can explicitly set certain functions to be default.  Which of the following is allowed in class called &quot;<code>DefaultTest</code>&quot;?</p>
+    <div class="options"><label><input type="radio" name="q33" value="(A)">(A) <code>DefaultTest(const std::string &amp;) = default;</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(B)">(B) <code>DefaultTest() = default;</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(C)">(C) <code>DefaultTest(DefaultTest, DefaultTest) = default;</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(D)">(D) <code>DefaultTest &amp; operator=(const std::string &amp;) = default;</code></label></div>
+  <div class="answer" data-question="q33"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>2.</b> Given that a Node is defined as:<br>
+&nbsp;&nbsp;<code>struct Node{  </code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int value = 0;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;Node * next = nullptr;</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+Consider the following code:<br>
+&nbsp;&nbsp;<code>Node * node = new Node;</code><br>
+&nbsp;&nbsp;<code>node-&gt;value = 100;</code><br>
+&nbsp;&nbsp;<code>node-&gt;next = new Node;</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; node-&gt;next-&gt;value;</code><br>
+&nbsp;&nbsp;<code>delete node;</code><br>
+&nbsp;&nbsp;<code>delete node-&gt;next;</code><br>
+Which of the following is a problem with this code:</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) The member variable <code>value</code> should be <code>unsigned</code> since it never goes negative</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) It may crash because <code>node</code> is used after it is deleted</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) It won&apos;t compile because no arguments were provided to the constructors in new</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) It prints <code>node-&gt;next-&gt;value</code> without ever setting it</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>3.</b> You have a &quot;<code>Book</code>&quot; class and want to add a member function called &quot;<code>CountWord</code>&quot; that takes a word as its parameter and returns the number of times that word was used.  Which of the following is the best way to declare this function so that it will function correctly and be callable in a variety of contexts?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) <code>int CountWord(const std::string &amp; word) const;</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) <code>int CountWord(const std::string &amp; word);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) <code>int CountWord(std::string * word);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) <code>int CountWord(std::string &amp; word);</code></label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(E)">(E) <code>int CountWord(std::string &amp; word) const;</code></label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 21 -->
+  <div class="question">
+    <p><b>4.</b> What is a difference between pointers and references in C++? +</p>
+    <div class="options"><label><input type="radio" name="q21" value="(A)">(A) References must always point to valid memory, while pointers do not</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(B)">(B) References can be used as parameters in function calls, but pointers cannot</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(C)">(C) Pointers can be set at run time, while references are locked in at compile time</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(D)">(D) Pointers can change the value of an object, while references cannot</label></div>
+  <div class="answer" data-question="q21"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 4 -->
+  <div class="question">
+    <p><b>5.</b> What is the value of y after these lines are run in C++?<br>
+&nbsp;&nbsp;<code>int x = 6;</code><br>
+&nbsp;&nbsp;<code>int y = 4 + x * 3 - 1;</code></p>
+    <div class="options"><label><input type="radio" name="q4" value="(A)">(A) 29</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(B)">(B) 6</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(C)">(C) 20</label></div>
+    <div class="options"><label><input type="radio" name="q4" value="(D)">(D) 21</label></div>
+  <div class="answer" data-question="q4"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 42 -->
+  <div class="question">
+    <p><b>6.</b> What is a difference between a native array (such as &quot;<code>int a[100]</code>&quot;) and std::vector (such as &quot;<code>std::vector&lt;int&gt; v(100)</code>&quot;)?</p>
+    <div class="options"><label><input type="radio" name="q42" value="(A)">(A) The first index in a native array is 1, but the first index in a vector is 0</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(B)">(B) Vectors can be any number of dimensions, but arrays are limited to being one dimensional</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(C)">(C) A vector has member functions, but a native array does not</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(D)">(D) A native array can be used in a range-based for loop, but a vector cannot</label></div>
+  <div class="answer" data-question="q42"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 44 -->
+  <div class="question">
+    <p><b>7.</b> If I created an array of strings with &quot;<code>std::string word_list[5000]</code>&quot;, what should I do when I&apos;m done using word_list?</p>
+    <div class="options"><label><input type="radio" name="q44" value="(A)">(A) <code>delete [] word_list</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(B)">(B) <code>delete word_list[]</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(C)">(C) <code>delete word_list</code></label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(D)">(D) Let the compiler take care of it when it falls out of scope</label></div>
+  <div class="answer" data-question="q44"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 18 -->
+  <div class="question">
+    <p><b>8.</b> Which of the following is NOT a legal function declaration</p>
+    <div class="options"><label><input type="radio" name="q18" value="(A)">(A) <code>std::string MyFun(std::string name=default);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(B)">(B) <code>const std::string &amp; MyFun(std::string);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(C)">(C) <code>void MyFun(int x, int y);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(D)">(D) <code>std::string MyFun(std::string name=&quot;default&quot;);</code></label></div>
+  <div class="answer" data-question="q18"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 14 -->
+  <div class="question">
+    <p><b>9.</b> What is the value of var2 after the following code executes?<br>
+&nbsp;&nbsp;<code>int var1 = 5;</code><br>
+&nbsp;&nbsp;<code>var1 += 5;</code><br>
+&nbsp;&nbsp;<code>int var2 = 2 * ++var1;</code></p>
+    <div class="options"><label><input type="radio" name="q14" value="(A)">(A) 10</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(B)">(B) 22</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(C)">(C) 20</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(D)">(D) 21</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(E)">(E) Nothing: it is illegal C++ code</label></div>
+  <div class="answer" data-question="q14"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>10.</b> Which of these numeric types is represented using the fewest bytes in C++?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) <code>int</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) <code>float</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) <code>long long</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) <code>double</code></label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) <code>char</code></label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1H.js"></script>
+</body>
+</html>

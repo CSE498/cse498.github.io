@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="sample1C.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 10 -->
+  <div class="question">
+    <p><b>1.</b> What is the output from the following code fragment?<br>
+&nbsp;&nbsp;<code>int var = 5;</code><br>
+&nbsp;&nbsp;<code>switch (var) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;case 1: std::cout &lt;&lt; &quot;1&quot;; break;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;case 2: std::cout &lt;&lt; &quot;2&quot;; break;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;case 3: std::cout &lt;&lt; &quot;3&quot;;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;case 4: std::cout &lt;&lt; &quot;4&quot;; break;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;case 5: std::cout &lt;&lt; &quot;5&quot;;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;default: std::cout &lt;&lt; &quot;d&quot;;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q10" value="(A)">(A) <code>5</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(B)">(B) <code>5d</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(C)">(C) <code>d</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(D)">(D) <code>12345d</code></label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(E)">(E) Nothing: <code>switch</code> is not a legal C++ keyword.</label></div>
+  <div class="answer" data-question="q10"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 18 -->
+  <div class="question">
+    <p><b>2.</b> Which of the following is NOT a legal function declaration</p>
+    <div class="options"><label><input type="radio" name="q18" value="(A)">(A) <code>const std::string &amp; MyFun(std::string);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(B)">(B) <code>std::string MyFun(std::string name=&quot;default&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(C)">(C) <code>void MyFun(int x, int y);</code></label></div>
+    <div class="options"><label><input type="radio" name="q18" value="(D)">(D) <code>std::string MyFun(std::string name=default);</code></label></div>
+  <div class="answer" data-question="q18"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 34 -->
+  <div class="question">
+    <p><b>3.</b> Given the following templated function:<br>
+&nbsp;&nbsp;<code>template &lt;typename T&gt;</code><br>
+&nbsp;&nbsp;<code>void PrintBoth(T in1, T in2) {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; in1 &lt;&lt; &quot;, &quot; &lt;&lt; in2 &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>}</code><br>
+Which function call will cause a compilation error?</p>
+    <div class="options"><label><input type="radio" name="q34" value="(A)">(A) <code>PrintBoth(nullptr, nullptr);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(B)">(B) <code>PrintBoth(&quot;12&quot;, &quot;34&quot;);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(C)">(C) <code>PrintBoth(12, 34);</code></label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(D)">(D) <code>PrintBoth(&quot;12&quot;, 34);</code></label></div>
+  <div class="answer" data-question="q34"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>4.</b> You have two variables &apos;day&apos; and &apos;temperature&apos;.  You want to stop a loop if either day becomes greater than 365 or if temperature goes below zero.  You want to keep looping as long as neither of those conditions triggers.  What should your loop look like?</p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) <code>while (day &lt;= 365 || temperature &gt;= 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) <code>while (day &gt; 365 &amp;&amp; temperature &lt; 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) <code>while (day &gt; 365 || temperature &lt; 0) {</code> <i>...code...</i> <code>}</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) <code>while (day &lt;= 365 &amp;&amp; temperature &gt;= 0) {</code> <i>...code...</i> <code>}</code></label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>5.</b> Given that a Node is defined as:<br>
+&nbsp;&nbsp;<code>struct Node{  </code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int value = 0;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;Node * next = nullptr;</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+Consider the following code:<br>
+&nbsp;&nbsp;<code>Node * node = new Node;</code><br>
+&nbsp;&nbsp;<code>node-&gt;value = 100;</code><br>
+&nbsp;&nbsp;<code>node-&gt;next = new Node;</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; node-&gt;next-&gt;value;</code><br>
+&nbsp;&nbsp;<code>delete node;</code><br>
+&nbsp;&nbsp;<code>delete node-&gt;next;</code><br>
+Which of the following is a problem with this code:</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) It won&apos;t compile because &quot;<code>nullptr</code>&quot; was never defined</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) The member variable <code>value</code> should be <code>unsigned</code> since it never goes negative</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) It may crash because <code>node</code> is used after it is deleted</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) It prints <code>node-&gt;next-&gt;value</code> without ever setting it</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 49 -->
+  <div class="question">
+    <p><b>6.</b> What is the output of the following program:<br>
+&nbsp;&nbsp;<code>std::map&lt;int, std::string&gt; star_map;</code><br>
+&nbsp;&nbsp;<code>star_map[0] += &quot;*&quot;;</code><br>
+&nbsp;&nbsp;<code>star_map[2] += &quot;*&quot;;</code><br>
+&nbsp;&nbsp;<code>star_map[3] += &quot;*&quot;;</code><br>
+&nbsp;&nbsp;<code>star_map[0] += &quot;*&quot;;</code><br>
+&nbsp;&nbsp;<code>std::cout &lt;&lt; star_map[0] &lt;&lt; &quot;-&quot; &lt;&lt; star_map[1] &lt;&lt; &quot;-&quot; &lt;&lt; star_map[2];</code></p>
+    <div class="options"><label><input type="radio" name="q49" value="(A)">(A) <code>*--**</code></label></div>
+    <div class="options"><label><input type="radio" name="q49" value="(B)">(B) <code>**--*</code></label></div>
+    <div class="options"><label><input type="radio" name="q49" value="(C)">(C) <code>***--</code></label></div>
+    <div class="options"><label><input type="radio" name="q49" value="(D)">(D) Nothing; it will crash because star_map[1] can&apos;t be printed.</label></div>
+  <div class="answer" data-question="q49"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 5 -->
+  <div class="question">
+    <p><b>7.</b> Given the following function, which one of the following claims is incorrect? (i.e., find the FALSE statement)<br>
+&nbsp;&nbsp;<code>int CrazyFun(int &amp; in) { return ++in * 10; }</code></p>
+    <div class="options"><label><input type="radio" name="q5" value="(A)">(A) If x is 0 and I call <code>CrazyFun(x)</code>, x will then be 1</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(B)">(B) If x is 0 and I call <code>CrazyFun(x)</code> it will return 10</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(C)">(C) if x is 5 and I call <code>CrazyFun(x)</code>, x will then be 6<br>
+&gt;* This is undefined behavior; you can&apos;t know the return value.</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(D)">(D) If x is 10 and I call <code>CrazyFun(x)</code> it will return 100</label></div>
+  <div class="answer" data-question="q5"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 1 -->
+  <div class="question">
+    <p><b>8.</b> Which of the following is NOT a correct way to indicate a newline at the end of &quot;Hello World!&quot;?</p>
+    <div class="options"><label><input type="radio" name="q1" value="(A)">(A) <code>std::cout &lt;&lt; &quot;Hello World!\endl&quot;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(B)">(B) <code>std::cout &lt;&lt; &quot;Hello World!&quot;; std::cout &lt;&lt; &quot;\n&quot;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(C)">(C) <code>std::cout &lt;&lt; &quot;Hello World!\n&quot;;</code></label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(D)">(D) <code>std::cout &lt;&lt; &quot;Hello World!&quot; &lt;&lt; std::endl;</code></label></div>
+  <div class="answer" data-question="q1"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>9.</b> If you make a function call TestFunction(&apos;a&apos;) and all of the following options are available, which version of the function will be called?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) <code>void TestFunction(int param1, int param2=0);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) <code>void TestFunction(char param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) <code>void TestFunction(double param);</code></label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) <code>void TestFunction(std::string param);</code></label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 50 -->
+  <div class="question">
+    <p><b>10.</b> What is the difference between the keyword <code>struct</code> and the keyword <code>class</code>?</p>
+    <div class="options"><label><input type="radio" name="q50" value="(A)">(A) A <code>struct</code> defaults to public members; a <code>class</code> defaults to private members</label></div>
+    <div class="options"><label><input type="radio" name="q50" value="(B)">(B) A <code>struct</code> is not allowed to have member functions, but a <code>class</code> is allowed to</label></div>
+    <div class="options"><label><input type="radio" name="q50" value="(C)">(C) Basic mathematical operations automatically run on <code>struct</code>, but not <code>class</code></label></div>
+    <div class="options"><label><input type="radio" name="q50" value="(D)">(D) A <code>struct</code> can only have public members, a <code>class</code> can also have private members</label></div>
+  <div class="answer" data-question="q50"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="sample1C.js"></script>
+</body>
+</html>
