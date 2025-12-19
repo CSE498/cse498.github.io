@@ -37,7 +37,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
-| 2/16/26  | **Template Rules** <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
+| 2/16/26  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
 | 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | <b style="color: blue">Quiz:</b> 3a |
 | **Week 7** | | |
 | 2/23/26 | **STATUS UPDATES** | <b style="color: red">Due:</b> Code Reviews |
@@ -67,7 +67,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 4/1/26  | **Concepts** <!--- <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) --> | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | | |
 | 4/6/26 | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
-| 4/8/26 | **Attributes** and **User-defined Literals** <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) | <b style="color: blue">Quiz:</b> 5b |
+| 4/8/26 | **Attributes** and **User-defined Literals** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | | |
 | 4/13/26 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | <b style="color: red">Due:</b> Efficiency reports |
 | 4/15/26 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | <b style="color: blue">Quiz:</b> redos |
