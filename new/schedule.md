@@ -9,28 +9,31 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 
 ## Unit I: C++ Fundamentals
 
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
+| Date     | Discussion Topic                    |
+|:--------:|-------------------------------------|
 | **Week 1** | | |
-| 1/12/26  | **A review of 232 and 335**         | |
-| 1/14/26  | **Tools: Compiler Features and Static Analysis** | <b style="color: blue">Quiz:</b> 1a |
-|          | *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) | |
-|          | *Watch*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) | |
-|          | *Watch*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | |
+| 1/12/26  | **A review of 232 and 335**         |
+| 1/14/26  | **Tools: Compiler Features and Static Analysis** |
+|          | *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) |
+|          | *Watch*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) |
+|          | *Watch*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) |
+|          | <b style="color: blue">Quiz:</b> 1a |
 | **Week 2** | |
-| 1/19/26   | **NO CLASS** (MLK Day)            | |
-| 1/21/26   | **C++ Core Guidelines** | <b style="color: green">Out:</b> Project Group Assignments<br><b style="color: blue">Quiz:</b> 1b |
-|           | *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | |
+| 1/19/26   | **NO CLASS** (MLK Day) |
+| 1/21/26   | **C++ Core Guidelines** |
+|           | *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) |
+|           | <b style="color: green">Out:</b> Project Group Assignments<br><b style="color: blue">Quiz:</b> 1b |
 | **Week 3** | |
-| 1/26/26  | **C++ Terminology and Basic Concepts** | |
-|          | *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) | |
-|          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) | |
-|          | *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) | |
-|          | *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | |
-| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen** | <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
-|          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) | |
-|          | *Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) | |
-|          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) | |
+| 1/26/26  | **C++ Terminology and Basic Concepts** |
+|          | *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) |
+|          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
+|          | *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) |
+|          | *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> |
+| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen** |
+|          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) |
+|          | *Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) |
+|          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |
+|          | <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
 
 ## Unit II: Writing Reliable Code
 
