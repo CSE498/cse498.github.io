@@ -5,7 +5,7 @@ layout: default
 
 # Tentative schedule
 
-This course is divided up into six units, each of which is two to three weeks long.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 3 pm to 4:50pm in STEM 2202); in addition to the discussion of material from the videos (which may include elaboration on content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, or time for the project groups to work together.
+This course is divided up into five units, covering a range of C\+\+ topics.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 3 pm to 4:50pm in STEM 2202); in addition to the discussion of material from the videos (which may include elaboration on content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, or time for the project groups to work together.
 
 ## Unit I: C++ Fundamentals
 
@@ -58,7 +58,7 @@ This course is divided up into six units, each of which is two to three weeks lo
 | 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
 | 3/25/26  | **Deep Dive: Implementing `std::string`** <!--- <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) --> | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes <br> <b style="color: blue">Quiz:</b> 4b <br><b style="color: green">Out:</b> Code review assignments and rubrics |
 
-## Unit V: Advanced Topics
+## Unit V: Advanced Topics and Wrap-up
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
@@ -71,11 +71,6 @@ This course is divided up into six units, each of which is two to three weeks lo
 | **Week 13** | | |
 | 4/13/26 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | <b style="color: red">Due:</b> Efficiency reports |
 | 4/15/26 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | <b style="color: blue">Quiz:</b> redos |
-
-## Unit VI: Wrap Up
-
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
 | **Week 14** | | |
 | 4/20/26 | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
 | 4/22/26 | **FINAL PRESENTATIONS** | |
