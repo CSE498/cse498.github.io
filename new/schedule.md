@@ -50,46 +50,69 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 
 ## Unit III: Writing Generic Code
 
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
-| **Week 6** | | |
-| 2/16/26  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
-| 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | <b style="color: blue">Quiz:</b> 3a |
-| **Week 7** | | |
-| 2/23/26 | **STATUS UPDATES** | <b style="color: red">Due:</b> Code Reviews |
-| 2/25/26 | **STATUS UPDATES** | <b style="color: red">Due FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
-| **SPRING BREAK!** | (no class this week) | |
+| Date     | Discussion Topic                    |
+|:--------:|-------------------------------------|
+| **Week 6** | |
+| 2/16/26  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> |
+|          | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes |
+|          | <b style="color: green">Out:</b> Code review assignments and rubrics |
+| 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> |
+|          | <b style="color: blue">Quiz:</b> 3a |
+| **Week 7** | |
+| 2/23/26 | **STATUS UPDATES** |
+|         | <b style="color: red">Due:</b> Code Reviews |
+| 2/25/26 | **STATUS UPDATES** |
+|         | <b style="color: red">Due FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
+| **SPRING BREAK!** | (no class this week) |
 | **Week 8** | | |
-| 3/9/26 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | |
-| 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
+| 3/9/26  | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> |
+| 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> |
+|         | <b style="color: blue">Quiz:</b> 3b |
+|         | <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
 
 ## Unit IV: Writing Efficient Code
 
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
-| **Week 9** | | |
-| 3/16/26 | **Compile-time execution** <!--- <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
-| 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | <b style="color: blue">Quiz:</b> 4a |
-| **Week 10** | | |
-| 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
-| 3/25/26  | **Deep Dive: Implementing `std::string`** <!--- <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) --> | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes <br> <b style="color: blue">Quiz:</b> 4b <br><b style="color: green">Out:</b> Code review assignments and rubrics |
+| Date     | Discussion Topic                    |
+|:--------:|-------------------------------------|
+| **Week 9** | |
+| 3/16/26 | **Compile-time execution** <!--- <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> |
+|         | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
+| 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
+|         |<b style="color: blue">Quiz:</b> 4a |
+| **Week 10** | |
+| 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> |
+|         | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
+| 3/25/26 | **Deep Dive: Implementing `std::string`** <!--- <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) --> |
+|         | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes |
+|         | <b style="color: blue">Quiz:</b> 4b |
+|         | <b style="color: green">Out:</b> Code review assignments and rubrics |
 
 ## Unit V: Advanced Topics and Wrap-up
 
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
-| **Week 11** | | |
-| 3/30/26  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | <b style="color: red">Due:</b> Specs and tests for main C++ App|
-| 4/1/26  | **Concepts** <!--- <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) --> | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
-| **Week 12** | | |
-| 4/6/26 | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
-| 4/8/26 | **Attributes** and **User-defined Literals** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> | <b style="color: blue">Quiz:</b> 5b |
-| **Week 13** | | |
-| 4/13/26 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | <b style="color: red">Due:</b> Efficiency reports |
-| 4/15/26 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | <b style="color: blue">Quiz:</b> redos |
-| **Week 14** | | |
-| 4/20/26 | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
-| 4/22/26 | **FINAL PRESENTATIONS** | |
-| **Week 15** | (Finals Week) | |
-| 4/29/26 | **FINAL PRESENTATIONS** | Wednesday, April 29th, 3pm-5pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
-| 5/1/26 | FINAL CORRECTIONS | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |
+| Date     | Discussion Topic                    |
+|:--------:|-------------------------------------|
+| **Week 11** | |
+| 3/30/26  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> |
+|          | <b style="color: red">Due:</b> Specs and tests for main C++ App|
+| 4/1/26   | **Concepts** <!--- <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) --> |
+|          | <b style="color: blue">Quiz:</b> 5a | 
+|          | <b style="color: red">Due:</b> Code Reviews |
+| **Week 12** | |
+| 4/6/26   | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> |
+|          | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
+| 4/8/26   | **Attributes** and **User-defined Literals** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> |
+|          | <b style="color: blue">Quiz:</b> 5b |
+| **Week 13** | |
+| 4/13/26  | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> |
+|          | <b style="color: red">Due:</b> Efficiency reports |
+| 4/15/26  | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> |
+|          | <b style="color: blue">Quiz:</b> redos |
+| **Week 14** | |
+| 4/20/26  | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> |
+|          | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
+| 4/22/26  | **FINAL PRESENTATIONS** |
+| **Week 15** | (Finals Week) |
+| 4/29/26  | **FINAL PRESENTATIONS** |
+|          | Wednesday, April 29th, 3pm-5pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
+| 5/1/26   | FINAL CORRECTIONS |
+|          | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |
