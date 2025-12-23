@@ -37,14 +37,16 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 
 ## Unit II: Writing Reliable Code
 
-| Date     | Discussion Topic                    |  Notes |
-|:--------:|-------------------------------------| ------ |
-| **Week 4** | | |
-| 2/2/26  | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  | |
-| 2/4/26  | **Tools: Setting up Testing Frameworks** <!--- <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | <b style="color: blue">Quiz:</b> 2a<br><b style="color: red">Due:</b> Initial working C\+\+ classes, spec comments (extended to Friday (02/07/2025))|
-| **Week 5** | | |
-| 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> | |
-| 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> | <b style="color: blue">Quiz:</b> 2b<br><b style="color: red">Due:</b> Test suite, class asserts |
+| Date     | Discussion Topic                    |
+|:--------:|-------------------------------------|
+| **Week 4** | |
+| 2/2/26  | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  |
+| 2/4/26  | **Tools: Setting up Testing Frameworks** <!--- <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> |
+|         | <b style="color: blue">Quiz:</b> 2a<br><b style="color: red">Due:</b> Initial working C\+\+ classes, spec comments |
+| **Week 5** | |
+| 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
+| 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> |
+|          | <b style="color: blue">Quiz:</b> 2b<br><b style="color: red">Due:</b> Test suite, class asserts |
 
 ## Unit III: Writing Generic Code
 
@@ -89,5 +91,5 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 4/20/26 | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
 | 4/22/26 | **FINAL PRESENTATIONS** | |
 | **Week 15** | (Finals Week) | |
-| 4/29/26 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
+| 4/29/26 | **FINAL PRESENTATIONS** | Wednesday, April 29th, 3pm-5pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
 | 5/1/26 | FINAL CORRECTIONS | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |
