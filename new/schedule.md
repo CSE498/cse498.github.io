@@ -24,14 +24,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |           | <b style="color: green">Out:</b> Project Group Assignments<br><b style="color: blue">Quiz:</b> 1a |
 | **Week 3** | |
 | 1/26/26  | **C++ Terminology and Basic Concepts** |
-<!--- |          | *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) |
-|          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
-|          | *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) |
-|          | *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast)  ALT: (https://leimao.github.io/blog/CPP-Casts/) | -->
 | 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen** |
-<!--- |          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) |
-|          | *Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) |
-|          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |-->
 |          | <b style="color: blue">Quiz:</b> 1b<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
 
 ## Unit II: Writing Reliable Code
