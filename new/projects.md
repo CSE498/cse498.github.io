@@ -10,9 +10,19 @@ layout: default
 
 # <span id="overview">Project Overview</span>
 
-The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The first two check-ins will be worth 10 points each, while the final check-in at the end of the semester will be worth 20 points.
+The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying videos.
 
-Your project grades will be based on three factors.  The first two of these will be weighted evenly:
+| Due Date     | Milestone                                                | Points               |
+| ----         | ---------                                                | ---                  |
+| Every Friday | Weekly updates                                           | 12 total (_updates_) |
+| Mon, Feb 16  | Code for working C\+\+ classes + status video            | 10 (_project_)       |
+| Mon, Feb 23  | Peer reviews                                             | 5 (_peer review_)    |
+| Wed, Mar 25  | Code for advanced C\+\+ classes + initial working module | 10 (_project_)       |
+| Wed, Apr 1   | Peer reviews                                             | 5 (_peer review_)    |
+| Wed, Apr 22  | Code for final module + project video                    | 20 (_project_)       |
+| Wed, Apr 29  | Peer reviews                                             | 5 (_peer review_)    |
+
+Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
 ## 1. Functionality
 
@@ -53,7 +63,7 @@ Additionally, we reserve the right to give out:
 
 # <span id="groups">Project Groups</span>
 
-You will be in a group of five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
+You will be in a group of four or five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
@@ -95,7 +105,7 @@ For each of the assigned class modules, you should include in your writeup:
 
 ### Design
 - **Informative identifiers**.  Are names of variables, functions, types, etc, clear and helpful for a reader to understand the code.  For example, if you need to track the number of students in a class, good variable names might be `num_students` or `student_count`, whereas you don't want something too short to be confusing (like `N` or `num_s`) or too verbose that it's annoying (like `total_number_of_students_in_class`).
-- **Avoids "magic numbers"**.  Similar to above, you should use constant variables with informative names instead of arbitrary numbers throughout your code, and instead set constants.  For example, I have a virtual CPU class with 6 virtual registers, but rather than using "6" throughout, I set `static constexpr size_t NUM_REGS = 6;` at the top of the class to make it clearer what the 6 refers to (and, in this case so that I can change it if needed.)
+- **Avoids "magic numbers"**.  Similar to above, you should use constant variables with informative names instead of arbitrary numbers throughout your code, and instead set constants.  For example, I have a virtual CPU class with 6 virtual registers, but rather than using "6" throughout, I set `static constexpr size_t NUM_REGS = 6;` at the top of the class to make it clearer what the 6 refers to (and, in this case so that I can change it easily if needed.)
 - **Intuitive and functional interface**. Does the class expose only the necessary functionality, and is it easy to use correctly while hard to misuse? Are member variables private?  Is there an obvious function to use for common tasks, with relevant default arguments for parameters? Are any of the functions misleading, like potentially confusing uses of operator overloading?  (Feel free to provide suggestions on how to improve the interface for better usability)
 - **Informative comments**. Do comments help someone new to the code understand it more rapidly?  Did the coder properly avoid redundant or obvious comments that clutter the code (e.g., `++x; // increments x`).  In general, comments should focus on _why_ code is helpful, rather than belabor _what_ that code does (though with complex code, the latter is useful too.)
 - **Consistent style**. Are style choices (like naming schemes, brace placement, etc) used in a consistent and informative manner throughout the code?  Is there consistency in how different naming conventions are used? (e.g., `camelCase`, `snake_case`, `ALL_CAPS`, or `PascalCase`, or prefixes and suffixes, like `m_` at the beginning of a member variable.).
