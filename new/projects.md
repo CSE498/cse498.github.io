@@ -12,21 +12,24 @@ layout: default
 
 The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying videos.
 
-| Due Date     | Milestone                                                | Points               |
+| Due Date     | Deliverable                                              | Points               |
 | ----         | ---------                                                | ---                  |
 | Every Friday | Weekly updates                                           | 12 total (_updates_) |
 | Mon, Feb 16  | Code for working C\+\+ classes + status video            | 10 (_project_)       |
 | Mon, Feb 23  | Peer reviews                                             | 5 (_peer review_)    |
+| Fri, Feb 27  | Fixes based on peer reviews before instructor grading    |                      |
 | Wed, Mar 25  | Code for advanced C\+\+ classes + initial working module | 10 (_project_)       |
 | Wed, Apr 1   | Peer reviews                                             | 5 (_peer review_)    |
+| Mon, Feb 6   | Fixes based on peer reviews before instructor grading    |                      |
 | Wed, Apr 22  | Code for final module + project video                    | 20 (_project_)       |
-| Wed, Apr 29  | Peer reviews                                             | 5 (_peer review_)    |
+| Mon, Apr 27  | Peer reviews                                             | 5 (_peer review_)    |
+| Thu, Apr 30  | Fixes based on peer reviews before instructor grading    |                      |
 
 Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
 ## 1. Functionality
 
-Are you able to develop the full set of features for your project, ensure reliability and efficiency, and give a proper user experience?  The points for functionality will be independent of what your code looks like, only that an end-user will find your program to be effective at meeting its goals.
+Did you develop the full set of features for your project, ensure reliability and efficiency, and provide a proper user experience?  The points for functionality will be independent of what your code looks like, only that your code or application meets its goals.
 
 Throughout the semester we will develop C++ classes and then use them as the bases for a larger application.  You will earn points based on how well your meet each set of project goals.  We will have a series of milestones over the course of the semester involving building modules that you will use in the final project. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
 
@@ -39,8 +42,6 @@ While the ultimate functionality of your code is clearly important, being able t
 + **_Code Readability_**: Is your code easy for others to read and understand based on your maintenance of documentation, appropriate code comments, and a clean layout with short clear functions?
 + **_Code Modularity_**: Have you built useful functions and classes that are organized with a meaningful file and directory structure? 
 + **_Code Reliability Checks_** Do you have thorough unit test coverage and effective use of in-code asserts and/or other error checking. Do you avoid undefined behaviors?
-
-You will be getting regular in-class advice and feedback on these topics throughout the semester, including peer reviews from fellow students.  A total of up to 10 points will be awarded during development and up to an additional 10 for the final product.
 
 In addition to functionality and code quality, we will also be assessing your specific contributions and us this as a multiplier applied to the other points:
 
@@ -60,6 +61,8 @@ Additionally, we reserve the right to give out:
 
 <!-- + **_Exemplary Contributor_**: You went substantially beyond project requirements, turning in code that is impressive on all levels.  You will receive the full 45 points on the project, but this qualification also recognizes the incredible effort that you put forth with an "Exemplary Contributor" award that can be added to a resume.  We are unlikely to give more than one of these per semester. -->
 
+You will be getting regular in-class advice and feedback on your projects throughout the semester, including peer reviews from fellow students.
+
 
 # <span id="groups">Project Groups</span>
 
@@ -74,19 +77,33 @@ To simplify working together and allowing all students in the course to be able 
 
 # <span id="topics">Project Topics</span>
 
-Each group will be assigned a number of initial class modules to develop proportional to the number of students in that group. While each student should plan to take the lead on at least one of the modules, they should participate in the development of all of them.  Indeed, some of the modules may be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
+Initially, each group will be assigned a set of **C\+\+ classes** to develop, one per student in that group. While each student should take the lead on one of the classes, they should help in the development of all of them.  Indeed, some of the classes may be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester.
 
-Some example modules include:
+Some example classes include:
 * Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
 * Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
 * Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
 * Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
 * And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
 
-# Write-up for Initial Class Development
+While developing these classes, you will also be designing a module for a **large software project**.  To provide a real-world experience, sets of 7 to 8 groups (which we will call "companies") will collaboratively produce a single, over-arching software framework.  Each group will work on a single module to come together into a larger, agent-based system.  Each component you build will serve as a piece of a larger puzzle.  Sets of modules will interact through an API that company collectively establishes, allowing for some very different executables, depending on which modules are used. By the end of our course, our goal is for each company to have a functioning system where each module, be it a world, an agent, or an interface, seamlessly integrates with the others.
+
+What might these larger agent-based systems be?  Possibilities include:
+
+- A traffic simulator where worlds consist of roads and traffic controllers, while agents are individuals trying to reach their destination.  Interfaces may allow users to set rules for the traffic controllers or alter road availability to identify their effects on flow patterns.
+
+- An ecology simulator, where agents are organisms of various species that interact in a variety of manners (such as predators and prey) and worlds determine terrain and resource availability.  An interface may track statistics from the world to indicate ecology health.
+
+- A world that builds a procedurally generated dungeon with agents that are orcs, trolls, dragons, or other types of dungeon dwellers.  An interface might allow a player to move a character through the dungeon 
+
+- An AI testing arena with progressively harder challenges using realist physics and AI agents that try to defeat those challenges.  Humans can try those challenges too through the interface.
+
+- A social game world where users can talk to each other, build their own structures, and script their own bots to travel around and perform tasks.
+
+# Write-up for Initial C\+\+ Class Development
 ### Due: Jan 28, 2026
 
-For each of the assigned class modules, you should include in your writeup:
+For each of the assigned classes, you should include in your writeup:
 
 1) A **class description**, including what it's goals are, and what it's high-level functionality should look like.  This does not need to perfectly match the description you were given, but it should be in the same general spirit unless you confirm any changes with the instructors ahead of time.
 
