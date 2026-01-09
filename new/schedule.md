@@ -51,15 +51,15 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> |
 |          | <b style="color: blue">Quiz:</b> 3a |
 | **Week 7** | |
-| 2/23/26 | **STATUS UPDATES** (*Normal class time AND 5-7pm*) |
+| 2/23/26 | **Status Discussions** (*Normal class time AND optional 5-7pm for additional team discussions*) |
 |         | <b style="color: red">Due:</b> Code Reviews |
-| 2/25/26 | **STATUS UPDATES** (*Normal class time AND 5-7pm*) |
-|         | <b style="color: red">Milestone FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
+| 2/25/26 | **Status Discussions** (*Normal class time AND optional 5-7pm for additional team discussions*) |
+|         | <b style="color: red">Milestone:</b> Specs and tests for advanced C\+\+ classes |
+|         | <b style="color: blue">Quiz:</b> 3b |
 | **SPRING BREAK!** | (no class this week) |
 | **Week 8** | | |
 | 3/9/26  | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> |
 | 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> |
-|         | <b style="color: blue">Quiz:</b> 3b |
 |         | <b style="color: red">Milestone:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
 
 ## Unit IV: Writing Efficient Code
@@ -98,13 +98,13 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 4/13/26  | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> |
 |          | <b style="color: red">Milestone:</b> Efficiency analyses |
 | 4/15/26  | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> |
-|          | <b style="color: blue">Quiz:</b> redos |
 | **Week 14** | |
-| 4/20/26  | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> |
+| 4/20/26  | **Catchup** or **Special Topics** |
 |          | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
-| 4/22/26  | **FINAL PRESENTATIONS** |
+| 4/22/26  | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> |
 | **Week 15** | (Finals Week) |
-| 4/29/26  | **FINAL PRESENTATIONS** |
+| 4/29/26  | **Project Demonstrations and Final Quiz Redos** |
 |          | Wednesday, April 29th, 3pm-5pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
+|          | <b style="color: blue">Quiz:</b> redos |
 | 5/1/26   | FINAL CORRECTIONS |
 |          | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |
