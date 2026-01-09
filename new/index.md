@@ -19,7 +19,7 @@ layout: default
 | Project repo | [https://github.com/CSE498/Spring2026](https://github.com/CSE498/Spring2026) |
 
 ### Required Technology
-Students are expected to bring a laptop running a modern operating system (Windows, MacOS or Linux) to each class session. This laptop must be capable of running a modern C\+\+ compiler and have access to the web.
+Students are expected to bring a laptop running a modern operating system (Windows or MacOS) to each class session. This laptop must be capable of running a modern C\+\+ compiler and have access to the web.
 
 ### Description
 Students will develop large C\+\+ projects and gain expertise with the language. Topics include modern features of C\+\+, effective use of the standard library, and developing custom libraries, with links to other areas of computer science. Emphasis will be placed on writing code that is secure, reliable, efficient, and generic, including good memory management practices, avoiding undefined behavior, automating through testing, and up-to-date documentation. 
@@ -56,10 +56,12 @@ Each area is important: If you get fewer than half the points in any single cate
 We reserve the right to adjust these numbers (almost certainly in your favor) to account for an unexpected challenges during the semester.
 
 ### [Project](projects.html)
-You will work in a group on a semester-long project. You may earn up to 40 points this way, based on both consistent progress and the quality of the final product. Your project grade will be based on three main factors: Functionality (Meeting the project goals and creating a positive user experience), Code Quality (Consistent style, documentation, function modularity, file layout, test coverage, etc.), and your Individual Contributions (Teammate ratings, info in weekly progress reports, and git logs).
+You will work in a group on a semester-long project. You may earn up to 40 points this way, based on both consistent progress, project presentations, and the quality of the final product. Your project grade will be based on three main factors: Functionality (Meeting the project goals and creating a positive user experience), Code Quality (Consistent style, documentation, function modularity, file layout, test coverage, etc.), and your Individual Contributions (Teammate ratings, presentations, info in weekly progress reports, and git logs).
+
+Note that project presentations will include extra class sessions outside of the normal class times.  You are expected to come to the session where where you are presenting and at least one other (there will be four time slots, two of which will be regular class times; all will be in the normal class room).  We will poll for unavoidable conflicts before assigning presentation times.
 
 ### [Weekly Updates](updates.html)
-Each Friday before midnight (starting in week 2) students will be expected to turn in a weekly progress reports.  Each report must contain four sections:
+Each Friday before midnight (starting in week 2) students will be expected to turn in a weekly progress report.  Each report must contain four sections:
 + What did you accomplish this past week?
 + What do you plan to work on next week?
 + Are you facing any challenges with the project?
@@ -71,12 +73,17 @@ Some reports might have extra specific questions that you will be told at least 
 There will be five quizzes over the course of the semester. You will be able to take at least two versions of each quiz, with only the highest score counting toward your final grade (at 5% per quiz). Quizzes will occur most Wednesdays during the final 15 minutes of class. Near the end of the semester you will be given an opportunity to take a third version of any three quizzes of your choice.
 
 ### Peer Reviews
-At three points during the semester you will conduct a peer review of another group's project, identifying potential problems and making suggestions for improvement. You will be provided with a specific rubric to follow and are expected to do a detailed review.  You will be granted up to five points per review. The group being reviewed will have an opportunity to fix any identified problems before being graded by the instructors.
+At three points during the semester you will conduct a peer review of another group's project, identifying potential problems and making suggestions for improvement. You will be provided with a specific rubric to follow and are expected to do a detailed review.  You will be granted up to five points per review. The group being reviewed will have an opportunity to fix any identified problems before being graded by the instructors.  Note that no AI usage will be allowed in creating the peer reviews (groups can always use AI to review their own code; peer reviews are intended to get another set of human eyes looking through the code).
 
 ### Participation
-During class we will discuss that session’s material in addition to any other activities. You are expected to come to class and to contribute to the discussion.  To do so, you must watch the assigned videos or read the assigned material before each class. To ensure that you complete this pre-class activity, we will ask you a multiple-choice participation question in many class sessions. These questions should be easy if you did the assigned work, but impossible to answer confidently otherwise (e.g., “Which of the following example problems was used throughout the video?”).  We may also ask non-video survey questions throughout the class session to verify participation.
 
-You will start with 12 participation points.  Each time you get a participation question incorrect or fail to answer a survey question you will lose a single participation point (max one per class session).  <!-- If you are sick and are going to miss class, we will also excuse a limited number of absences, but you must let us know ahead of time.-->  At the end of the semester up to 8 remaining participation points will be added to your final point total for calculating your grade (so you can lose 4 participation points without any affect on your grade).
+Both attendance and being prepared are critical aspects of participation in this course; they are essential for learning the material and to be able to fully contribute to your project groups.
+
+**Attendance**: We will ask one or more clicker questions in most class sessions so that we can adjust material as needed and verify attendance.  You should try your best to answer these correctly so that we can assess student understanding, but any answer at all will verify attendance.
+
+**Class preparation**: During class we will discuss that session’s material in addition to any other activities. You are expected to be ready to contribute to the discussion.  To do so, you must watch the assigned videos or read the assigned material before each class. Some of the clicker questions will be clearly labeled as *Participation Questions*. These questions are intended to be easy if you completed the assigned watching or reading, but impossible to answer confidently otherwise (e.g., “Which of the following example problems was used throughout the video?”).
+
+**Grading**: You begin the course with 8 participation points.  You may miss up to two class sessions without penalty; each additional class session missed will reduce your participation score by one.  Likewise, you may get up to two participation questions incorrect without penalty.  Each additional additional incorrect answer to a participation question will be treated as a missed class.  In exceptional circumstances, we will waive an absence for illness, religious observation (please notify us two weeks ahead), or limited other sanctioned events.
 
 **A note about participation**: If you engage in conversation, you provide us with another source of information as to how well you are learning the material, and how much effort you are putting into the course. Let's have an active class! Class participation will never harm your grade; always ask any questions you may have about the material.
 
