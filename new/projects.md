@@ -10,20 +10,20 @@ layout: default
 
 # <span id="overview">Project Overview</span>
 
-The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying videos.
+The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying video presentations.
 
-| Due Date     | Deliverable                                              | Points               |
-| ----         | ---------                                                | ---                  |
-| Every Friday | Weekly updates                                           | 12 total (_updates_) |
-| Mon, Feb 16  | Code for working C\+\+ classes + status video            | 10 (_project_)       |
-| Mon, Feb 23  | Peer reviews                                             | 5 (_peer review_)    |
-| Fri, Feb 27  | Fixes based on peer reviews before instructor grading    |                      |
-| Wed, Mar 25  | Code for advanced C\+\+ classes + initial working module | 10 (_project_)       |
-| Wed, Apr 1   | Peer reviews                                             | 5 (_peer review_)    |
-| Mon, Feb 6   | Fixes based on peer reviews before instructor grading    |                      |
-| Wed, Apr 22  | Code for final module + project video                    | 20 (_project_)       |
-| Mon, Apr 27  | Peer reviews                                             | 5 (_peer review_)    |
-| Thu, Apr 30  | Fixes based on peer reviews before instructor grading    |                      |
+| Due Date     | Deliverable                                                              | Total | Category      |
+| ----         | ---------                                                                | ---   | ---           |
+| Every Friday | Weekly updates (1 point each)                                            | 12    | _updates_     |
+| Mon, Feb 16  | Code for working C\+\+ classes (5 pts) + status video (5 pts)            | 10    | _project_     |
+| Mon, Feb 23  | Peer reviews (5 pts)                                                     | 5     | _peer review_ |
+| Fri, Feb 27  | Fixes based on peer reviews before instructor grading                    |       |               |
+| Wed, Mar 25  | Code for advanced C\+\+ classes (5 pts) + initial working module (5 pts) | 10    | _project_     |
+| Wed, Apr 1   | Peer reviews (5 pts)                                                     | 5     | _peer review_ |
+| Mon, Apr 6   | Fixes based on peer reviews before instructor grading                    |       |               |
+| Mon, Apr 20  | Code for final module (15 pts) + project video (5 pts)                   | 20    | _project_     |
+| Sun, Apr 26  | Peer reviews (5 pts)                                                     | 5     | _peer review_ |
+| Wed, Apr 29  | Fixes based on peer reviews before instructor grading                    |       |               |
 
 Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
@@ -80,25 +80,20 @@ To simplify working together and allowing all students in the course to be able 
 Initially, each group will be assigned a set of **C\+\+ classes** to develop, one per student in that group. While each student should take the lead on one of the classes, they should help in the development of all of them.  Indeed, some of the classes may be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester.
 
 Some example classes include:
-* Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
-* Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
-* Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
-* Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
-* And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
+- Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
+- Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
+- Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
+- Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
+- And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
 
 While developing these classes, you will also be designing a module for a **large software project**.  To provide a real-world experience, sets of 7 to 8 groups (which we will call "companies") will collaboratively produce a single, over-arching software framework.  Each group will work on a single module to come together into a larger, agent-based system.  Each component you build will serve as a piece of a larger puzzle.  Sets of modules will interact through an API that company collectively establishes, allowing for some very different executables, depending on which modules are used. By the end of our course, our goal is for each company to have a functioning system where each module, be it a world, an agent, or an interface, seamlessly integrates with the others.
 
-What might these larger agent-based systems be?  Possibilities include:
-
+What might these larger agent-based systems be?  You will work with your classmates and the instructors to decide, but some example possibilities include:
 - A traffic simulator where worlds consist of roads and traffic controllers, while agents are individuals trying to reach their destination.  Interfaces may allow users to set rules for the traffic controllers or alter road availability to identify their effects on flow patterns.
-
 - An ecology simulator, where agents are organisms of various species that interact in a variety of manners (such as predators and prey) and worlds determine terrain and resource availability.  An interface may track statistics from the world to indicate ecology health.
-
 - A world that builds a procedurally generated dungeon with agents that are orcs, trolls, dragons, or other types of dungeon dwellers.  An interface might allow a player to move a character through the dungeon 
-
 - An AI testing arena with progressively harder challenges using realist physics and AI agents that try to defeat those challenges.  Humans can try those challenges too through the interface.
-
-- A social game world where users can talk to each other, build their own structures, and script their own bots to travel around and perform tasks.
+- A social game world where users can explore a collaborative world, talking to each other, building their own structures, and scripting bots (agents) to travel around and perform tasks.
 
 # Write-up for Initial C\+\+ Class Development
 ### Due: Jan 28, 2026

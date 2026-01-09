@@ -28,7 +28,7 @@ Students will develop large C\+\+ projects and gain expertise with the language.
 Understanding of C++ basics (as taught in CSE 232 and CSE 335), completion of all 300-level CSE requirements and at least two other 400-level CSE courses.
 
 ### Teaching Style
-Most sessions of this course will be taught using a “flipped classroom” methodology. Students will be expected to watch provided videos (or read assigned web pages) before each session where they are assigned. Sessions will briefly review these topics, but focus on discussion of concepts and live implementation, supplemental lectures, debugging demonstrations, code reviews, quizzes, small group discussions, and student presentations of their progress. The course [schedule](schedule.html) will include any required material at least a week before it is due (and typically sooner than that).
+Most sessions of this course will be taught using a “flipped classroom” methodology. Students will be expected to watch provided videos (or read assigned web pages) before each session where they are assigned. Sessions will briefly review these topics, but focus on discussion of concepts and live implementation, supplemental lectures, debugging demonstrations, code reviews, quizzes, small group discussions, and student presentations for project coordination. The course [schedule](schedule.html) will include any required material at least a week before it is due (and typically sooner than that).
 
 ## Grading
 In this course you will have the opportunity to earn up to 100 points toward your final grade.  Grades will be based on:
@@ -56,9 +56,7 @@ Each area is important: If you get fewer than half the points in any single cate
 We reserve the right to adjust these numbers (almost certainly in your favor) to account for an unexpected challenges during the semester.
 
 ### [Project](projects.html)
-You will work in a group on a semester-long project. You may earn up to 40 points this way, based on both consistent progress, project presentations, and the quality of the final product. Your project grade will be based on three main factors: Functionality (Meeting the project goals and creating a positive user experience), Code Quality (Consistent style, documentation, function modularity, file layout, test coverage, etc.), and your Individual Contributions (Teammate ratings, presentations, info in weekly progress reports, and git logs).
-
-Note that project presentations will include extra class sessions outside of the normal class times.  You are expected to come to the session where where you are presenting and at least one other (there will be four time slots, two of which will be regular class times; all will be in the normal class room).  We will poll for unavoidable conflicts before assigning presentation times.
+You will work in a group on a semester-long project. You may earn up to 40 points this way, based on both consistent progress, video presentations, and the quality of the final product. Your project grade will be based on three main factors: Functionality (Meeting the project goals and creating a positive user experience), Code Quality (Consistent style, documentation, function modularity, file layout, test coverage, etc.), and your Individual Contributions (Teammate ratings, presentations, info in weekly progress reports, and git logs).
 
 ### [Weekly Updates](updates.html)
 Each Friday before midnight (starting in week 2) students will be expected to turn in a weekly progress report.  Each report must contain four sections:
