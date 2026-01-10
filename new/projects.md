@@ -12,26 +12,27 @@ layout: default
 
 The largest chunk of the work for this course will be developing C++ code, first some useful tools and then a module (ideally using those tools) for a larger class-level project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying video presentations.
 
-| Due Date     | Points | Category      | Deliverable                                                              |
-| ----         | :---:  | :---:         | ---------                                                                |
-| Every Friday | 12     | _updates_     | Weekly updates (1 point each)                                            |
-| Mon, Feb 16  | 10     | _project_     | Code for working C\+\+ classes (5 pts) + status video (5 pts)            |
-| Mon, Feb 23  | 5      | _peer review_ | Peer reviews (5 pts)                                                     |
-| Fri, Feb 27  |        |               | Fixes based on peer reviews before instructor grading                    |
-| Wed, Mar 25  | 10     | _project_     | Code for advanced C\+\+ classes (5 pts) + initial working module (5 pts) |
-| Wed, Apr 1   | 5      | _peer review_ | Peer reviews (5 pts)                                                     |
-| Mon, Apr 6   |        |               | Fixes based on peer reviews before instructor grading                    |
-| Mon, Apr 20  | 20     | _project_     | Code for final module (15 pts) + project video (5 pts)                   |
-| Sun, Apr 26  | 5      | _peer review_ | Peer reviews (5 pts)                                                     |
-| Wed, Apr 29  |        |               | Fixes based on peer reviews before instructor grading                    |
+| Due Date     | Value                     | Deliverable                                                              |
+| ----         | :---:                     | ---------                                                                |
+| Every Friday | 12 points (_updates_)     | Weekly updates (1 point each)                                            |
+| Wed, Jan 28  | Set project expectations  | Specs for initial C\+\+ classes + team agreements                        |
+| Mon, Feb 16  | 10 points (_project_)     | Code for working C\+\+ classes (5 pts) + status video (5 pts)            |
+| Mon, Feb 23  | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
+| Fri, Feb 27  | Improved code for grading | Code fixes based on peer reviews                                         |
+| Wed, Mar 25  | 10 points (_project_)     | Code for advanced C\+\+ classes (5 pts) + initial working module (5 pts) |
+| Wed, Apr 1   | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
+| Mon, Apr 6   | Improved code for grading | Code fixes based on peer reviews                                         |
+| Mon, Apr 20  | 20 points (_project_)     | Code for final module (15 pts) + project video (5 pts)                   |
+| Sun, Apr 26  | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
+| Wed, Apr 29  | Improved code for grading | Code fixes based on peer reviews                                         |
 
 Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
 ## 1. Functionality
 
-Did you develop the full set of features for your project, ensure reliability and efficiency, and provide a proper user experience?  The points for functionality will be independent of what your code looks like, only that your code or application meets its goals.
+Did you develop the full set of features for your project, ensure reliability and efficiency, and provide a proper user experience?  The points for functionality will be independent of what your code looks like, only that the module you developed meets its goals.
 
-Throughout the semester we will develop C++ classes and then use them as the bases for a larger application.  You will earn points based on how well your meet each set of project goals.  We will have a series of milestones over the course of the semester involving building modules that you will use in the final project. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
+Throughout the semester we will develop C++ classes and use them as the bases for a larger application.  You will earn points based on how well your meet each set of project goals.  We will have a series of milestones over the course to help you meet the project goals. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
 
 ## 2. Code Quality
 
