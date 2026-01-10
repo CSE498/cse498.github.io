@@ -12,19 +12,19 @@ layout: default
 
 The largest chunk of the work for this course will be developing C++ code, first some useful tools and then a module (ideally using those tools) for a larger class-level project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying video presentations.
 
-| Due Date     | Value                     | Deliverable                                                              |
-| ----         | :---:                     | ---------                                                                |
-| Every Friday | 12 points (_updates_)     | Weekly updates (1 point each)                                            |
-| Wed, Jan 28  | Set project expectations  | Specs for initial C\+\+ classes + team agreements                        |
-| Mon, Feb 16  | 10 points (_project_)     | Code for working C\+\+ classes (5 pts) + status video (5 pts)            |
-| Mon, Feb 23  | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
-| Fri, Feb 27  | Improved code for grading | Code fixes based on peer reviews                                         |
-| Wed, Mar 25  | 10 points (_project_)     | Code for advanced C\+\+ classes (5 pts) + initial working module (5 pts) |
-| Wed, Apr 1   | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
-| Mon, Apr 6   | Improved code for grading | Code fixes based on peer reviews                                         |
-| Mon, Apr 20  | 20 points (_project_)     | Code for final module (15 pts) + project video (5 pts)                   |
-| Sun, Apr 26  | 5  points (_peer review_) | Peer reviews (5 pts)                                                     |
-| Wed, Apr 29  | Improved code for grading | Code fixes based on peer reviews                                         |
+| Due Date     | Deliverable                                                              | Value                     |
+| ----         | ---------                                                                | -----                     |
+| Every Friday | Weekly updates (1 point each)                                            | 12 points (_updates_)     |
+| Wed, Jan 28  | Specs for initial C\+\+ classes + team agreements                        | Set project expectations  |
+| Mon, Feb 16  | Code for working C\+\+ classes (5 pts) + status video (5 pts)            | 10 points (_project_)     |
+| Mon, Feb 23  | Peer reviews (5 pts)                                                     | 5  points (_peer review_) |
+| Fri, Feb 27  | Code fixes based on peer reviews                                         | Improved code for grading |
+| Wed, Mar 25  | Code for advanced C\+\+ classes (5 pts) + initial working module (5 pts) | 10 points (_project_)     |
+| Wed, Apr 1   | Peer reviews (5 pts)                                                     | 5  points (_peer review_) |
+| Mon, Apr 6   | Code fixes based on peer reviews                                         | Improved code for grading |
+| Mon, Apr 20  | Code for final module (15 pts) + project video (5 pts)                   | 20 points (_project_)     |
+| Sun, Apr 26  | Peer reviews (5 pts)                                                     | 5  points (_peer review_) |
+| Wed, Apr 29  | Code fixes based on peer reviews                                         | Improved code for grading |
 
 Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
