@@ -25,9 +25,10 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |           | <b style="color: blue">Quiz:</b> 1a                        |
 | **Week 3** | |
 | 1/26/26  | **C++ Terminology and Basic Concepts** |
-| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**           |
-|          | <b style="color: blue">Quiz:</b> 1b                                              |
-|          | <b style="color: red">Due:</b> Team agreements; Specs for initial C++ classes and module proposal |
+| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**            |
+|          | <b style="color: blue">Quiz:</b> 1b                                               |
+|          | <b style="color: red">Due:</b> Team agreements ([sample](example_agreement.html)) |
+|          | <b style="color: red">Due:</b> Specs for initial C++ classes and module proposal  |
 
 ## Unit II: Writing Reliable Code
 
