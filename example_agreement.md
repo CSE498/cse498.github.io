@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Team Agreement for [Project Name]
+# SAMPLE Team Agreement:
+
+## Team Agreement for [Project Name]
 
 **Date**: [Insert Date]
 
@@ -14,7 +16,7 @@ layout: default
 5. [Name]
 
 ## Preamble:
-This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Spring semester 2025 in CSE 498. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
+This agreement serves to outline the roles, responsibilities, and expectations of each member of our team for the duration of Spring semester 2026 in CSE 498. We, the undersigned, pledge to uphold our commitments and work collaboratively towards the successful completion of the project.
 
 ## Roles & Responsibilities:
 

@@ -7,32 +7,46 @@ layout: default
 - [Project Groups](#groups)
 - [Project License](#license)
 - [Project Topics](#topics)
-- [Review 1 Instructions](#review-1) (Initial C\+\+ classes)
-- [Review 2 Instructions](#review-2) (Advanced C\+\+ classes)
-- [Review 3 Instructions](#review-3) (Final Applications)
 
 # <span id="overview">Project Overview</span>
 
-The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.
+The largest chunk of the work for this course will be developing C++ code, first some useful tools and then a module (ideally using those tools) for a larger class-level project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.  The three code check-ins will be worth 10, 10, and 20 points respectively, with the first and last requiring accompanying video presentations.
 
-Your final grade on the project will be based on three factors:
+| Due Date     | Deliverable                                                                | Value                     |
+| ----         | ---------                                                                  | -----                     |
+| Every Friday | **Weekly updates** (1 point each)                                          | 12 points (_updates_)     |
+| Wed, Jan 28  | **Specs for initial C\+\+ classes** and **team agreements**                | Set project expectations  |
+| Mon, Feb 16  | **Code for working C\+\+ classes** (5 pts) and **status video** (5 pts)    | 10 points (_project_)     |
+| Mon, Feb 23  | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
+| Fri, Feb 27  | **Code fixes based on peer reviews**                                       | Improved code for grading |
+| Wed, Mar 25  | **Code for advanced C\+\+ classes** (5 pts) and **initial module** (5 pts) | 10 points (_project_)     |
+| Wed, Apr 1   | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
+| Mon, Apr 6   | **Code fixes based on peer reviews**                                       | Improved code for grading |
+| Mon, Apr 20  | **Code for final module** (15 pts) and **project video** (5 pts)           | 20 points (_project_)     |
+| Sun, Apr 26  | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
+| Wed, Apr 29  | **Code fixes based on peer reviews**                                       | Improved code for grading |
 
-## 1. Functionality (25 points)
+Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
-Throughout the semester we will develop C++ code modules and refine a set of goals for your overall project.  You will earn points based on how well you meet these goals or demonstrate a deep understanding of why the goals cannot be fully met.  We will have a series of milestones over the course of the semester involving building modules that you will use in the final project. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.  Progress checkpoints toward functionality will be worth a total of 10 points, and the overall state of the project at the end of the course will be worth an additional 15.
+## 1. Functionality
 
-## 2. Code Quality (20 points)
+Did you develop the full set of features for your project, ensure reliability and efficiency, and provide a proper user experience?  The points for functionality will be independent of what your code looks like, only that the module you developed meets its goals.
 
-While the ultimate functionality of your code is clearly important, being able to write code that is reliable, reusable and easy to understand by other programmers is also a high level goal for this course.  Code quality will be judged based on:
-+ **_Code Style_**: Have you chosen a style that is informative?  Are you consistent in your style?
-+ **_Code Readability_**: Is your code easy for others to read and understand based on your maintenance of documentation, code comments, and a clean layout with short clear functions?
+Throughout the semester we will develop C++ classes and use them as the bases for a larger application.  You will earn points based on how well your meet each set of project goals.  We will have a series of milestones over the course to help you meet the project goals. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
+
+## 2. Code Quality
+
+Is your code easy to understand and for other programmers to use?
+
+While the ultimate functionality of your code is clearly important, being able to write code that is reusable, easy to understand by other programmers, and that you can be confident in its reliability is also a goal for this course.  Code quality will be judged based on:
++ **_Code Style_**: Have you consistent kept to the Google C++ style so that others know what to expect your code to look like?
++ **_Code Readability_**: Is your code easy for others to read and understand based on your maintenance of documentation, appropriate code comments, and a clean layout with short clear functions?
 + **_Code Modularity_**: Have you built useful functions and classes that are organized with a meaningful file and directory structure? 
-+ **_Code Reliability_** Do you have thorough unit test coverage and effective use of in-code asserts and/or other error checking. Do you avoid undefined behaviors?
++ **_Code Reliability Checks_** Do you have thorough unit test coverage and effective use of in-code asserts and/or other error checking. Do you avoid undefined behaviors?
 
-You will be getting regular in-class advice and feedback on these topics throughout the semester, including peer reviews from fellow students.  A total of up to 10 points will be awarded during development and up to an additional 10 for the final product.
+In addition to functionality and code quality, we will also be assessing your specific contributions and us this as a multiplier applied to the other points:
 
-
-## 3. Individual Contribution (A multiplier applied to the other points)
+## 3. Individual Contribution
 
 It is important that each group member provides a meaningful contribution to the overall group effort and to the course-level project as a whole.  Based on ratings by your teammates and your role on the team (and audited by the instructors, if needed, using progress reports, git logs, and the work agreement) you will receive a qualification for how effective of a contributor you were to the project.
 
@@ -42,16 +56,18 @@ It is important that each group member provides a meaningful contribution to the
 
 + **_Minimal Contributor_**: You frequently failed to actively participate in the project. Your contribution was negligible or missing, and your lack of involvement hampered the group's overall success.  You will receive between 0% and 50% of the overall project grade.
 
-Additionally, we have two other categories that will be given out quite sparingly.
+Additionally, we reserve the right to give out:
 
 + **_Resilient Contributor_**: You have showcased exceptional efforts, going above and beyond base expectations to enure that your group turns in a working project. You will make up for lost points by receiving up to a 25% bonus on the points above (though not raising your full points beyond 100%).  This rating will typically be given to a student who put forth significant extra effort to make up for another group member's failure to meet expectations.
 
-+ **_Exemplary Contributor_**: You went substantially beyond project requirements, turning in code that is impressive on all levels.  You will receive the full 45 points on the project, but this qualification also recognizes the incredible effort that you put forth with an "Exemplary Contributor" award that can be added to a resume.  We are unlikely to give more than one of these per semester.
+<!-- + **_Exemplary Contributor_**: You went substantially beyond project requirements, turning in code that is impressive on all levels.  You will receive the full 45 points on the project, but this qualification also recognizes the incredible effort that you put forth with an "Exemplary Contributor" award that can be added to a resume.  We are unlikely to give more than one of these per semester. -->
+
+You will be getting regular in-class advice and feedback on your projects throughout the semester, including peer reviews from fellow students.
 
 
 # <span id="groups">Project Groups</span>
 
-You will be in a group of five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
+You will be in a group of four or five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
@@ -62,16 +78,25 @@ To simplify working together and allowing all students in the course to be able 
 
 # <span id="topics">Project Topics</span>
 
-Each group will be assigned a number of modules to develop proportional to the number of students in that group. While each student should plan to take the lead on at least one of the modules, they should participate in the development of all of them.  Indeed, some of the modules will be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester. That said, all of the modules are expected to illustrate strong C++ coding technique.
+Initially, each group will be assigned a set of **C\+\+ classes** to develop, one per student in that group. While each student should take the lead on one of the classes, they should help in the development of all of them.  Indeed, some of the classes may be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester.
 
-Some example modules include:
-* Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
-* Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
-* Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
-* Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
-* And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
+Some example classes include:
+- Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
+- Specialty data structures, such as a bi-directional map where you can search by either the key OR the value to get the other, or a graph object where entries can be connected to arbitrary other entries.
+- Mathematical tools such [fixed-point numbers](https://en.wikipedia.org/wiki/Fixed-point_arithmetic), to supplement the floating-point numbers that we normally use, or "big integers" that can handle arbitrarily large values.
+- Efficiency boosters, such as function objects that will automatically perform [memoization](https://en.wikipedia.org/wiki/Memoization) on functions that are passed into them.
+- And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
 
-# Write-up for Initial Class Development
+While developing these classes, you will also be designing a module for a **large software project**.  To provide a real-world experience, sets of 7 to 8 groups (which we will call "companies") will collaboratively produce a single, over-arching software framework.  Each group will work on a single module to come together into a larger, agent-based system.  Each component you build will serve as a piece of a larger puzzle.  Sets of modules will interact through an API that company collectively establishes, allowing for some very different executables, depending on which modules are used. By the end of our course, our goal is for each company to have a functioning system where each module, be it a world, an agent, or an interface, seamlessly integrates with the others.
+
+What might these larger agent-based systems be?  You will work with your classmates and the instructors to decide, but some example possibilities include:
+- A traffic simulator where worlds consist of roads and traffic controllers, while agents are individuals trying to reach their destination.  Interfaces may allow users to set rules for the traffic controllers or alter road availability to identify their effects on flow patterns.
+- An ecology simulator, where agents are organisms of various species that interact in a variety of manners (such as predators and prey) and worlds determine terrain and resource availability.  An interface may track statistics from the world to indicate ecology health.
+- A world that builds a procedurally generated dungeon with agents that are orcs, trolls, dragons, or other types of dungeon dwellers.  An interface might allow a player to move a character through the dungeon 
+- An AI testing arena with progressively harder challenges using realist physics and AI agents that try to defeat those challenges.  Humans can try those challenges too through the interface.
+- A social game world where users can explore a collaborative world, talking to each other, building their own structures, and scripting bots (agents) to travel around and perform tasks.
+
+# Write-up for Initial C\+\+ Class Development
 ### Due: Jan 28, 2026
 
 For each of the assigned classes, you should include in your writeup:
@@ -86,13 +111,14 @@ For each of the assigned classes, you should include in your writeup:
 
 5) Any **expected challenges** that you will be facing, an especially any extra topics you need to learn about.  This information will help me make sure to cover topics early in the course or else provide your group with extra guidance on the project.
 
-6) A list of any **other class projects** from other groups that you think you may want to use, either in the development of your own classes or in your final application.
+6) A list of any **other group's C++ classes** that you think you may want to coordinate with (e.g., to have a compatible interface).
 
+<!--
 # <span id="review-1">Rubric for initial code reviews (Round 1)</span>
 
 ### Design
 - **Informative identifiers**.  Are names of variables, functions, types, etc, clear and helpful for a reader to understand the code.  For example, if you need to track the number of students in a class, good variable names might be `num_students` or `student_count`, whereas you don't want something too short to be confusing (like `N` or `num_s`) or too verbose that it's annoying (like `total_number_of_students_in_class`).
-- **Avoids "magic numbers"**.  Similar to above, you should use constant variables with informative names instead of arbitrary numbers throughout your code, and instead set constants.  For example, I have a virtual CPU class with 6 virtual registers, but rather than using "6" throughout, I set `static constexpr size_t NUM_REGS = 6;` at the top of the class to make it clearer what the 6 refers to (and, in this case so that I can change it if needed.)
+- **Avoids "magic numbers"**.  Similar to above, you should use constant variables with informative names instead of arbitrary numbers throughout your code, and instead set constants.  For example, I have a virtual CPU class with 6 virtual registers, but rather than using "6" throughout, I set `static constexpr size_t NUM_REGS = 6;` at the top of the class to make it clearer what the 6 refers to (and, in this case so that I can change it easily if needed.)
 - **Intuitive and functional interface**. Does the class expose only the necessary functionality, and is it easy to use correctly while hard to misuse? Are member variables private?  Is there an obvious function to use for common tasks, with relevant default arguments for parameters? Are any of the functions misleading, like potentially confusing uses of operator overloading?  (Feel free to provide suggestions on how to improve the interface for better usability)
 - **Informative comments**. Do comments help someone new to the code understand it more rapidly?  Did the coder properly avoid redundant or obvious comments that clutter the code (e.g., `++x; // increments x`).  In general, comments should focus on _why_ code is helpful, rather than belabor _what_ that code does (though with complex code, the latter is useful too.)
 - **Consistent style**. Are style choices (like naming schemes, brace placement, etc) used in a consistent and informative manner throughout the code?  Is there consistency in how different naming conventions are used? (e.g., `camelCase`, `snake_case`, `ALL_CAPS`, or `PascalCase`, or prefixes and suffixes, like `m_` at the beginning of a member variable.).
