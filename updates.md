@@ -12,7 +12,7 @@ These reports are helpful for several reasons:
 
 Each report must contain at least four sections:
 
-**What did you work on this past week?** List the key efforts that you made on the project over the past week, highlighting any accomplishments.
+**What did you accomplish this past week?** List the key efforts that you made on the project over the past week, highlighting any specific accomplishments.
 
 **What do you plan to work on next week?** List your goals for the next week, including any design goals, development goals, collaborative plans, or auxiliary tasks (contacting people, researching a topic, etc).
 

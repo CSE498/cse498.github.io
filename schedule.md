@@ -5,80 +5,80 @@ layout: default
 
 # Tentative schedule
 
-This course is divided up into six units, each of which is two to three weeks long.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 12:40pm to 2:30pm in STEM 2201); in addition to the discussion of material from the videos (which may include some elaboration on the content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, and time for the project groups to work together.
+This course is divided up into six units, each of which is two to three weeks long.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 3 pm to 4:50pm in STEM 2202); in addition to the discussion of material from the videos (which may include elaboration on content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, or time for the project groups to work together.
 
 ## Unit I: C++ Fundamentals
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 1** | | |
-| 1/13/25  | **A review of 232 and 335**         | |
-| 1/15/25  | **Tools: Compiler Features and Static Analysis** <br> *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) <br> *Watch*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) <br> *Watch*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | <b style="color: blue">Quiz:</b> 1a |
+| 1/12/26  | **A review of 232 and 335**         | |
+| 1/14/26  | **Tools: Compiler Features and Static Analysis** <br> *Watch:* [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w) (16 min) <br> *Watch*: [Software Development with C++: clang-format](https://www.youtube.com/watch?v=YNv_g6ceL0w) (9 min) <br> *Watch*: [Software Development with C++: Compiler Optimization Levels](https://www.youtube.com/watch?v=Gwvn8ruzXT8) (13 min) | <b style="color: blue">Quiz:</b> 1a |
 | **Week 2** | |
-| 1/20/25   | **NO CLASS** (MLK Day)            | |
-| 1/22/25   | **C++ Core Guidelines** <br> *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | <b style="color: green">Out:</b> Project Group Assignments<br>~~<b style="color: blue">Quiz:</b> 1b~~ |
+| 1/19/26   | **NO CLASS** (MLK Day)            | |
+| 1/21/26   | **C++ Core Guidelines** <br> *Watch:* [10 Core Guidelines You Need to Start Using Now](https://www.youtube.com/watch?v=XkDEzfpdcSg) (first 54 min + optional Q&A session) | <b style="color: green">Out:</b> Project Group Assignments<br><b style="color: blue">Quiz:</b> 1b |
 | **Week 3** | |
-| 1/27/25  | **C++ Terminology and Basic Concepts** <br> *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) <br> *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) <br> *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | <b style="color: blue">Quiz:</b> 1b (*rescheduled*)|
-| 1/29/25  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**<br> *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) <br>*Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) <br> *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min)| <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
+| 1/26/26  | **C++ Terminology and Basic Concepts** <br> *Watch:* [Stack vs. Heap Memory in C++](https://youtu.be/wJ1L2nSIV1s?si=os-5lousW7XiMbWt) (20 min) <br> *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) <br> *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) <br> *Read:* [Type Casting in C++](https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast) <!--- ALT: (https://leimao.github.io/blog/CPP-Casts/) --> | |
+| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**<br> *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) <br>*Watch:* [Doxygen Basics](https://www.youtube.com/watch?v=TtRn3HsOm1s) (35 min) <br> *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min)| <b style="color: blue">Quiz:</b> 1c<br><b style="color: red">Due:</b> Specs for initial C\+\+ classes; team agreements |
 
 ## Unit II: Writing Reliable Code
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 4** | | |
-| 2/3/25  | **Avoiding Undefined Behavior** <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) | |
-| 2/5/25  | **Tools: Setting up Testing Frameworks** <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) | <b style="color: blue">Quiz:</b> 2a<br><b style="color: red">Due:</b> Initial working C\+\+ classes, spec comments (extended to Friday (02/07/2025))|
+| 2/2/26  | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  | |
+| 2/4/26  | **Tools: Setting up Testing Frameworks** <!--- <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> | <b style="color: blue">Quiz:</b> 2a<br><b style="color: red">Due:</b> Initial working C\+\+ classes, spec comments (extended to Friday (02/07/2025))|
 | **Week 5** | | |
-| 2/10/25  | **Debugging your code** <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) | |
-| 2/12/25  | **Memory Management** + **Casting** <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) <br> <!--- *Watch:* [Back to Basics: Casting](https://www.youtube.com/watch?v=2h2hdRqRIRk) (45 min) --> | <b style="color: blue">Quiz:</b> 2b<br><b style="color: red">Due:</b> Test suite, class asserts |
+| 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> | |
+| 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> | <b style="color: blue">Quiz:</b> 2b<br><b style="color: red">Due:</b> Test suite, class asserts |
 
 ## Unit III: Writing Generic Code
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 6** | | |
-| 2/17/25  | **Template Rules** <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
-| 2/19/25  | **Template Specialization and Variadic templates** <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) | <b style="color: blue">Quiz:</b> 3a |
+| 2/16/26  | **Template Rules** <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) | <b style="color: red">Due:</b> Fully functional initial C\+\+ classes <br> <b style="color: green">Out:</b> Code review assignments and rubrics |
+| 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> | <b style="color: blue">Quiz:</b> 3a |
 | **Week 7** | | |
-| 2/24/25 | **STATUS UPDATES** <!--- Students will demo classes they made and provide specs for what's next --> | <b style="color: red">Due:</b> Code Reviews |
-| 2/26/25 | **STATUS UPDATES** | <b style="color: red">Due FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
+| 2/23/26 | **STATUS UPDATES** | <b style="color: red">Due:</b> Code Reviews |
+| 2/25/26 | **STATUS UPDATES** | <b style="color: red">Due FRIDAY (2/28):</b> Specs and tests for advanced C\+\+ classes |
 | **SPRING BREAK!** | (no class this week) | |
 | **Week 8** | | |
-| 3/10/25 | **Lambdas** <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) | |
-| 3/12/25 | **Ranges and Views** <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
+| 3/9/26 | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> | |
+| 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> | <b style="color: blue">Quiz:</b> 3b <br> <b style="color: red">Due:</b> Initial working versions of advanced C++ classes; Integrate additional template functionality into C++ classes. |
 
 ## Unit IV: Writing Efficient Code
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 9** | | |
-| 3/17/25 | **Compile-time execution** <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
-| 3/19/25 | **Value semantics** <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) | <b style="color: blue">Quiz:</b> 4a |
+| 3/16/26 | **Compile-time execution** <!--- <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> | <b style="color: red">Due:</b> Integrate lambdas into C++ classes. |
+| 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> | <b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | | |
-| 3/24/25 | **Measuring Efficiency** + **Profiling Code** <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
-| 3/26/25  | **Deep Dive: Implementing `std::string`** <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes <br> <b style="color: blue">Quiz:</b> 4b <br><b style="color: green">Out:</b> Code review assignments and rubrics |
+| 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> | <b style="color: red">Due:</b> Integrate compile-time operations OR value semantics into C++ classes. |
+| 3/25/26  | **Deep Dive: Implementing `std::string`** <!--- <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) --> | <b style="color: red">Due:</b> Fully functional advanced C\+\+ classes <br> <b style="color: blue">Quiz:</b> 4b <br><b style="color: green">Out:</b> Code review assignments and rubrics |
 
 ## Unit V: Advanced Topics
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 11** | | |
-| 3/31/25  | **Custom Memory Management** <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) | <b style="color: red">Due:</b> Specs and tests for main C++ App|
-| 4/2/25  | **Concepts** <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
+| 3/30/26  | **Custom Memory Management** <!--- <br> *Watch:* [Track MEMORY ALLOCATIONS the Easy Way in C++](https://www.youtube.com/watch?v=sLlGEUO_EGE) (13 min) --> | <b style="color: red">Due:</b> Specs and tests for main C++ App|
+| 4/1/26  | **Concepts** <!--- <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) --> | <b style="color: blue">Quiz:</b> 5a<br><b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | | |
-| 4/7/25 | **Deep Dive: Sorting** <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
-| 4/9/25 | **Attributes** and **User-defined Literals** <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) | <b style="color: blue">Quiz:</b> 5b |
+| 4/6/26 | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> | <b style="color: red">Due:</b> Alpha version of C++ app complete. |
+| 4/8/26 | **Attributes** and **User-defined Literals** <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | | |
-| 4/14/25 | **Concurrency** <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) | <b style="color: red">Due:</b> Efficiency reports |
-| 4/16/25 | **Understanding Code Licenses** <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) | <b style="color: blue">Quiz:</b> redos |
+| 4/13/26 | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> | <b style="color: red">Due:</b> Efficiency reports |
+| 4/15/26 | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> | <b style="color: blue">Quiz:</b> redos |
 
 ## Unit VI: Wrap Up
 
 | Date     | Discussion Topic                    |  Notes |
 |:--------:|-------------------------------------| ------ |
 | **Week 14** | | |
-| 4/21/25 | **Newer features in C++** <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
-| 4/23/25 | **FINAL PRESENTATIONS** | |
+| 4/20/26 | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> | <b style="color: red">Due:</b> Final Project! <br> <b style="color: green">Out:</b> Code review assignments and rubrics|
+| 4/22/26 | **FINAL PRESENTATIONS** | |
 | **Week 15** | (Finals Week) | |
-| 4/28/25 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
-| 5/1/25 | FINAL CORRECTIONS | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |
+| 4/29/26 | **FINAL PRESENTATIONS** | Monday, April 28th, 12:45-2:45pm <br> <b style="color: red">Due:</b> Reviews of Final Projects! |
+| 5/1/26 | FINAL CORRECTIONS | <b style="color: red">Due:</b> Updates to Final Projects! (Final grading starts on 5/2/25) |

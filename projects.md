@@ -13,7 +13,7 @@ layout: default
 
 # <span id="overview">Project Overview</span>
 
-The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 45 points, plus an additional 12 points associated with turning in weekly updates.  [Here](project-details.html) are the project details for each group.
+The largest chunk of the work for this course will be developing a set of C++ modules that you will use for a larger semester project.  It will be worth a total of 40 points, plus an additional 12 points associated with turning in weekly updates.
 
 Your final grade on the project will be based on three factors:
 
@@ -72,7 +72,7 @@ Some example modules include:
 * And lots of other helpful tools, such as formatted strings (that track bold, italic, colors, etc) or a random number generator that allows you to easily produce different types of random values, as needed.
 
 # Write-up for Initial Class Development
-### Due: Jan 29, 2025
+### Due: Jan 28, 2026
 
 For each of the assigned classes, you should include in your writeup:
 
@@ -160,3 +160,5 @@ Keep a tab on the comments and please engage with any questions or comments the 
 For your specific review assignments, go [here](reviews3.html)
 
 **NOTE**: All feedback is expected to be constructive and helpful.  You should identify helpful improvements or places to refactor, but never denigrate the code or its authors.  Constructive criticism is fine, but should be frames positively; any needlessly hurtful comments will result in points deducted from the review.
+
+-->
