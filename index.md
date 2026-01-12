@@ -12,7 +12,7 @@ layout: default
 | TA           | **Karen Suzue** ([suzuekar@msu.edu](mailto:suzuekar@msu.edu))     |
 | Modality     | *In Person*, in STEM 2202      |
 | Meeting Time | M/W 3 pm - 4:50 pm             |
-| Office Hours | After class and by appointment |
+| Office Hours | The hour before class, after class, and by appointment |
 | Credits      | 4                              |
 | Textbook     | None                           |
 | Web Site     | [https://cse498.github.io/](https://cse498.github.io/) |
