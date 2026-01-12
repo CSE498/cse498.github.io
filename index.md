@@ -16,7 +16,6 @@ layout: default
 | Credits      | 4                              |
 | Textbook     | None                           |
 | Web Site     | [https://cse498.github.io/](https://cse498.github.io/) |
-| Project repo | [https://github.com/CSE498/Spring2026](https://github.com/CSE498/Spring2026) |
 
 ### Required Technology
 Students are expected to bring a laptop running a modern operating system (Windows or MacOS) to each class session. This laptop must be capable of running a modern C\+\+ compiler and have access to the web.
