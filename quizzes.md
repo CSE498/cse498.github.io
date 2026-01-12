@@ -6,7 +6,7 @@ layout: default
 
 There will be a total of five quizzes over the course of the semester, worth a total of 25% of your final grade.  You will have at least two opportunities to score well on each quiz, with a third opportunity at the end of the semester.
 
-Each quiz will have 10 questions on it and will be completed in class on D2L.  You will need to install a lockdown browser (to avoid AI usage) on the quizzes.
+Each quiz will have 10 questions on it and will be completed in class on D2L.  You will need to install the Respondus lockdown browser (to avoid AI usage) as each quiz will require it. There will be a sample quiz (that requires the lockdown browser) provided in the second week of classes, to allow you to verify the installation. 
 
 ## Topics
 
