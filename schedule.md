@@ -25,6 +25,13 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |           | <b style="color: blue">Quiz:</b> 1a                        |
 | **Week 3** | |
 | 1/26/26  | **C++ Terminology and Basic Concepts** |
+|          | *Watch:* [Never free memory yourself! Do this instead (in modern C++)](https://www.youtube.com/watch?v=eHcdTytDZrI) (first 14 min, though watch the end if you need a smart pointer refresher) |
+|          | *Watch:* [Why is there Undefined Behavior in C++?](https://www.youtube.com/watch?v=3weyREkE4HA) (4 min) |
+|          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
+|          | *Read:* [When should static_cast, dynamic_cast, const_cast, and reinterpret_cast be used?](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used) 
+|          | *Read:* [Using the C++23 std::expected type](https://mariusbancila.ro/blog/2022/08/17/using-the-cpp23-expected-type/) |
+
+(first answer is best, but later answers provide examples)  <!-- ALT: (https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast and https://leimao.github.io/blog/CPP-Casts/) --> |
 | 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**            |
 |          | <b style="color: blue">Quiz:</b> 1b                                               |
 |          | <b style="color: red">Due:</b> Team agreements ([sample](example_agreement.html)) |
