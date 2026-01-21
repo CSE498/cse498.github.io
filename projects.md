@@ -7,6 +7,8 @@ layout: default
 - [Project Groups](#groups)
 - [Project License](#license)
 - [Project Topics](#topics)
+- [Module Types](#mod_types)
+- [Initial C\+\+ Class Writeups and Module Description](#class_spec)
 
 # <span id="overview">Project Overview</span>
 
@@ -32,7 +34,7 @@ Your project code grades will be based on three factors.  The first two of these
 
 Did you develop the full set of features for your project, ensure reliability and efficiency, and provide a proper user experience?  The points for functionality will be independent of what your code looks like, only that the module you developed meets its goals.
 
-Throughout the semester we will develop C++ classes and use them as the bases for a larger application.  You will earn points based on how well your meet each set of project goals.  We will have a series of milestones over the course to help you meet the project goals. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
+Throughout the semester we will develop C++ classes and use them as the bases for a larger application.  You will earn points based on how well you meet each set of project goals.  We will have a series of milestones over the course to help you meet the project goals. The instructors will be in regular communication about your progress and you will be heavily involved in the setting of goals.
 
 ## 2. Code Quality
 
@@ -42,9 +44,10 @@ While the ultimate functionality of your code is clearly important, being able t
 + **_Code Style_**: Have you consistent kept to the Google C++ style so that others know what to expect your code to look like?
 + **_Code Readability_**: Is your code easy for others to read and understand based on your maintenance of documentation, appropriate code comments, and a clean layout with short clear functions?
 + **_Code Modularity_**: Have you built useful functions and classes that are organized with a meaningful file and directory structure? 
-+ **_Code Reliability Checks_** Do you have thorough unit test coverage and effective use of in-code asserts and/or other error checking. Do you avoid undefined behaviors?
++ **_Code Reliability Checks_**: Do you have thorough unit test coverage and effective use of in-code asserts and/or other error checking. Do you avoid undefined behaviors?
++ **_Memory Safety_**: Are you using memory correctly, and freeing it appropriately when you are done using it? Do you avoid accessing unallocated (or newly deleted) memory?
 
-In addition to functionality and code quality, we will also be assessing your specific contributions and us this as a multiplier applied to the other points:
+In addition to functionality and code quality, we will also be assessing your specific contributions and use this as a multiplier applied to the other points:
 
 ## 3. Individual Contribution
 
@@ -58,7 +61,7 @@ It is important that each group member provides a meaningful contribution to the
 
 Additionally, we reserve the right to give out:
 
-+ **_Resilient Contributor_**: You have showcased exceptional efforts, going above and beyond base expectations to enure that your group turns in a working project. You will make up for lost points by receiving up to a 25% bonus on the points above (though not raising your full points beyond 100%).  This rating will typically be given to a student who put forth significant extra effort to make up for another group member's failure to meet expectations.
++ **_Resilient Contributor_**: You have showcased exceptional efforts, going above and beyond base expectations to ensure that your group turns in a working project. You will make up for lost points by receiving up to a 25% bonus on the points above (though not raising your full points beyond 100%).  This rating will typically be given to a student who put forth significant extra effort to make up for another group member's failure to meet expectations.
 
 <!-- + **_Exemplary Contributor_**: You went substantially beyond project requirements, turning in code that is impressive on all levels.  You will receive the full 45 points on the project, but this qualification also recognizes the incredible effort that you put forth with an "Exemplary Contributor" award that can be added to a resume.  We are unlikely to give more than one of these per semester. -->
 
@@ -67,18 +70,18 @@ You will be getting regular in-class advice and feedback on your projects throug
 
 # <span id="groups">Project Groups</span>
 
-You will be in a group of four or five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
+You will be in a group of five people to work on a semester-long project.  Students will have the opportunity to discuss potential project ideas with each other and propose groups to the instructors.  The instructors will form groups as needed, trying to match appropriate skill combinations and interests.
 
 Once groups are formed, members will devise a working agreement with a plan for how they will all contribute to the project and support one another.  Here is an [example agreement](example_agreement.html).
 
 
 # <span id="license">Project License</span>
 
-To simplify working together and allowing all students in the course to be able to use the code we develop after the course is over, all communal code will be created under the [MIT Public License](https://en.wikipedia.org/wiki/MIT_License).  This license allow others to use the provided code however they want as long as they include the Copyright notice with it.  Once you contribute to the project, make sure to add your own name to the license.
+To simplify working together and allowing all students in the course to be able to use the code we develop after the course is over, all communal code will be created under the [MIT Public License](https://en.wikipedia.org/wiki/MIT_License).  This license allows others to use the provided code however they want as long as they include the Copyright notice with it.  Once you contribute to the project, make sure to add your own name to the license.
 
 # <span id="topics">Project Topics</span>
 
-Initially, each group will be assigned a set of **C\+\+ classes** to develop, one per student in that group. While each student should take the lead on one of the classes, they should help in the development of all of them.  Indeed, some of the classes may be fairly easy to get an initial version working, and other will require more of the skills that you will develop over the course of the semester.
+Initially, each group will be assigned a set of **C\+\+ classes** to develop, one per student in that group. While each student should take the lead on one of the classes, they should help in the development of all of them.  Indeed, some of the classes may be fairly easy to get an initial version working, and others will require more of the skills that you will develop over the course of the semester.
 
 Some example classes include:
 - Debugging tools, such as an audited vector where you can set a DEBUG flag and it will automatically check for indexing out of range and other errors (but if DEBUG is not set, it compiles without any of the tests, so there is no speed loss).
@@ -96,22 +99,53 @@ What might these larger agent-based systems be?  You will work with your classma
 - An AI testing arena with progressively harder challenges using realist physics and AI agents that try to defeat those challenges.  Humans can try those challenges too through the interface.
 - A social game world where users can explore a collaborative world, talking to each other, building their own structures, and scripting bots (agents) to travel around and perform tasks.
 
-# Write-up for Initial C\+\+ Class Development
+# <span id="mod_types">Module Types</span>
+
+Each company will be building modules that will plug together into full systems.  Each system will include a subset of the modules with at least three different types: A **world module**, one or more **agent modules**, and one or more **interface modules**.  Some systems will have user interfaces that behave more like agents (for example, a game or a social system), while others will focus on data collection and analysis with an overview interface (for example, a scientific simulation).
+
+Each type of module should have specific functionality:
+
+**World Modules** will need to track all of the areas, objects, and agents within that World, as well as handle any interactions between them and any changes that need to happen over time.  The nature of what's in the World and what interactions/events should occur will be determined by each World team.  The World may specify a set of possible actions that agents can take, but the agents themselves will decide which of those actions they actually do take and when they take them.  Furthermore, the World module may need to respond to requests for information from interface modules, but the World itself is not responsible for displaying that information to a human user.
+
+*Example*: If we were to make a simple Pac-Man game, the **World** module would specify where the walls are, how many agents are needed, and the locations where those agents would start.  As agents move around, the World must determine what should happen.  For example, no agents should be allowed to move through walls.  When agents collide, the World has to identify the collision and determine the outcome; if Pac-Man collides with a ghost, Pac-Man will usually die, but if he recently ate a power-up, the ghost will be sent home.  (If two ghosts collide, nothing should happen). They must also track the locations of the dots are that can be consumed, power-ups, fruit, etc. and track the main agent (Pac-Man) to identify when those consumables are eaten and removing them.
+
+We can also imagine a more complicated game World like a dungeon-crawler game where the World has many other things to track such as multiple types of monsters, a range of items (that can be part of an agent's inventory), environmental effects, and what other locations each agent can see; at the same time it should facilitate appropriate agent-agent interactions (such as fighting or trading) and agent-world interactions (such as opening a chest, searching for a secret door, or falling into a trap).  Similarly a World could be a realistic simulation, such as a stock-market where the World must allow agents to interact to be able to buy and sell, stocks, bonds, commodities, etc., as well as to collect data in order to be able to make informed decisions.
+
+**Agent Modules** are the actual "brains" behind autonomous agents.  These modules need to be able to request a set of possible actions from the World and decide which of those actions to take at each time step.  Each action will have a name associated with it (such as, "turn left", "go forward", or "attack") and the agent module will decide when to trigger these.  The Agent behaviors might be hard coded, scripted, or fully AI controlled.
+
+*Example*: In the Pac-Man game, we would likely want Agent controllers for the four ghosts.  On easy mode, these might be manually written Agents that follow a simple set of rules, as was done in the original arcade game.  On hard mode, these might be AI-agent modules that were trained to always head toward Pac-Man or otherwise surround or intercept him.  The basic set of Agent behaviors should be easy to customize to whichever World they are placed in.  In a more complex dungeon crawler World, there might be many additional actions (e.g., "shoot bow", "drink potion", etc) and the agent would be provided with only the limited portion of the World that they can actually sense (i.e., they might not be given the option to shoot a bow if they do not have a bow; if they are given the option nothing should happen if they pick it when they don't have a bow and they should be notified that their action failed).
+
+**Interface Modules** should provide humans with an ability to interact with the World, either directly or indirectly.  Some basic Interfaces may use a similar API to the Agents. In such a case, rather than code dictating the actions of the associated Agent, humans will be able to use on-screen buttons, keymaps, or other carefully crafted Interface mechanisms with useful visual feedback. Many other types of Interfaces are possible.  For example, a network Interface, simplicity may be key, allowing multiple users to connect with a basic Interface and only limited extra features (like group chat).  A similar functionality can be provided with a single database that each World draws from in order to have many different instances of a World interacting (albeit slower than with a proper network Interface.) Some interfaces will be even more indirect, merely focused on collecting and analyzing data (see below)
+
+*Example*: In Pac-Man, the Interface would need to show the entire World (as provided by the World) and allow players to steer Pac-Man, presumably with the arrow keys.  In a more complicated World, however, the Interface would need to do more.  In a more intricate setting like a dungeon-crawler, the Interface might need to offer functionalities like inventory checks, item equipping, and more.
+
+**Data-Collection/Analysis Module**: These modules are specialty Interfaces that will extract insights from the system's dynamics. Their primary function is data collection and visualization. As a World progresses over time, the analysis module should diligently track agent activities, World alterations, or other significant events or metrics. Beyond mere data collection, the modules should also offer intuitive visualizations to help make sense of the data.  These might come in the form of graphs, heat maps, or an interactive dashboard, depending on the complexity and the data type. The ultimate aim is to allow for a post-run analysis that provides insights into the behaviors of agents, the interaction dynamics within the World, and potentially, areas for optimization or adjustment.  In a simulation, this type of Interface will allow a use to disentangle what actually happened during the simulation, perhaps identifying informative dynamics.  In a game, this analyses can be used to fine-tune the game, identifying where players got stuck, what obstacles where overcome too easily, and how long each level takes to play through.  Even in a social interaction system, these analyses can log interactions and be used to record data for later (perhaps to-do lists or other records.)
+
+_Example_: In the context of Pac-Man, the Analysis Module might track the routes taken by the ghosts, highlighting high-frequency paths with heatmaps. It might also document areas within the maze where Pac-Man is most frequently caught. Other metrics could include the average time taken to consume all dots, the frequency of power-up consumption versus ghost confrontations, or even Pac-Man's movement patterns in relation to ghost proximity. By visualizing these metrics, players and developers can gain a clearer understanding of gameplay dynamics and strategize better for subsequent runs.
+
+
+# <span id="class_spec">Write-up for Initial C\+\+ Class Development and Module Ideas</span>
 ### Due: Jan 28, 2026
 
-For each of the assigned classes, you should include in your writeup:
+For each of the five C\+\+ classes that your group will be developing, you should include in your writeup:
 
-1) A **class description**, including what it's goals are, and what it's high-level functionality should look like.  This does not need to perfectly match the description you were given, but it should be in the same general spirit unless you confirm any changes with the instructors ahead of time.
+1) A **class description**, including what its goals are, and what its high-level functionality should look like.  This does not need to perfectly match the description you were given, but it should be in the same general spirit unless you confirm any changes with the instructors ahead of time.
 
 2) A list of **similar classes** in the standard library that you should be familiar with or use to inform the functionality you will be developing.
 
-3) A list of **key functions** that you plan to implement.  This does not need to be an exhaustive list, but it should give a strong indication of how the the class should be used.
+3) A list of **key functions** that you plan to implement.  This does not need to be an exhaustive list, but it should give a strong indication of how the class should be used.
 
-4) A set of **error conditions** that you will be responsive to.  For each, indicate if it's source was (1) *programmer error*, such as invalid arguments to a function, which should be caught by an assert, (2) a potentially *recoverable error*, such as a resource limitation, which should trigger an exception, or (3) a *user error*, such as invalid input, which needs to simply return a special condition for the programmer to respond to (note: these can usually be handled with exceptions as well if you prefer.)
+4) A set of **error conditions** that you will be responsive to.  For each, indicate if its source was (1) *programmer error*, such as invalid arguments to a function, which should be caught by an assert, (2) a potentially *recoverable error*, such as a resource limitation, which should trigger an exception, or (3) a *user error*, such as invalid input, which needs to simply return a special condition for the programmer to respond to (note: these can usually be handled with exceptions as well if you prefer.)
 
 5) Any **expected challenges** that you will be facing, an especially any extra topics you need to learn about.  This information will help me make sure to cover topics early in the course or else provide your group with extra guidance on the project.
 
 6) A list of any **other group's C++ classes** that you think you may want to coordinate with (e.g., to have a compatible interface).
+
+You can make some refinements to these specifications later, but will need to consult with the instructors before making wholesale changes.
+
+In addition to the write-ups for your five C\+\+ classes, you should also include a paragraph about your **vision for the main module** that you will develop.  This description can be fairly high-level at this point, but will provide a concrete starting point to work with the other groups in your company on the bigger picture.
+
+
 
 <!--
 # <span id="review-1">Rubric for initial code reviews (Round 1)</span>

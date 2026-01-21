@@ -1,6 +1,13 @@
+---
+layout: default
+---
+
 # Company "A" Projects
 
-Company "A" specializes in computer games with seven development groups involved.  You will get to decide many of the details of the games as well as the name of your company, following the rules below.
+(Note, you will be naming your own company)
+
+Company "A" specializes in computer games with seven development groups involved that must all work closely together.  This project is intentionally structured to feel more like a real software engineering effort than a traditional class assignment. You will be working in partially-independent teams, negotiating interfaces, dealing with incomplete or changing components, and making tradeoffs between ambition and reliability as you design one or more of your own games and bring them to life. Part of the learning goal is to experience and manage these realities productively.
+
 
 ## Group Descriptions and Memberships
 
