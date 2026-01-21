@@ -30,7 +30,9 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
 |          | *Read:* [When should static_cast, dynamic_cast, const_cast, and reinterpret_cast be used?](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used) (first answer is best, but later answers provide examples)
 |          | *Read:* [Using the C++23 std::expected type](https://mariusbancila.ro/blog/2022/08/17/using-the-cpp23-expected-type/) |  <!-- ALT: (https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast and https://leimao.github.io/blog/CPP-Casts/) -->
-| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** + **Using Doxygen**            |
+| 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** |
+|          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) |
+|          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |
 |          | <b style="color: blue">Quiz:</b> 1b                                               |
 |          | <b style="color: red">Due:</b> Team agreements ([sample](example_agreement.html)) |
 |          | <b style="color: red">Due:</b> Specs for initial C++ classes and module proposal  |
