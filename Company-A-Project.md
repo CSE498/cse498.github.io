@@ -39,7 +39,8 @@ _Members_: Pinhe Du, Tung Xuan Hoang, Feichi Cai, Lance Motowski, and Alexander 
 
 Each group has five members and five C\+\+ classes that you need to write.  Each group member should take the lead on on one of the classes, but you should make sure that all five turn out to be solid as they will be critical for your group and potentially other groups in your company.
 
-You will design all of the details for these classes, an may change the name or the emphasis, even substituting a whole different class that you believe will be more useful to you.  You will come up with unit tests and a small demo program so other groups can use your code comfortably and safely.
+You will design all of the details for these classes, and may change the name or the emphasis; given a good argument, you can even substitute a whole different class that you believe will be more useful to you.  You will come up with unit tests and a small demo program so other groups can use your code comfortably and safely.
+
 
 ### Group 1: _AI Agents_
 
