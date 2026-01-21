@@ -2,8 +2,11 @@
 layout: default
 ---
 
-Below are all of the group assignments.  Click on your company below to get more information about the specific projects that company will focus on, including both the module your group will be doing AND the C\+\+ classes that your group needs to work on first.  Also, make sure to read about the [Module Types](projects.html#mod_types) that you will be creating, and the [initial C\+\+ class writeups and module description](projects.html#class_spec) due next week.
+Below are all of the group assignments.  Click on your company to get more information about the specific projects that company will focus on, including both the module your group will be doing AND the C\+\+ classes that your group needs to work on first.  Also, make sure to read about the [Module Types](projects.html#mod_types) that you will be creating, and the [initial C\+\+ class writeups and module description](projects.html#class_spec) due next week.
 
+Your group number indicates the table that you should sit at (click on the room map for a larger version).
+
+<a href="RoomMap.png"><img src="RoomMap.png" width="100"></a>
 
 
 | Name | Group | Company | Focus |
