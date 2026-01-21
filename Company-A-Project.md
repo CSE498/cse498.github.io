@@ -11,7 +11,7 @@ Company "A" specializes in computer games with seven development groups involved
 
 ## Group Descriptions and Memberships
 
-In all cases, your group number is the classroom table where you should sit!  There will be some open tables (there are 21 groups but 24 tables), so some shifting of tables will be possible.  For the most critical groups (agents, worlds, and GUIs) there are two different versions of each module such that in the unlikely event that one of the modules fails to be finished, the software as a whole will still run.  These modules will be enough different from each other that having both working will add meaningful capabilities to the resulting games.
+In all cases, your group number is the classroom table where you should sit!  There will be some open tables (as there are 21 groups but 24 tables), so some shifting of tables will be possible.  For the most critical groups (agents, worlds, and GUIs) there are two different versions of each module such that in the unlikely event that one of the modules fails to be finished, the software as a whole will still run.  These modules will be enough different from each other that having both working will add meaningful capabilities to the resulting games.
 
 **Group 1**, _AI Agents_: This group will develop agents that travel through a game world, interacting with it while displaying some capacity for learning.  You may use any AI techniques that you choose, as long as they are in C\+\+ and can be used in Emscripten (most C\+\+ can be compiled this way without any problem.) Any training code may run natively if you export trained policies in a portable format. Options include [neural networks](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)), [goal-oriented action planning (GOAP)](https://medium.com/@vedantchaudhari/goal-oriented-action-planning-34035ed40d0b), [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming), or many other techniques.
 
@@ -29,22 +29,22 @@ _Members_: Ho Wang Ho, Riley Moorman, Curtis Lunn, Henry Yang, and Caleb Shin
 
 _Members_: Abigail Franzmeier, Rachel Loren, Joey Hyun, Paul Bui, and Zhixiang Miao
 
-**Group 16**, _Data Collection and Analysis_: This group should develop tools to collect information appropriate to the games being made by the company.  For example, you may log all agent actions in order to be able to replay a scene or a whole game.  You might also track where players are spending their time in order to provide feedback to game designers -- perhaps there are areas where players stay longer than expected because they are more challenging or confusing than they are supposed to be.  You can also provide timing information to help optimize the rest of the game for performance.  Come up with a full set of data to track and work with the other groups to make sure you can provide useful feedback.
+**Group 16**, _Data Analytics_: This group should develop tools to collect information appropriate to the games being made by the company.  For example, you may log all agent actions in order to be able to replay a scene or a whole game.  You might also track where players are spending their time in order to provide feedback to game designers -- perhaps there are areas where players stay longer than expected because they are more challenging or confusing than they are supposed to be.  You can also provide timing information to help optimize the rest of the game for performance.  Come up with a full set of data to track and work with the other groups to make sure you can provide useful feedback.
 
 _Members_: Aneesh Joshi, Daniel Gao, Nathan Charters, John Rouse, and Tyler Murray
 
-**Group 17**, _GUI Interface_: You may choose any standard C\+\+ GUI package (such as Qt, WxWidgets, FLTK (Fast Light Toolkit), GTK / gtkmm, SFML, or many others) to develop an interface to the other modules that will allow a user to play the game.  The Interface should mostly use the Agent API, since a player should mostly be treated like any other agent, though the GUI may need to collect some additional information to provide a proper display for the user.  You may also need to implement a "god mode" to allow world editing or viewing beyond the player characters range.
+**Group 17**, _GUI Interface_: You may choose any standard C\+\+ GUI package (such as Qt, WxWidgets, FLTK (Fast Light Toolkit), GTK / gtkmm, SFML, SDL, or many others) to develop an interface to the other modules that will allow a user to play the game.  The Interface should mostly use the Agent API, since a player should mostly be treated like any other agent, though the GUI may need to collect some additional information to provide a proper display for the user.  You may also need to implement a "god mode" to allow world editing or viewing beyond the player characters range.
 
 _Members_: Anagha Jammalamadaka, Kiana May, Hugh Mark Sanchez, Sitara Baxendale, and Deni Tepic
 
-**Group 18**, _Web Interface_: Similar to the GUI Interface above, but you should use Emscripten along with more traditional web tools (JavaScript, HTML5, and associated packages) to build a user interface module for the games.  As with the GUI above, this Interface should mostly use the Agent API, since a player should mostly be treated like any other agent, though the GUI may need to collect some additional information to provide a proper display for the user.  You may also need to implement a "god mode" to allow world editing or viewing beyond the player characters range.
+**Group 18**, _Web Interface_: Similar to the GUI Interface above, but you should use Emscripten along with more traditional web tools (JavaScript, HTML5, and associated packages) to build a user interface module for the games.  You may use some packages already designed to work with Emscripten (such as SDL, which also has good video tutorials on YouTube).  As with the GUI above, this Interface should mostly use the Agent API, since a player should mostly be treated like any other agent, though the GUI may need to collect some additional information to provide a proper display for the user.  You may also need to implement a "god mode" to allow world editing or viewing beyond the player characters range.
 
 _Members_: Pinhe Du, Tung Xuan Hoang, Feichi Cai, Lance Motowski, and Alexander Elkins
 
 
 ## Group C++ Classes
 
-Each group has five members and five C\+\+ classes that you need to write.  Each group member should take the lead on on one of the classes, but you should make sure that all five turn out to be solid as they will be critical for your group and potentially other groups in your company.
+Each group has five members and five C\+\+ classes that you need to write.  Each group member should take the lead on on one of the classes, but you should work together to make sure that all five turn out to be solid as they will be critical for your group and potentially other groups in your company.
 
 You will design all of the details for these classes, and may change the name or the emphasis; given a good argument, you can even substitute a whole different class that you believe will be more useful to you.  You will come up with unit tests and a small demo program so other groups can use your code comfortably and safely.
 
@@ -101,7 +101,7 @@ You will design all of the details for these classes, and may change the name or
 **`StateGridPosition`** - Track a single position (and orientation?) in the state grid to manage an individual agent moving through it.  Should be able to compare with other `StateGridPosition`'s in useful ways.
 
 
-### Group 16: _Data Collection and Analysis_
+### Group 16: _Data Analytics_
 
 **`DataLog`** - An object to track a series of data values over time.  It should be able to return the mean, median, min, max, or number of values collected at any point in time; other stats could also be helpful. If you want to scale up it's capabilities, you can set template flags that specify what it should track, even to the point of saving all values.
 

@@ -29,7 +29,7 @@ _Members_: Ebenezer Appiah, Benjamin Harrison, Joshua Twumasi, Lemuel Mensah, an
 
 _Members_: Dat, Milo Baran, Devang Sethi, Anurag Senapaty, and Luke Bridges
 
-**Group 20**, _Data Collection and Analysis_: This group should develop tools to collect information appropriate to the simulations being made by the company.  For example, you may log all agent actions in order to be able to replay a scene or a whole simulation.  You might also track where players are spending their time in order to analyze simulation results and understand the effects of different rules or behavior types.  You can also provide timing information to help optimize the rest of the simulation for performance.  Come up with a full set of data to track and work with the other groups to make sure you can provide useful feedback.
+**Group 20**, _Data Analytics_: This group should develop tools to collect information appropriate to the simulations being made by the company.  For example, you may log all agent actions in order to be able to replay a scene or a whole simulation.  You might also track where users are spending their time in order to analyze simulation results and understand the effects of different rules or behavior types.  You can also provide timing information to help optimize the rest of the simulation for performance.  Come up with a full set of data to track and work with the other groups to make sure you can provide useful feedback.
 
 _Members_: Apar Mohabansi, Divyalakshmi Varadha Rajan Prem Sudha, Scott Haakenson, Noyonika Puram, and Abdulrahman Alanazi
 
@@ -100,7 +100,7 @@ You will design all of the details for these classes, and may change the name or
 **`StateGridPosition`** - Track a single position (and orientation?) in the state grid to manage an individual agent moving through it.  Should be able to compare with other `StateGridPosition`'s in useful ways.
 
 
-### Group 20: _Data Collection and Analysis_
+### Group 20: _Data Analytics_
 
 **`DataLog`** - An object to track a series of data values over time.  It should be able to return the mean, median, min, max, or number of values collected at any point in time; other stats could also be helpful. If you want to scale up it's capabilities, you can set template flags that specify what it should track, even to the point of saving all values.
 
