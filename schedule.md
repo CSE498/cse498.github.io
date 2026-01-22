@@ -35,7 +35,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |
 |          | <b style="color: blue">Quiz:</b> 1b                                               |
 |          | <b style="color: red">Due:</b> Team agreements ([sample](example_agreement.html)) |
-|          | <b style="color: red">Due:</b> Specs for initial C++ classes and module proposal  |
+|          | <b style="color: red">Due FRIDAY Jan 30:</b> Specs for initial C++ classes and module proposal  |
 
 ## Unit II: Writing Reliable Code
 

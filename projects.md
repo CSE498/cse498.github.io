@@ -17,7 +17,7 @@ The largest chunk of the work for this course will be developing C++ code, first
 | Due Date     | Deliverable                                                                | Value                     |
 | ----         | ---------                                                                  | -----                     |
 | Every Friday | **Weekly updates** (1 point each)                                          | 12 points (_updates_)     |
-| Wed, Jan 28  | **Specs for initial C\+\+ classes** and **team agreements**                | Set project expectations  |
+| ~~Wed, Jan 28~~ Fri, Jan 30  | **Specs for initial C\+\+ classes** and **team agreements**                | Set project expectations  |
 | Mon, Feb 16  | **Code for working C\+\+ classes** (5 pts) and **status video** (5 pts)    | 10 points (_project_)     |
 | Mon, Feb 23  | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
 | Fri, Feb 27  | **Code fixes based on peer reviews**                                       | Improved code for grading |
@@ -125,7 +125,7 @@ _Example_: In the context of Pac-Man, the Analysis Module might track the routes
 
 
 # <span id="class_spec">Write-up for Initial C\+\+ Class Development and Module Ideas</span>
-### Due: Jan 28, 2026
+### Due: Jan ~~28~~ 30, 2026
 
 For each of the five C\+\+ classes that your group will be developing, you should include in your writeup:
 
@@ -145,6 +145,7 @@ You can make some refinements to these specifications later, but will need to co
 
 In addition to the write-ups for your five C\+\+ classes, you should also include a paragraph about your **vision for the main module** that you will develop.  This description can be fairly high-level at this point, but will provide a concrete starting point to work with the other groups in your company on the bigger picture.
 
+You will hand these in to your GitHub repository (full details coming soon).
 
 
 <!--
