@@ -30,6 +30,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
 |          | *Read:* [When should static_cast, dynamic_cast, const_cast, and reinterpret_cast be used?](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used) (first answer is best, but later answers provide examples)
 |          | *Read:* [Using the C++23 std::expected type](https://mariusbancila.ro/blog/2022/08/17/using-the-cpp23-expected-type/) |  <!-- ALT: (https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast and https://leimao.github.io/blog/CPP-Casts/) -->
+|          | [Slides From Lecture](https://docs.google.com/presentation/d/1zV6XCD9zPMr14c1OwFp1_EhLnIcHQMeKPblaVtIqxY4/edit?usp=sharing) |
 | 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** |
 |          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) |
 |          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |
