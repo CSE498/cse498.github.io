@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Tentative schedule
+# Schedule
 
 This course is divided up into five units, covering a range of C\+\+ topics.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 3 pm to 4:50pm in STEM 2202); in addition to the discussion of material from the videos (which may include elaboration on content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, or time for the project groups to work together.
 
