@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Tentative schedule
+# Schedule
 
 This course is divided up into five units, covering a range of C\+\+ topics.  Before each class session, students will be expected to either watch a video (typically under 60 minutes) or read a blog post for in-class discussion.  The course will meet twice a week (Mondays and Wednesday, 3 pm to 4:50pm in STEM 2202); in addition to the discussion of material from the videos (which may include elaboration on content), classes will consist of live-coding demonstrations, live code reviews, quizzes, time for students to try out coding techniques, or time for the project groups to work together.
 
@@ -30,6 +30,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [L-Values vs. R-Values](https://www.youtube.com/watch?v=fbYknr-HPYE&t=258s) (4:18 to 12:42; 8 min) |
 |          | *Read:* [When should static_cast, dynamic_cast, const_cast, and reinterpret_cast be used?](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used) (first answer is best, but later answers provide examples)
 |          | *Read:* [Using the C++23 std::expected type](https://mariusbancila.ro/blog/2022/08/17/using-the-cpp23-expected-type/) |  <!-- ALT: (https://omkaracharekar.hashnode.dev/a-guide-to-c-casting-staticcast-reinterpretcast-dynamiccast-and-constcast and https://leimao.github.io/blog/CPP-Casts/) -->
+|          | [Slides From Lecture](https://docs.google.com/presentation/d/1zV6XCD9zPMr14c1OwFp1_EhLnIcHQMeKPblaVtIqxY4/edit?usp=sharing) |
 | 1/28/26  | **Compiling C++ into WebAssembly with Emscripten** |
 |          | *Install* and *Read Tutorial:* [Getting Started with Emscripten](https://emscripten.org/docs/getting_started/index.html) |
 |          | *Optional:* [Using WebAssembly and C++ to Make a Simple Game](https://www.youtube.com/watch?v=N248809vu5g) (72 min) |
@@ -43,11 +44,15 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |:--------:|-------------------------------------|
 | **Week 4** | |
 | 2/2/26   | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  |
-| 2/4/26   | **Tools: Setting up Testing Frameworks** <!--- <br> *Watch:* [Back to Basics: C++ Testing (only 1:15 - 21:15)](https://youtu.be/SAM4rWaIvUQ?si=JQmJAK_1-F9aKqip&t=73) (20 min) <br/> *Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#writing-tests) <br/> *Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) --> |
+|          | *Watch:* [Undefined Behavior in C++: What Every Programmer Should Know and Fear](https://www.youtube.com/watch?v=k9N8OrhrSZw) (33 min) |
+| 2/4/26   | **Tools: Setting up Testing Frameworks** |
+|          |*Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top) |
+|          |*Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) |
 |          | <b style="color: blue">Quiz:</b> 2a |
 |          | <b style="color: red">Milestone:</b> Initial working C\+\+ classes |
 | **Week 5** | |
 | 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
+|          | <b style="color: blue">Quiz:</b> 1c |
 | 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> |
 |          | <b style="color: blue">Quiz:</b> 2b |
 |          | <b style="color: red">Milestone:</b> Test suite, class asserts |
