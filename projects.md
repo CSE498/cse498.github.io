@@ -2,13 +2,6 @@
 layout: default
 ---
 
-# Company-specific Project Pages
-
-- [Company A](Company-A-Project.md)
-- [Company B](Company-B-Project.md)
-- [Company C](Company-C-Project.md)
-
-
 # Project and Review Guidelines
 - [Project Overview](#overview)
 - [Project Groups](#groups)
@@ -17,6 +10,12 @@ layout: default
 - [Module Types](#mod_types)
 - [Initial C\+\+ Class Writeups and Module Description](#class_spec)
 - [Company Roles](#roles)
+
+## Company-specific Project Pages
+
+- [Company A](Company-A-Project.md)
+- [Company B](Company-B-Project.md)
+- [Company C](Company-C-Project.md)
 
 # <span id="overview">Project Overview</span>
 
