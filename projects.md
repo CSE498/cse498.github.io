@@ -9,6 +9,7 @@ layout: default
 - [Project Topics](#topics)
 - [Module Types](#mod_types)
 - [Initial C\+\+ Class Writeups and Module Description](#class_spec)
+- [Company Roles](#roles)
 
 # <span id="overview">Project Overview</span>
 
@@ -147,6 +148,24 @@ In addition to the write-ups for your five C\+\+ classes, you should also includ
 
 You will hand these in to your GitHub repository (full details coming soon).
 
+
+# <span id="roles">Company Roles</span>
+
+In order to improve communication at each company, we are going to have have the Integration Lead for each team have a officer role for the company that highlights an area of integration that they will coordinate.
+
+The seven officer roles we suggest are:
+
+| Role | Integration goals |
+| ---- | ----------------- |
+| Product Design Officer   | Coordinate the high-level ideas for the software being produced, adjusting goals as the semester progresses. |
+| API Officer              | Record API decisions for module coordination |
+| Data Management Officer  | Record data type decisions to facilitate the API; for example, classes like `Location` or stats for agents, items, or grid cells |
+| Serialization Officer    | Ensure consistent serialization techniques and that saving and loading work correctly |
+| Integration Officer      | Ensures that integration tests exist and are included in automated testing |
+| Documentation Officer    | Organizes documentation created by individual teams in to a consistent and accessible structure |
+| Build System Officer     | Works with teams to make sure the build system uses the correct options to compile all of the modules |
+
+Most of the work will be performed by the individual teams, but these officers will ensure that the decisions made across groups are recorded, and that the entire project functions correctly when all of the modules come together.
 
 <!--
 # <span id="review-1">Rubric for initial code reviews (Round 1)</span>
