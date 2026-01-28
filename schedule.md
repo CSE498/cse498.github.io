@@ -37,7 +37,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: blue">Quiz:</b> 1b                                               |
 |          | <b style="color: red">Due:</b> Team agreements ([sample](example_agreement.html)) |
 |          | <b style="color: red">Due FRIDAY Jan 30:</b> Specs for initial C++ classes and module proposal  |
-|          | [Slides From Lecture](https://drive.google.com/file/d/1J7xteMg8rMKdP2nHLHK2APBU7ULQKmmN/view?usp=sharing) |
+|          | [Git Slides From Lecture](https://drive.google.com/file/d/1J7xteMg8rMKdP2nHLHK2APBU7ULQKmmN/view?usp=sharing) |
 
 ## Unit II: Writing Reliable Code
 
