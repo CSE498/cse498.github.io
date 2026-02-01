@@ -53,6 +53,8 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: red">Milestone:</b> Initial working C\+\+ classes |
 | **Week 5** | |
 | 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
+|          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g) (only need the first 45 min) |
+|          | *Watch:* [Constexpr and Static Assert](https://www.youtube.com/watch?v=ncQkEgGxKQo) (7 min) |
 |          | <b style="color: blue">Quiz:</b> 1c |
 | 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> |
 |          | <b style="color: blue">Quiz:</b> 2b |
