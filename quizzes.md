@@ -17,6 +17,7 @@ Quiz 1 focuses on **C++ Pre-Requisites**, composed entirely of C++ material draw
 + [Sample Quiz 1B](sample_quizzes/sample1B.html)
 
 Quiz 2 focuses on **C++ Fundamentals**
++ [Sample Quiz 2](sample_quizzes/quiz_2/quiz_2_practice.html)
 
 Quiz 3 focuses on **Reliable C++ Code**
 

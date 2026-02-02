@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_2_practice.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 35 -->
+  <div class="question">
+    <p><b>1.</b> According to the core guidelines, should you prefer default arguments in a constructor or multiple versions of the constructor with different numbers of arguments? Why?</p>
+    <div class="options"><label><input type="radio" name="q35" value="(A)">(A) You should prefer multiple versions of the constructor so that each version can be clearly commented indicating it purpose</label></div>
+    <div class="options"><label><input type="radio" name="q35" value="(B)">(B) You should prefer default arguments because it&apos;s more efficient to have fewer versions of a function</label></div>
+    <div class="options"><label><input type="radio" name="q35" value="(C)">(C) You should prefer default arguments to ensure consistency and help readers expect consistency</label></div>
+    <div class="options"><label><input type="radio" name="q35" value="(D)">(D) You should prefer multiple versions of the constructor so that each version can be optimized to use only those values it needs to</label></div>
+  <div class="answer" data-question="q35"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 12 -->
+  <div class="question">
+    <p><b>2.</b> Why should a class destructor sometimes be marked <code>virtual</code>?</p>
+    <div class="options"><label><input type="radio" name="q12" value="(A)">(A) If the class is a base class, a virtual destructor ensures that the derived destructor is called when <code>delete</code> is called on a base class pointer</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(B)">(B) If you have any other virtual functions in a class, it is an error not to also make the destructor virtual</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(C)">(C) You never need to - the compiler will do this automatically if you create any derived class</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(D)">(D) All derived classes should have their destructor marked <code>virtual</code> to indicate that they are derived classes</label></div>
+  <div class="answer" data-question="q12"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 34 -->
+  <div class="question">
+    <p><b>3.</b> According to the core guidelines, where should you set the default values for member variables in a class?</p>
+    <div class="options"><label><input type="radio" name="q34" value="(A)">(A) You should never use default values for variables</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(B)">(B) In the initializer list for every constructor definition</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(C)">(C) In the class definition where you declare each variable</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(D)">(D) In the body of each constructor</label></div>
+  <div class="answer" data-question="q34"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>4.</b> Under which of these conditions is it good coding practice to use raw pointers in C++?</p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) Only when you are building custom smart pointers of your own</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) Any time you are pointing to raw text files</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) Whenever you write the constructor and destructor at the same time</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) In a function that uses the pointers, but does not allocate, free, or store them in any way</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) It is never good coding practice to work with raw pointers in any way</label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 10 -->
+  <div class="question">
+    <p><b>5.</b> What are &quot;structured bindings&quot; in C++?</p>
+    <div class="options"><label><input type="radio" name="q10" value="(A)">(A) They allow you to bind specific values to function parameters, resulting in a function that takes fewer arguments</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(B)">(B) They direct the linking phase of compilation, specifying how various modules should be bound together</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(C)">(C) They simplify setting multiple variables at once, such as in a for loop of when returning multiple values from a function</label></div>
+    <div class="options"><label><input type="radio" name="q10" value="(D)">(D) They allow you to build a new <code>struct</code> type at run time, without needing to specify it at compile time</label></div>
+  <div class="answer" data-question="q10"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 14 -->
+  <div class="question">
+    <p><b>6.</b> What order are a class&apos; member variables initialized in?</p>
+    <div class="options"><label><input type="radio" name="q14" value="(A)">(A) The order in which they are placed in the initializer list of a constructor</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(B)">(B) The same order as the associated parameters of the constructor</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(C)">(C) The order in which they are declared in the class</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(D)">(D) This is undefined; they may be initialized in any order</label></div>
+  <div class="answer" data-question="q14"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 15 -->
+  <div class="question">
+    <p><b>7.</b> How should you handle &quot;magic numbers&quot; in the code, such as 3.141592 for PI?</p>
+    <div class="options"><label><input type="radio" name="q15" value="(A)">(A) You should never use magic numbers in code</label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(B)">(B) Set it to a variable so that it can be optimized effectively; e.g.:<br>
+&nbsp;&nbsp;<code>constexpr double PI = 3.141592;</code><br>
+&nbsp;&nbsp;<code>double area = PI * r * r;</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(C)">(C) Have it returned by a function so that its definition is placed in a header file, e.g.:<br>
+&nbsp;&nbsp;<code>double PI() { return 3.141592; }  // In a header file</code><br>
+&nbsp;&nbsp;<code>double area = PI() * r * r;       // Later, where you&apos;re using it</code></label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(D)">(D) Specify the value directly so that it can be optimized effectively; e.g.:<br>
+&nbsp;&nbsp;<code>double area = 3.141592 * r * r;</code></label></div>
+  <div class="answer" data-question="q15"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>8.</b> Why should you use smart pointers rather than directly calling <code>new</code> and <code>delete</code> yourself?</p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) Because smart pointers are always faster</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) To simplify debugging</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) Because new and delete are deprecated</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) To automatically manage object lifetimes and make memory leaks less likely</label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 1 -->
+  <div class="question">
+    <p><b>9.</b> Which of the following is a valid reason that you should avoid <code>using namespace std;</code> in your code?</p>
+    <div class="options"><label><input type="radio" name="q1" value="(A)">(A) You will be polluting your current namespace with every identifier in the standard library</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(B)">(B) It will drastically limit the identifiers that you are allowed to use in your own code</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(C)">(C) Bringing in the entire standard library into your code would be considered a copyright violation </label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(D)">(D) The <code>using</code> command is deprecated.  You should always use <code>typedef</code> instead.</label></div>
+    <div class="options"><label><input type="radio" name="q1" value="(E)">(E) It will drastically slow compilation times since substantial additional code will need to be compiled</label></div>
+  <div class="answer" data-question="q1"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 42 -->
+  <div class="question">
+    <p><b>10.</b> According to the core guidelines, what should you do if you have multiple return values?</p>
+    <div class="options"><label><input type="radio" name="q42" value="(A)">(A) Always pass the output values by reference as function parameters</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(B)">(B) Use multiple out-pointers as function arguments for each return value</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(C)">(C) Return a <code>struct</code> or a <code>tuple</code> that bundles the values together</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(D)">(D) Use a static class member to temporarily hold the return values</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(E)">(E) Create separate functions for each return value</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(F)">(F) Use global variables to store and retrieve the return values</label></div>
+    <div class="options"><label><input type="radio" name="q42" value="(G)">(G) Return a vector or list, even if the values are of different types</label></div>
+  <div class="answer" data-question="q42"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>11.</b> Which of the following is NOT an advantage of using <code>std::unique_ptr</code> over <code>std::shared_ptr</code>?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) Lower memory overhead</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) Reference counting of object instances</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) Faster execution</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) Simplicity of single ownership</label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <p><b>12.</b> How should you decide whether to use <code>&apos;<br>&apos;</code> or <code>std::endl</code> for a newline when you are outputting to a stream?</p>
+    <div class="options"><label><input type="radio" name="q2" value="(A)">(A) You should default to <code>&apos;<br>&apos;</code> unless it is the final newline for your current output and want to flush the result</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(B)">(B) You should always use <code>std::endl</code> because it can detect the current context and always behaves correctly</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(C)">(C) It is only a matter of style; pick the one that you like better and use it consistently</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(D)">(D) You should always use <code>&apos;<br>&apos;</code> because <code>std::endl</code> has been deprecated</label></div>
+    <div class="options"><label><input type="radio" name="q2" value="(E)">(E) You should default to <code>std::endl</code> unless you are generating an ASCII string, which needs a newline character</label></div>
+  <div class="answer" data-question="q2"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 39 -->
+  <div class="question">
+    <p><b>13.</b> According to the C++ Core Guidelines, what is a good technique to reduce the number of parameters to a function?</p>
+    <div class="options"><label><input type="radio" name="q39" value="(A)">(A) Split the function into multiple smaller functions, each taking a subset of the original parameters</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(B)">(B) Utilize global variables to store commonly used parameters</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(C)">(C) Use <code>std::pair</code> to arbitrarily group pairs of neighboring parameters</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(D)">(D) Use abstractions to combine inputs, such as a <code>Point</code> class rather than separate x&apos;s and y&apos;s</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(E)">(E) Rely on default argument values for most of the function parameters</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(F)">(F) Build a class around the function where you can pass in the arguments sequentially</label></div>
+  <div class="answer" data-question="q39"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 13 -->
+  <div class="question">
+    <p><b>14.</b> When should you use the <code>override</code> keyword?</p>
+    <div class="options"><label><input type="radio" name="q13" value="(A)">(A) When you want to replace an old definition of a function with a new one</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(B)">(B) When you want to ensure that a derived function pairs with a virtual function in the base class</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(C)">(C) Whenever you have multiple functions with the same name and want to ensure that they can each be called</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(D)">(D) When you want ensure consistency in a function&apos;s return value and need to override it into a specified range</label></div>
+  <div class="answer" data-question="q13"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>15.</b> What can the keyword <code>mutable</code> be used for in C++?</p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) To indicate that a class cannot be made <code>const</code></label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) To mark a member function as disallowed from being run on a const instance of a class</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) To specify that a class may be changed unexpectedly (possibly in a different thread).</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) To mark a parameter to a function that will definitely be modified in that function</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(E)">(E) To denote a member variable that is still allowed to change in a <code>const</code> member function</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(F)">(F) To indicate a class where the member variables in the class may vary from one instance to another</label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>16.</b> Two types of smart pointers are commonly used from the C++ standard library, <code>std::unique_ptr</code> and <code>std::shared_ptr</code>.  How should you decide which one to use?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) Use std::shared_ptr when you want the object to be modifiable from multiple functions, and std::unique_ptr when modifications should be restricted to one module.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) Use <code>std::unique_ptr</code> when you are working with smaller objects, but use and <code>std::shared_ptr</code> when the object is large or expensive to copy.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) Use <code>std::shared_ptr</code> for polymorphic objects since they require dynamic management, and use std::unique_ptr only for non-polymorphic types.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) Use <code>std::unique_ptr</code> by default because it is more efficient and less likely to leak memory; only use std::shared_ptr when you need to share ownership across multiple parts of your program.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(E)">(E) Use <code>std::unique_ptr</code> if you know you are going to have only one instance of a class, but used <code>std::shared_ptr</code> if you are likely to have many instances.</label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 36 -->
+  <div class="question">
+    <p><b>17.</b> While function arguments may be processed in any order, the same is not true for initialization lists. Consider the following C++ structure:<br>
+&nbsp;&nbsp;<code>struct MyClass {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int a;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int b;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int c;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;MyClass(int x) : c(x++), b(x++), a(x++) { }</code><br>
+&nbsp;&nbsp;<code>};</code><br>
+If you create a variable with <code>MyClass var(7)</code>, what will be the values of <code>a</code>, <code>b</code>, and <code>c</code>?</p>
+    <div class="options"><label><input type="radio" name="q36" value="(A)">(A) a=9, b=8, and c=7</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(B)">(B) a=9, b=9, and c=9</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(C)">(C) a=7, b=8, and c=9</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(D)">(D) a=7, b=7, and c=7</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(E)">(E) The code above will not compile because the initialization list is in a different order from the declarations of the member variables.</label></div>
+  <div class="answer" data-question="q36"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 44 -->
+  <div class="question">
+    <p><b>18.</b> Which of the following is true about the C++ Core Guidelines as a whole?</p>
+    <div class="options"><label><input type="radio" name="q44" value="(A)">(A) They are specifications that compiler writers must follow when implementing the C++ standard</label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(B)">(B) They are a more intuitive version of the C++ standard</label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(C)">(C) They are purely stylistic rules that make arbitrary decisions based solely around consistent appearance in code</label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(D)">(D) They are requirements that extend the C++ standard and must be followed in all programs</label></div>
+    <div class="options"><label><input type="radio" name="q44" value="(E)">(E) They are suggestions for improving your code by making it more consistent and easier to debug</label></div>
+  <div class="answer" data-question="q44"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 40 -->
+  <div class="question">
+    <p><b>19.</b> Which of the following is NOT one of the C++ Core Guidelines? Hint: all of the others were mentioned in the core guidelines video that you watched.</p>
+    <div class="options"><label><input type="radio" name="q40" value="(A)">(A) Prefer setting default values for member variables in the class definition where you declare each variable</label></div>
+    <div class="options"><label><input type="radio" name="q40" value="(B)">(B) Consolidate logically related inputs into a single user-defined type (e.g., a class or struct) that encapsulates the necessary data</label></div>
+    <div class="options"><label><input type="radio" name="q40" value="(C)">(C) If you need to return multiple values, use a <code>struct</code> or a <code>tuple</code> that bundles the values together</label></div>
+    <div class="options"><label><input type="radio" name="q40" value="(D)">(D) Prefer default arguments in a constructor rather than multiple versions of the constructor (to ensure consistency)</label></div>
+    <div class="options"><label><input type="radio" name="q40" value="(E)">(E) Introduce global variables to hold frequently used values, thus eliminating the need to pass them as parameters</label></div>
+  <div class="answer" data-question="q40"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>20.</b> What is the advantage of using <code>std::make_unique</code> or <code>std::make_shared</code> over constructing your unique/shared pointers directly?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) It&apos;s the only way to ensure that the pointer will have new memory allocated for it</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) It&apos;s just a convenience that simplifies the allocation process, passing arguments through to the constructor</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) It provides a performance improvement</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) It makes it easier to swap the underlying pointer</label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 21 -->
+  <div class="question">
+    <p><b>21.</b> Why is it important to use <code>std::unique_ptr</code> in a function that may throw an exception in the middle?</p>
+    <div class="options"><label><input type="radio" name="q21" value="(A)">(A) Because it allows for easier debugging</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(B)">(B) To handle the exception inside the pointer</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(C)">(C) To ensure that the memory is deallocated even if an exception is thrown</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(D)">(D) Because it makes the code run faster</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(E)">(E) The presence of the unique pointer will make the compiler handle any exceptions at compile time</label></div>
+  <div class="answer" data-question="q21"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>22.</b> Why should I try to avoid casting away <code>const</code> on a variable even when I know that I am not changing its value?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) Some non-const functions that I use may modify the value it subtle ways without me realizing it</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) A later programmer may modify my code to make a change that will alter the value without realizing that it was originally supposed to be const</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) If I am actually not modifying the variable, there is almost always a clearer way of writing the code that keeps it const</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) All of the above</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <p><b>23.</b> Which of the following is good advice for deciding when to use a range-based <code>for</code> loop like:<br>
+&nbsp;&nbsp;<code>for (auto &amp; x : data) { ... }</code><br>
+versus an indexed-based <code>for</code> loop:<br>
+&nbsp;&nbsp;<code>for (size_t i=0; i &lt; data.size(); ++i) { ... }</code><br>
+when iterating over a vector?</p>
+    <div class="options"><label><input type="radio" name="q3" value="(A)">(A) Default to an index-based <code>for</code> loop unless you are changing elements in the vector as you go</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(B)">(B) Never use range-based <code>for</code> loops if you can avoid them since index-based loops are more efficient</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(C)">(C) Never use index-based <code>for</code> loops if you can avoid them since range-based loops are more efficient</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(D)">(D) Make sure to use an indexed-based <code>for</code> loop if you are using pushing new elements on the back of the loop as you go</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(E)">(E) If both work for your needs, there is no reason to choose one over the other</label></div>
+  <div class="answer" data-question="q3"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 20 -->
+  <div class="question">
+    <p><b>24.</b> Which of the following is a good reason to use <code>std::unique_ptr</code> instead of a raw pointer?</p>
+    <div class="options"><label><input type="radio" name="q20" value="(A)">(A) We want to clarify where in the code this pointer is owned</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(B)">(B) We want to store the pointer in a <code>std::vector</code></label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(C)">(C) We want multiple pointers to share ownership of the object</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(D)">(D) We want to be able to swap the underlying pointer easily</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(E)">(E) We never plan to dereference the pointer</label></div>
+  <div class="answer" data-question="q20"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>25.</b> Sometimes arguments in a function call may have side-effects, so it&apos;s important to understand their order of evaluation.  What will the following code output?<br>
+&nbsp;&nbsp;<code>int Compute(int a, int b, int c) { return a + 3*b + 10*c; }</code><br>
+&nbsp;&nbsp;<code>int main() {</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;int i = 0;</code><br>
+&nbsp;&nbsp;<code>&nbsp;&nbsp;std::cout &lt;&lt; Compute(i++, i++, i++) &lt;&lt; std::endl;</code><br>
+&nbsp;&nbsp;<code>}</code></p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) <code>12   // i.e., Compute(2,0,1)</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) <code>23   // i.e., Compute(0,1,2)</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) <code>5    // i.e., Compute(2,1,0)</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) <code>21   // i.e., Compute(1,0,2)</code></label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(E)">(E) Any of the above are legal; the results depend on the compiler</label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>26.</b> If you want to compile a C++ program without any optimizations turned on, how can you do this with clang or gcc?</p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) You must put the compiler in debug mode with the <code>-g</code> command-line option</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) You must use the <code>--no-debug</code> command-line option</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) You must explicitly use the flag <code>-Onone</code></label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) You must use the <code>-DNDEBUG</code> command-line option</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(E)">(E) You can simply compile without setting any optimization flags</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 41 -->
+  <div class="question">
+    <p><b>27.</b> Which of the following C++ utilities allows you to express an intention to have a value that might or might not be present?</p>
+    <div class="options"><label><input type="radio" name="q41" value="(A)">(A) <code>std::none</code></label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(B)">(B) <code>std::maybe</code></label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(C)">(C) <code>std::any</code></label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(D)">(D) <code>std::nullable</code></label></div>
+    <div class="options"><label><input type="radio" name="q41" value="(E)">(E) <code>std::optional</code></label></div>
+  <div class="answer" data-question="q41"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_2_practice.js"></script>
+</body>
+</html>
