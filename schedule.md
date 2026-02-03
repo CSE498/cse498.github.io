@@ -46,6 +46,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | **Week 4** | |
 | 2/2/26   | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  |
 |          | *Watch:* [Undefined Behavior in C++: What Every Programmer Should Know and Fear](https://www.youtube.com/watch?v=k9N8OrhrSZw) (33 min) |
+|          | [Lecture Slides](https://docs.google.com/presentation/d/1j3fYQxW0OhRYp3jv1NZVfekfuUpECvUWXp3zPkL53KQ/edit?usp=sharing) |
 | 2/4/26   | **Tools: Setting up Testing Frameworks** |
 |          |*Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top) |
 |          |*Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) |
