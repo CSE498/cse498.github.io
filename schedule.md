@@ -58,6 +58,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [Constexpr and Static Assert](https://www.youtube.com/watch?v=ncQkEgGxKQo) (7 min) |
 |          | <b style="color: blue">Quiz:</b> 1c |
 | 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> |
+|          | *Watch:* [Smart Pointers in C++](https://www.youtube.com/watch?v=e2LMAgoqY_k) (25 min) |
 |          | <b style="color: blue">Quiz:</b> 2b |
 |          | <b style="color: red">Milestone:</b> Test suite, class asserts |
 
