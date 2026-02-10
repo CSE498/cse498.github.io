@@ -9,6 +9,7 @@ layout: default
 - [Project Topics](#topics)
 - [Module Types](#mod_types)
 - [Initial C\+\+ Class Writeups and Module Description](#class_spec)
+- [Video Overview](#video_overview)
 - [Company Roles](#roles)
 
 ## Company-specific Project Pages
@@ -154,7 +155,7 @@ In addition to the write-ups for your five C\+\+ classes, you should also includ
 
 You will hand these in to your GitHub repository (full details coming soon).
 
-# <span id="class_spec">Video Overview</span>
+# <span id="video_overview">Video Overview</span>
 ### Due: Feb ~~16~~ 18, 2026
 
 Your group needs to submit a video overview describing what your five C\+\+ classess do and how they might be used.
