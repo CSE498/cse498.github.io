@@ -69,10 +69,11 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |:--------:|-------------------------------------|
 | **Week 6** | |
 | 2/16/26  | **Template Rules** <!--- <br> *Watch:* [Back to Basics: Templates (Part 1 of 2)](https://www.youtube.com/watch?v=XN319NYEOcE) (61 min) --> |
-|          | <b style="color: red">Due:</b> Fully functional C\+\+ classes (5 pts) + Video Overview (5 pts) |
+|          | <b style="color: red">Due:</b> Fully functional C\+\+ classes (5 pts) |
 |          | <b style="color: green">Out:</b> Code review assignments and rubrics |
 | 2/18/26  | **Template Specialization and Variadic templates** <!--- <br> *Watch:* [Back to Basics: Templates (Part 2 of 2)](https://www.youtube.com/watch?v=FfI6Lov1O9M) (67 min) --> |
 |          | <b style="color: blue">Quiz:</b> 3a |
+|          | <b style="color: red">Due:</b> Video Overview (5 pts) |
 | **Week 7** | |
 | 2/23/26 | **Status Discussions** (*Normal class time AND optional 5-7pm for additional team discussions*) |
 |         | <b style="color: red">Due:</b> Code Reviews |
