@@ -72,12 +72,13 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [Templates Introduction](https://www.youtube.com/watch?v=S2OFJe73fxA) (11 min) |
 |          | *Watch:* [Template Functions](https://www.youtube.com/watch?v=ITeJbESNH7A) (14 min) |
 |          | *Watch:* [Multiple Template Parameters & Non-Object Parameters](https://www.youtube.com/watch?v=3ndFf7ZnT5I) (8 min) |
-|          | <b style="color: red">Due:</b> Fully functional C\+\+ classes (5 pts) + Video Overview (5 pts) |
+|          | <b style="color: red">Due:</b> Fully functional C\+\+ classes (5 pts) |
 |          | <b style="color: green">Out:</b> Code review assignments and rubrics |
 | 2/18/26  | **Template Specialization and Variadic templates** |
 |          | *Watch:* [Template Specialization](https://www.youtube.com/watch?v=Ci8xCDgYwuQ) (10 min) |
 |          | *Watch:* [Variadic Templates and Function Arguments](https://www.youtube.com/watch?v=irFkMavpL9A) (15 min) |
 |          | <b style="color: blue">Quiz:</b> 3a |
+|          | <b style="color: red">Due:</b> [Video Overview](https://cse498.github.io/projects.html#video_overview) (5 pts) |
 | **Week 7** | |
 | 2/23/26 | **Status Discussions** (*Normal class time AND optional 5-7pm for additional team discussions*) |
 |         | <b style="color: red">Due:</b> Code Reviews |

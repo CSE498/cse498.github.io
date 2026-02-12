@@ -9,6 +9,7 @@ layout: default
 - [Project Topics](#topics)
 - [Module Types](#mod_types)
 - [Initial C\+\+ Class Writeups and Module Description](#class_spec)
+- [Video Overview](#video_overview)
 - [Company Roles](#roles)
 
 ## Company-specific Project Pages
@@ -153,6 +154,17 @@ You can make some refinements to these specifications later, but will need to co
 In addition to the write-ups for your five C\+\+ classes, you should also include a paragraph about your **vision for the main module** that you will develop.  This description can be fairly high-level at this point, but will provide a concrete starting point to work with the other groups in your company on the bigger picture.
 
 You will hand these in to your GitHub repository (full details coming soon).
+
+# <span id="video_overview">Video Overview</span>
+### Due: Feb ~~16~~ 18, 2026
+
+Your group needs to submit a video overview describing what your five C\+\+ classess do and how they might be used.
+
+Requirements:
+* Everyone must describe the work that they contributed in the video.
+* Videos must be about 10 minutes in length.
+* Videos must be scripted. The script and link to the video (hosted on MSU MediaSpace or similar) must be placed in your groups' "specific content" folder. Please note that the script doesn't need to be followed to the word. The purpose of the script is to ensure that thought and preparation about the video's content is made prior to the recording.
+
 
 
 # <span id="roles">Company Roles</span>
