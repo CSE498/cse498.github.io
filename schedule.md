@@ -47,21 +47,25 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 2/2/26   | **Avoiding Undefined Behavior** <!--- <br> *Watch:* [Back To Basics: Undefined Behavior](https://www.youtube.com/watch?v=NpL9YnxnOqM) (62 min) -->  |
 |          | *Watch:* [Undefined Behavior in C++: What Every Programmer Should Know and Fear](https://www.youtube.com/watch?v=k9N8OrhrSZw) (33 min) |
 |          | [Lecture Slides](https://docs.google.com/presentation/d/1j3fYQxW0OhRYp3jv1NZVfekfuUpECvUWXp3zPkL53KQ/edit?usp=sharing) |
+|          | [Lecture Slides [Halting problem]](https://drive.google.com/file/d/1dBJ5B1KyOBUE1tdp7_oxMQT4QdhY8FhF/view?usp=sharing) |
 | 2/4/26   | **Tools: Setting up Testing Frameworks** |
 |          |*Read over:* [Catch 2 - Tutorial](https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top) |
 |          |*Read over:* [Unit vs. Integration Testing](https://circleci.com/blog/unit-testing-vs-integration-testing/) |
 |          | <b style="color: blue">Quiz:</b> 2a |
 |          | <b style="color: red">Milestone:</b> Initial working C\+\+ classes |
+|          | [Lecture Slides [Software Testing]](https://drive.google.com/file/d/1nc32ZaRU4MQbbIqplNQPJofe27BHXBAJ/view?usp=sharing) |
 | **Week 5** | |
 | 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
 |          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g) (only need the first 45 min) |
 |          | *Watch:* [Constexpr and Static Assert](https://www.youtube.com/watch?v=ncQkEgGxKQo) (7 min) |
 |          | Lecture Slides: [Debugging / compile-time work](https://docs.google.com/presentation/d/1G_7e2chtwvZzAfu5sUkd6R70WkAwe3x6tkgSgaIgBHQ/edit?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 1c |
+|          | [Lecture Slides [Non-conventional Testing Techniques]](https://drive.google.com/file/d/12D7He6Jp2I_Hf6i6tHUhwzRNVPnTywqe/view?usp=sharing) |
 | 2/11/26  | **Memory Management** + **Casting** <!--- <br> *Watch:* [C++ Memory Management Part 1: Pointer Primer, new, delete, macros](https://www.youtube.com/watch?v=DuJxoTzrCLY) (14 min) <br> *Watch:* [C++ Memory Management Part 2: Modern Pointers, shared, unique](https://www.youtube.com/watch?v=u_FEZDfBPk8) (23 min) --> |
 |          | *Watch:* [Smart Pointers in C++](https://www.youtube.com/watch?v=e2LMAgoqY_k) (25 min) |
 |          | <b style="color: blue">Quiz:</b> 2b |
 |          | <b style="color: red">Milestone:</b> Test suite, class asserts |
+|          | [Lecture Slides [Memory Safety]](https://drive.google.com/file/d/1QPE-x7cIW8naTkZp5R1EY9XktooYz54f/view?usp=sharing) |
 
 ## Unit III: Writing Generic Code
 
