@@ -214,7 +214,7 @@ Below are the topics that the C++ classes should be reviewed on during the first
 - **Assertions**.  Are `assert` statements used properly throughout the code to enforce invariants and ensure a valid state?  (for example, checking that valid arguments are passed into functions.) Note that asserts should be used only to identify conditions that should never occur in properly working code; if code is expected to recover, error handling must be performed.
 - **Error handling.** Are error conditions that can occur during correct execution (such as resource limitations, files not available, or division by zero) checked for and reported back with `std::expected`, other return conditions, or some other technique like exceptions (if your group is comfortable with the speed hit)?
 
-In the future we will also be considering code optimization and a major component of the review.  If you see serious optimization issues at this point, however, you should still make sure to identify them.
+In the future we will also be considering code optimization as a component of the reviews.  If you see serious optimization issues at this point, however, you should still make sure to identify them.
 
 <!--
 # <span id="review-2">Rubric for Code Reviews of Advanced C++ Classes (Round 2)</span>
