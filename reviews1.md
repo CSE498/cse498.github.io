@@ -10,7 +10,11 @@ If your code is being reviewed, please reply to reviewer comments.  You can star
 
 The guidelines for what you should be looking for in the code reviews can be found [here](projects.html#review-1).
 
-## <span id="group-1" style="color: blue">Company A</span>
+- [Company A](#company-a)
+- [Company B](#company-b)
+- [Company C](#company-c)
+
+## <span id="company-a" style="color: blue">Company A</span>
 
 **Review Assignments**
 
@@ -59,7 +63,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Lance Motowski   | Group 17: Text         | Group 15: StateGrid |
 | Alexander Elkins | Group 17: ErrorManager | Group 15: StateGridPosition |
 
-## <span id="group-1" style="color: blue">Company A</span>
+## <span id="company-b" style="color: blue">Company B</span>
 
 **Review Assignments**
 
@@ -108,7 +112,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Fatima Saad      | Group 21: Text         | Group 19: StateGrid |
 | Varun Verma      | Group 21: ErrorManager | Group 19: StateGridPosition |
 
-## <span id="group-1" style="color: blue">Company A</span>
+## <span id="company-c" style="color: blue">Company C</span>
 
 **Review Assignments**
 
