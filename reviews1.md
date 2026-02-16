@@ -14,9 +14,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 - [Company B](#company-b)
 - [Company C](#company-c)
 
-## <span id="company-a" style="color: blue">Company A</span>
-
-**Review Assignments**
+## <span id="company-a" style="color: blue">Company A</span> Review Assignments
 
 | Reviewer | Assignment 1 | Assignment 2 |
 | -------- | ------------ | ------------ |
@@ -63,9 +61,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Lance Motowski   | Group 17: Text         | Group 15: StateGrid |
 | Alexander Elkins | Group 17: ErrorManager | Group 15: StateGridPosition |
 
-## <span id="company-b" style="color: blue">Company B</span>
-
-**Review Assignments**
+## <span id="company-b" style="color: blue">Company B</span> Review Assignments
 
 | Reviewer | Assignment 1 | Assignment 2 |
 | -------- | ------------ | ------------ |
@@ -112,9 +108,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Fatima Saad      | Group 21: Text         | Group 19: StateGrid |
 | Varun Verma      | Group 21: ErrorManager | Group 19: StateGridPosition |
 
-## <span id="company-c" style="color: blue">Company C</span>
-
-**Review Assignments**
+## <span id="company-c" style="color: blue">Company C</span> Review Assignments
 
 | Reviewer | Assignment 1 | Assignment 2 |
 | -------- | ------------ | ------------ |
