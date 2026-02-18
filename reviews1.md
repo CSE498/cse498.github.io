@@ -20,7 +20,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | -------- | ------------ | ------------ |
 | **Group 1** | | |
 | Arya Amiri     | Group 2: BehaviorTree | Group 17: ImageGrid |
-| Arnav Enaganti | Group 2: ActionMap    | Group 17: ImageAsset |
+| Arnav Enaganti | Group 2: ActionMap    | Group 17: ImageManager |
 | Mayank Gudi    | Group 2: PathGenerator | Group 17: Text |
 | Eddie Lim      | Group 2: MemoFunction | Group 17: ErrorManager |
 | Jordan Sebagh  | Group 2: WorldPath    | Group 17: Menu |
@@ -56,7 +56,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Deni Tepic           | Group 14: EventQueue       | Group 18: WebLayout  |
 | **Group 18** | | |
 | Feichi Cai       | Group 15: DataFileManager   | Group 17: Menu         |
-| Pinhe Du         | Group 15: Random            | Group 17: ImageAsset   |
+| Pinhe Du         | Group 15: Random            | Group 17: ImageManager |
 | Alexander Elkins | Group 15: StateGridPosition | Group 17: ErrorManager |
 | Tung Xuan Hoang  | Group 15: WeightedSet       | Group 17: ImageGrid    |
 | Lance Motowski   | Group 15: StateGrid         | Group 17: Text         |
