@@ -21,7 +21,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | **Group 1** | | |
 | Arya Amiri     | Group 2: BehaviorTree | Group 17: ImageGrid |
 | Arnav Enaganti | Group 2: ActionMap    | Group 17: ImageAsset |
-| Mayank Gudi    | Group 2: PathAnalyzer | Group 17: Text |
+| Mayank Gudi    | Group 2: PathGenerator | Group 17: Text |
 | Eddie Lim      | Group 2: MemoFunction | Group 17: ErrorManager |
 | Jordan Sebagh  | Group 2: WorldPath    | Group 17: Menu |
 | **Group 2** | | |
@@ -47,7 +47,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Daniel Gao      | Group 1: AnnotationSet | Group 2: BehaviorTree |
 | Aneesh Joshi    | Group 1: FeatureVector | Group 2: ActionMap |
 | Tyler Murray    | Group 1: RobinHoodMap  | Group 2: MemoFunction |
-| John Rouse      | Group 1: MemoryFactory | Group 2: PathAnalyzer |
+| John Rouse      | Group 1: MemoryFactory | Group 2: PathGenerator |
 | **Group 17** | | |
 | Sitara Baxendale     | Group 14: Scheduler        | Group 18: WebCanvas  |
 | Anagha Jammalamadaka | Group 14: ExpressionParser | Group 18: WebImage   |
@@ -76,7 +76,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Landon Cosby    | Group 11: BehaviorTree | Group 22: WebLayout |
 | Cindy Huang     | Group 11: ActionMap    | Group 22: WebButton |
 | Nicholas McComb | Group 11: WorldPath    | Group 22: WebImage |
-| John Stouffer   | Group 11: PathAnalyzer | Group 22: WebTextbox |
+| John Stouffer   | Group 11: PathGenerator | Group 22: WebTextbox |
 | **Group 13** | | |
 | Ebenezer Appiah   | Group 19: Random            | Group 20: DataLog |
 | Benjamin Harrison | Group 19: WeightedSet       | Group 20: Timer |
@@ -94,7 +94,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | Scott Haakenson                       | Group 11: ActionMap    | Group 12: AnnotationSet |
 | Apar Mohabansi                        | Group 11: WorldPath    | Group 12: ExpressionParser |
 | Noyonika Puram                        | Group 11: FunctionSet  | Group 12: TagManager |
-| Divyalakshmi Varadha Rajan Prem Sudha | Group 11: PathAnalyzer | Group 12: DataMap |
+| Divyalakshmi Varadha Rajan Prem Sudha | Group 11: PathGenerator | Group 12: DataMap |
 | **Group 21** | | |
 | Andreea Danila  | Group 13: Scheduler | Group 22: WebLayout  |
 | Madison Kiewski | Group 13: Surface   | Group 22: WebButton  |
@@ -117,7 +117,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | David Kaczanowski      | Group 6: BehaviorTree  | Group 23: DataLog |
 | Sachin Karatha         | Group 6: WorldPath     | Group 23: ActionLog |
 | Ahmed Ezaz Hamid Labib | Group 6: ActionMap     | Group 23: Timer |
-| Shashank Sai Papani    | Group 6: PathAnalyzer  | Group 23: ReplayDriver |
+| Shashank Sai Papani    | Group 6: PathGenerator  | Group 23: ReplayDriver |
 | **Group 6** | | |
 | Arnav Deol      | Group 5: TagManager    | Group 24: WebButton |
 | Dillan Kowalski | Group 5: FeatureVector | Group 24: WebImage |
@@ -137,7 +137,7 @@ The guidelines for what you should be looking for in the code reviews can be fou
 | John Masterman  | Group 7: DataMap           | Group 9: DataGrid |
 | Truong Phan     | Group 7: StateGrid         | Group 9: Serializer |
 | **Group 9** | | |
-| Mitchell McAuley                | Group 5: TagManager    | Group 6: PathAnalyzer |
+| Mitchell McAuley                | Group 5: TagManager    | Group 6: PathGenerator |
 | Andrew Shilman                  | Group 5: FunctionSet   | Group 6: ActionMap |
 | Yashvasin Sai Reddy Siddavarapu | Group 5: FeatureVector | Group 6: BehaviorTree |
 | Krist Veseli                    | Group 5: AnnotationSet | Group 6: WorldPath |
