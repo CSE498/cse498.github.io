@@ -89,6 +89,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 2/25/26 | **Status Discussions** (*Normal class time AND optional 5-7pm for additional team discussions*) |
 |         | <b style="color: red">Milestone:</b> Full specs for Modules (including APIs and C\+\+ class improvements) |
 |         | <b style="color: blue">Quiz:</b> 3b |
+| 2/27/26 | <b style="color: red">Due:</b> Code fixes based on peer reviews |
 | **SPRING BREAK!** | (no class this week) |
 | **Week 8** | | |
 | 3/9/26  | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> |
