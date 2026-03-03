@@ -1,0 +1,311 @@
+% QUESTION 35
+\question According to the core guidelines, should you prefer default arguments in a constructor or multiple versions of the constructor with different numbers of arguments? Why?
+
+\begin{mcanswerslist}
+\answer You should prefer multiple versions of the constructor so that each version can be clearly commented indicating it purpose
+\answer You should prefer default arguments because it's more efficient to have fewer versions of a function
+\answer[correct] You should prefer default arguments to ensure consistency and help readers expect consistency
+\answer You should prefer multiple versions of the constructor so that each version can be optimized to use only those values it needs to
+\end{mcanswerslist}
+
+% QUESTION 12
+\question Why should a class destructor sometimes be marked \texttt{virtual}?
+
+\begin{mcanswerslist}
+\answer[correct] If the class is a base class, a virtual destructor ensures that the derived destructor is called when \texttt{delete} is called on a base class pointer
+\answer If you have any other virtual functions in a class, it is an error not to also make the destructor virtual
+\answer You never need to - the compiler will do this automatically if you create any derived class
+\answer All derived classes should have their destructor marked \texttt{virtual} to indicate that they are derived classes
+\end{mcanswerslist}
+
+% QUESTION 34
+\question According to the core guidelines, where should you set the default values for member variables in a class?
+
+\begin{mcanswerslist}
+\answer You should never use default values for variables
+\answer In the initializer list for every constructor definition
+\answer[correct] In the class definition where you declare each variable
+\answer In the body of each constructor
+\end{mcanswerslist}
+
+% QUESTION 17
+\question Under which of these conditions is it good coding practice to use raw pointers in C++?
+
+\begin{mcanswerslist}[fixlast]
+\answer Only when you are building custom smart pointers of your own
+\answer Any time you are pointing to raw text files
+\answer Whenever you write the constructor and destructor at the same time
+\answer[correct] In a function that uses the pointers, but does not allocate, free, or store them in any way
+\answer It is never good coding practice to work with raw pointers in any way
+\end{mcanswerslist}
+
+% QUESTION 10
+\question What are "structured bindings" in C++?
+
+\begin{mcanswerslist}
+\answer They allow you to bind specific values to function parameters, resulting in a function that takes fewer arguments
+\answer They direct the linking phase of compilation, specifying how various modules should be bound together
+\answer[correct] They simplify setting multiple variables at once, such as in a for loop of when returning multiple values from a function
+\answer They allow you to build a new \texttt{struct} type at run time, without needing to specify it at compile time
+\end{mcanswerslist}
+
+% QUESTION 14
+\question What order are a class' member variables initialized in?
+
+\begin{mcanswerslist}[fixlast]
+\answer The order in which they are placed in the initializer list of a constructor
+\answer The same order as the associated parameters of the constructor
+\answer[correct] The order in which they are declared in the class
+\answer This is undefined; they may be initialized in any order
+\end{mcanswerslist}
+
+% QUESTION 15
+\question How should you handle "magic numbers" in the code, such as 3.141592 for PI?
+
+\begin{mcanswerslist}
+\answer You should never use magic numbers in code
+\answer[correct] Set it to a variable so that it can be optimized effectively; e.g.:\\
+\texttt{\hspace*{2em}constexpr double PI = 3.141592;}\\
+\texttt{\hspace*{2em}double area = PI * r * r;}
+\answer Have it returned by a function so that its definition is placed in a header file, e.g.:\\
+\texttt{\hspace*{2em}double PI() \{ return 3.141592; \}  // In a header file}\\
+\texttt{\hspace*{2em}double area = PI() * r * r;       // Later, where you're using it}
+\answer Specify the value directly so that it can be optimized effectively; e.g.:\\
+\texttt{\hspace*{2em}double area = 3.141592 * r * r;}
+\end{mcanswerslist}
+
+% QUESTION 25
+\question Why should you use smart pointers rather than directly calling \texttt{new} and \texttt{delete} yourself?
+
+\begin{mcanswerslist}
+\answer Because smart pointers are always faster
+\answer To simplify debugging
+\answer Because new and delete are deprecated
+\answer[correct] To automatically manage object lifetimes and make memory leaks less likely
+\end{mcanswerslist}
+
+% QUESTION 1
+\question Which of the following is a valid reason that you should avoid \texttt{using namespace std;} in your code?
+
+\begin{mcanswerslist}
+\answer[correct] You will be polluting your current namespace with every identifier in the standard library
+\answer It will drastically limit the identifiers that you are allowed to use in your own code
+\answer Bringing in the entire standard library into your code would be considered a copyright violation 
+\answer The \texttt{using} command is deprecated.  You should always use \texttt{typedef} instead.
+\answer It will drastically slow compilation times since substantial additional code will need to be compiled
+\end{mcanswerslist}
+
+% QUESTION 42
+\question According to the core guidelines, what should you do if you have multiple return values?
+
+\begin{mcanswerslist}
+\answer Always pass the output values by reference as function parameters
+\answer Use multiple out-pointers as function arguments for each return value
+\answer[correct] Return a \texttt{struct} or a \texttt{tuple} that bundles the values together
+\answer Use a static class member to temporarily hold the return values
+\answer Create separate functions for each return value
+\answer Use global variables to store and retrieve the return values
+\answer Return a vector or list, even if the values are of different types
+\end{mcanswerslist}
+
+% QUESTION 23
+\question Which of the following is NOT an advantage of using \texttt{std::unique\_ptr} over \texttt{std::shared\_ptr}?
+
+\begin{mcanswerslist}
+\answer Lower memory overhead
+\answer[correct] Reference counting of object instances
+\answer Faster execution
+\answer Simplicity of single ownership
+\end{mcanswerslist}
+
+% QUESTION 2
+\question How should you decide whether to use \texttt{'\\ '} or \texttt{std::endl} for a newline when you are outputting to a stream?
+
+\begin{mcanswerslist}
+\answer[correct] You should default to \texttt{'\\ '} unless it is the final newline for your current output and want to flush the result
+\answer You should always use \texttt{std::endl} because it can detect the current context and always behaves correctly
+\answer It is only a matter of style; pick the one that you like better and use it consistently
+\answer You should always use \texttt{'\\ '} because \texttt{std::endl} has been deprecated
+\answer You should default to \texttt{std::endl} unless you are generating an ASCII string, which needs a newline character
+\end{mcanswerslist}
+
+% QUESTION 39
+\question According to the C++ Core Guidelines, what is a good technique to reduce the number of parameters to a function?
+
+\begin{mcanswerslist}
+\answer Split the function into multiple smaller functions, each taking a subset of the original parameters
+\answer Utilize global variables to store commonly used parameters
+\answer Use \texttt{std::pair} to arbitrarily group pairs of neighboring parameters
+\answer[correct] Use abstractions to combine inputs, such as a \texttt{Point} class rather than separate x's and y's
+\answer Rely on default argument values for most of the function parameters
+\answer Build a class around the function where you can pass in the arguments sequentially
+\end{mcanswerslist}
+
+% QUESTION 13
+\question When should you use the \texttt{override} keyword?
+
+\begin{mcanswerslist}
+\answer When you want to replace an old definition of a function with a new one
+\answer[correct] When you want to ensure that a derived function pairs with a virtual function in the base class
+\answer Whenever you have multiple functions with the same name and want to ensure that they can each be called
+\answer When you want ensure consistency in a function's return value and need to override it into a specified range
+\end{mcanswerslist}
+
+% QUESTION 37
+\question What can the keyword \texttt{mutable} be used for in C++?
+
+\begin{mcanswerslist}
+\answer To indicate that a class cannot be made \texttt{const}
+\answer To mark a member function as disallowed from being run on a const instance of a class
+\answer To specify that a class may be changed unexpectedly (possibly in a different thread).
+\answer To mark a parameter to a function that will definitely be modified in that function
+\answer[correct] To denote a member variable that is still allowed to change in a \texttt{const} member function
+\answer To indicate a class where the member variables in the class may vary from one instance to another
+\end{mcanswerslist}
+
+% QUESTION 19
+\question Two types of smart pointers are commonly used from the C++ standard library, \texttt{std::unique\_ptr} and \texttt{std::shared\_ptr}.  How should you decide which one to use?
+
+\begin{mcanswerslist}
+\answer Use std::shared\_ptr when you want the object to be modifiable from multiple functions, and std::unique\_ptr when modifications should be restricted to one module.
+\answer Use \texttt{std::unique\_ptr} when you are working with smaller objects, but use and \texttt{std::shared\_ptr} when the object is large or expensive to copy.
+\answer Use \texttt{std::shared\_ptr} for polymorphic objects since they require dynamic management, and use std::unique\_ptr only for non-polymorphic types.
+\answer[correct] Use \texttt{std::unique\_ptr} by default because it is more efficient and less likely to leak memory; only use std::shared\_ptr when you need to share ownership across multiple parts of your program.
+\answer Use \texttt{std::unique\_ptr} if you know you are going to have only one instance of a class, but used \texttt{std::shared\_ptr} if you are likely to have many instances.
+\end{mcanswerslist}
+
+% QUESTION 36
+\question While function arguments may be processed in any order, the same is not true for initialization lists. Consider the following C++ structure:\\
+\texttt{\hspace*{2em}struct MyClass \{}\\
+\texttt{\hspace*{4em}int a;}\\
+\texttt{\hspace*{4em}int b;}\\
+\texttt{\hspace*{4em}int c;}\\
+\texttt{\hspace*{4em}MyClass(int x) : c(x++), b(x++), a(x++) \{ \}}\\
+\texttt{\hspace*{2em}\};}\\
+If you create a variable with \texttt{MyClass var(7)}, what will be the values of \texttt{a}, \texttt{b}, and \texttt{c}?
+
+\begin{mcanswerslist}[fixlast]
+\answer a=9, b=8, and c=7
+\answer a=9, b=9, and c=9
+\answer[correct] a=7, b=8, and c=9
+\answer a=7, b=7, and c=7
+\answer The code above will not compile because the initialization list is in a different order from the declarations of the member variables.
+\end{mcanswerslist}
+
+% QUESTION 44
+\question Which of the following is true about the C++ Core Guidelines as a whole?
+
+\begin{mcanswerslist}
+\answer They are specifications that compiler writers must follow when implementing the C++ standard
+\answer They are a more intuitive version of the C++ standard
+\answer They are purely stylistic rules that make arbitrary decisions based solely around consistent appearance in code
+\answer They are requirements that extend the C++ standard and must be followed in all programs
+\answer[correct] They are suggestions for improving your code by making it more consistent and easier to debug
+\end{mcanswerslist}
+
+% QUESTION 40
+\question Which of the following is NOT one of the C++ Core Guidelines? Hint: all of the others were mentioned in the core guidelines video that you watched.
+
+\begin{mcanswerslist}
+\answer Prefer setting default values for member variables in the class definition where you declare each variable
+\answer Consolidate logically related inputs into a single user-defined type (e.g., a class or struct) that encapsulates the necessary data
+\answer If you need to return multiple values, use a \texttt{struct} or a \texttt{tuple} that bundles the values together
+\answer Prefer default arguments in a constructor rather than multiple versions of the constructor (to ensure consistency)
+\answer[correct] Introduce global variables to hold frequently used values, thus eliminating the need to pass them as parameters
+\end{mcanswerslist}
+
+% QUESTION 24
+\question What is the advantage of using \texttt{std::make\_unique} or \texttt{std::make\_shared} over constructing your unique/shared pointers directly?
+
+\begin{mcanswerslist}
+\answer It's the only way to ensure that the pointer will have new memory allocated for it
+\answer[correct] It's just a convenience that simplifies the allocation process, passing arguments through to the constructor
+\answer It provides a performance improvement
+\answer It makes it easier to swap the underlying pointer
+\end{mcanswerslist}
+
+% QUESTION 21
+\question Why is it important to use \texttt{std::unique\_ptr} in a function that may throw an exception in the middle?
+
+\begin{mcanswerslist}
+\answer Because it allows for easier debugging
+\answer To handle the exception inside the pointer
+\answer[correct] To ensure that the memory is deallocated even if an exception is thrown
+\answer Because it makes the code run faster
+\answer The presence of the unique pointer will make the compiler handle any exceptions at compile time
+\end{mcanswerslist}
+
+% QUESTION 7
+\question Why should I try to avoid casting away \texttt{const} on a variable even when I know that I am not changing its value?
+
+\begin{mcanswerslist}[fixlast]
+\answer Some non-const functions that I use may modify the value it subtle ways without me realizing it
+\answer A later programmer may modify my code to make a change that will alter the value without realizing that it was originally supposed to be const
+\answer If I am actually not modifying the variable, there is almost always a clearer way of writing the code that keeps it const
+\answer[correct] All of the above
+\end{mcanswerslist}
+
+% QUESTION 3
+\question Which of the following is good advice for deciding when to use a range-based \texttt{for} loop like:\\
+\texttt{\hspace*{2em}for (auto \& x : data) \{ ... \}}\\
+versus an indexed-based \texttt{for} loop:\\
+\texttt{\hspace*{2em}for (size\_t i=0; i $<$ data.size(); ++i) \{ ... \}}\\
+when iterating over a vector?
+
+\begin{mcanswerslist}
+\answer Default to an index-based \texttt{for} loop unless you are changing elements in the vector as you go
+\answer Never use range-based \texttt{for} loops if you can avoid them since index-based loops are more efficient
+\answer Never use index-based \texttt{for} loops if you can avoid them since range-based loops are more efficient
+\answer[correct] Make sure to use an indexed-based \texttt{for} loop if you are using pushing new elements on the back of the loop as you go
+\answer If both work for your needs, there is no reason to choose one over the other
+\end{mcanswerslist}
+
+% QUESTION 20
+\question Which of the following is a good reason to use \texttt{std::unique\_ptr} instead of a raw pointer?
+
+\begin{mcanswerslist}
+\answer[correct] We want to clarify where in the code this pointer is owned
+\answer We want to store the pointer in a \texttt{std::vector}
+\answer We want multiple pointers to share ownership of the object
+\answer We want to be able to swap the underlying pointer easily
+\answer We never plan to dereference the pointer
+\end{mcanswerslist}
+
+% QUESTION 16
+\question Sometimes arguments in a function call may have side-effects, so it's important to understand their order of evaluation.  What will the following code output?\\
+\texttt{\hspace*{2em}int Compute(int a, int b, int c) \{ return a + 3*b + 10*c; \}}\\
+\texttt{\hspace*{2em}int main() \{}\\
+\texttt{\hspace*{4em}int i = 0;}\\
+\texttt{\hspace*{4em}std::cout $<$$<$ Compute(i++, i++, i++) $<$$<$ std::endl;}\\
+\texttt{\hspace*{2em}\}}
+
+\begin{mcanswerslist}[fixlast]
+\answer \texttt{12   // i.e., Compute(2,0,1)}
+\answer \texttt{23   // i.e., Compute(0,1,2)}
+\answer \texttt{5    // i.e., Compute(2,1,0)}
+\answer \texttt{21   // i.e., Compute(1,0,2)}
+\answer[correct] Any of the above are legal; the results depend on the compiler
+\end{mcanswerslist}
+
+% QUESTION 31
+\question If you want to compile a C++ program without any optimizations turned on, how can you do this with clang or gcc?
+
+\begin{mcanswerslist}
+\answer You must put the compiler in debug mode with the \texttt{-g} command-line option
+\answer You must use the \texttt{--no-debug} command-line option
+\answer You must explicitly use the flag \texttt{-Onone}
+\answer You must use the \texttt{-DNDEBUG} command-line option
+\answer[correct] You can simply compile without setting any optimization flags
+\end{mcanswerslist}
+
+% QUESTION 41
+\question Which of the following C++ utilities allows you to express an intention to have a value that might or might not be present?
+
+\begin{mcanswerslist}
+\answer \texttt{std::none}
+\answer \texttt{std::maybe}
+\answer \texttt{std::any}
+\answer \texttt{std::nullable}
+\answer[correct] \texttt{std::optional}
+\end{mcanswerslist}
+
