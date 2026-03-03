@@ -56,7 +56,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | [Lecture Slides [Software Testing]](https://drive.google.com/file/d/1nc32ZaRU4MQbbIqplNQPJofe27BHXBAJ/view?usp=sharing) |
 | **Week 5** | |
 | 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
-|          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g) (only need the first 45 min) |
+|          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g)https://youtu.be/Q434UHWRzI0?si=wuSTFT6z7oNWluy7&t=2267 |
 |          | *Watch:* [Constexpr and Static Assert](https://www.youtube.com/watch?v=ncQkEgGxKQo) (7 min) |
 |          | Lecture Slides: [Debugging / compile-time work](https://docs.google.com/presentation/d/1G_7e2chtwvZzAfu5sUkd6R70WkAwe3x6tkgSgaIgBHQ/edit?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 1c |
@@ -97,6 +97,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         |  *Watch:* [Lambda Part II](https://www.youtube.com/watch?v=R1bwTAarnz4) (20 min)  |
 |         |  *Watch:* [Lambda Part III](https://www.youtube.com/watch?v=W18BxzS42dc) (optional: 8 min)  |
 | 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> |
+|         |  *Watch:* [C++ Ranges](https://youtu.be/Q434UHWRzI0?si=wuSTFT6z7oNWluy7&t=2267) (Only need to watch starting from 37:47 if you remember iterators and algorithms; 23 minutes)  |
 |         | <b style="color: red">Milestone:</b> Initial working modules and improved C\+\+ classes; Integrate additional template functionality. |
 
 ## Unit IV: Writing Efficient Code
