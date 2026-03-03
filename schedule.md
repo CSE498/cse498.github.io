@@ -76,7 +76,10 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         | <b style="color: blue">Quiz:</b> 3b |
 | **SPRING BREAK!** | (no class this week) |
 | **Week 8** | | |
-| 3/9/26  | **Lambdas** <!--- <br> *Watch:* [Back to Basics: Lambdas](https://www.youtube.com/watch?v=IgNUBw3vcO4) (67 min) --> |
+| 3/9/26  | **Lambdas** |
+|         | <br> *Watch:* [Lambda Part I](https://www.youtube.com/watch?v=qpgJvl3To3M) (15 min)  |
+|         | <br> *Watch:* [Lambda Part II](https://www.youtube.com/watch?v=R1bwTAarnz4) (20 min)  |
+|         | <br> *Watch:* [Lambda Part III](https://www.youtube.com/watch?v=W18BxzS42dc) (optional: 8 min)  |
 | 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> |
 |         | <b style="color: red">Milestone:</b> Initial working modules and improved C\+\+ classes; Integrate additional template functionality. |
 
