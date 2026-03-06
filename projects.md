@@ -223,6 +223,9 @@ Simple short functions / KISS
 
 Evaluate if the code meets the specifications (does the job it is suppose to)
 Perhaps the class spec should be included in its header file.
+
+Peer Reviews must be made on the files (or better yet) the specific lines. 
+Peer reviews must include the hash of the commit they are running and a screenshot of test runner output.
 -->
 
 
