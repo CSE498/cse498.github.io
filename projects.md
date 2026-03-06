@@ -225,7 +225,9 @@ Evaluate if the code meets the specifications (does the job it is suppose to)
 Perhaps the class spec should be included in its header file.
 
 Peer Reviews must be made on the files (or better yet) the specific lines. 
-Peer reviews must include the hash of the commit they are running and a screenshot of test runner output.
+Peer reviews must include the hash of the commit they are running and a screenshot of test runner output. And note if wrong files are part of the pull request.
+
+If the reviewer can't find any constructive critisism to give, nor issues to point out, thy must leave a compliment about the code.
 -->
 
 
