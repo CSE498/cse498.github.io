@@ -56,7 +56,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | [Lecture Slides [Software Testing]](https://drive.google.com/file/d/1nc32ZaRU4MQbbIqplNQPJofe27BHXBAJ/view?usp=sharing) |
 | **Week 5** | |
 | 2/9/26  | **Debugging your code** <!--- <br> *Watch:* [Back To Basics: Debugging Techniques](https://www.youtube.com/watch?v=M7fV-eQwxrY) (65 min) --> |
-|          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g)https://youtu.be/Q434UHWRzI0?si=wuSTFT6z7oNWluy7&t=2267 |
+|          | *Watch:* [Lessons from 20 years of Debugging C++ Code](https://www.youtube.com/watch?v=QjZnzrhiJ2g) (only need the first 45 min) |
 |          | *Watch:* [Constexpr and Static Assert](https://www.youtube.com/watch?v=ncQkEgGxKQo) (7 min) |
 |          | Lecture Slides: [Debugging / compile-time work](https://docs.google.com/presentation/d/1G_7e2chtwvZzAfu5sUkd6R70WkAwe3x6tkgSgaIgBHQ/edit?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 1c |
