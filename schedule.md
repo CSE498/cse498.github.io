@@ -106,6 +106,9 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |:--------:|-------------------------------------|
 | **Week 9** | |
 | 3/16/26 | **Compile-time execution** <!--- <br> *Watch:* [Introduction to `constexpr`](https://www.youtube.com/watch?v=Ia0MizHPLUA) (11 min) --> |
+|         |  *Watch:* [Why constexpr Matters](https://youtu.be/QZxfyGmpanM?si=UL5mAc-6ENhmp51Z) (6 minutes)  |
+|         |  *Watch:* [More constexpr Math!](https://youtu.be/reWnel5uLS4?si=xhzPssGc2g6raILO) (9 minutes)  |
+|         |  *Watch:* [How To Use `constexpr` In C++23](https://youtu.be/MUOAovwQbFA?si=rucbG2mISRWFV1Uq&t=720) (Can start at 12:00 and stop at 35:30, but you are welcome to watch the whole video; 24 minutes)  |
 |         | <b style="color: red">Milestone:</b> Integrate lambdas into project. |
 | 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
 |         |<b style="color: blue">Quiz:</b> 4a |
