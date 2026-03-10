@@ -112,6 +112,8 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         |  *Watch:* [How To Use `constexpr` In C++23](https://youtu.be/MUOAovwQbFA?si=rucbG2mISRWFV1Uq&t=720) (Can start at 12:00 and stop at 35:30, but you are welcome to watch the whole video; 24 minutes)  |
 |         | <b style="color: red">Milestone:</b> Integrate lambdas into project. |
 | 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
+|         |  *Watch:* [Re-inventing move semantics in modern C++ in 13 minutes](https://www.youtube.com/watch?v=kqQ90R0_GFI) (optional: 13 minutes)  |
+|         |  *Watch:* [Back to Basics: Rvalues and Move Semantics in C++](https://www.youtube.com/watch?v=i_Z_o9T2fNE) (59 minutes)  |
 |         |<b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | |
 | 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> |
