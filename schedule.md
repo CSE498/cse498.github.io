@@ -99,6 +99,8 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         | [Lecture Slides [Lambdas]](https://drive.google.com/file/d/1VrP1lx58422Dr5xT3DBQRir1ik8cYFJu/view?usp=sharing) |
 | 3/11/26 | **Ranges and Views** <!--- <br> *Watch:* [Effective Ranges: A Tutorial for Using C++2x Ranges](https://www.youtube.com/watch?v=QoaVRQvA6hI) (63 min) --> |
 |         |  *Watch:* [C++ Ranges](https://youtu.be/Q434UHWRzI0?si=wuSTFT6z7oNWluy7&t=2267) (Only need to watch starting from 37:47 if you remember iterators and algorithms; 23 minutes)  |
+|         |  [In-Class Code](https://godbolt.org/z/5v686Wd1b) |
+|         |  [More Examples Range Code](https://godbolt.org/z/M31Gv5naY) |
 |         | <b style="color: red">Milestone:</b> Initial working modules and improved C\+\+ classes; Integrate additional template functionality. |
 
 ## Unit IV: Writing Efficient Code
