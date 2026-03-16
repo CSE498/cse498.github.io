@@ -23,6 +23,7 @@ Quiz 3 focuses on **Reliable C++ Code**
 + [Sample Quiz 3](sample_quizzes/quiz_3/quiz_3_sample.html)
 
 Quiz 4 focuses on **Generic C++ Code**
++ [Sample Quiz 4](sample_quizzes/quiz_4/quiz_4_sample.html)
 
 Quiz 5 focuses on **Efficient C++ Code**.
 

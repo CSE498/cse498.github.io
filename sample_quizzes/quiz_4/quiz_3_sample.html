@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="quiz_3_sample.css">
+</head>
+<body>
+
+<form id="quizForm">
+  <h1>Multiple Choice Quiz</h1>
+
+  <!-- Question 26 -->
+  <div class="question">
+    <p><b>1.</b> Which of the following is NOT a feature of <code>std::unique_ptr</code>?</p>
+    <div class="options"><label><input type="radio" name="q26" value="(A)">(A) It gets automatically destroyed when it goes out of scope.</label></div>
+    <div class="options"><label><input type="radio" name="q26" value="(B)">(B) It provides automatic memory management.</label></div>
+    <div class="options"><label><input type="radio" name="q26" value="(C)">(C) Ownership can be transferred.</label></div>
+    <div class="options"><label><input type="radio" name="q26" value="(D)">(D) It&apos;s pointer value can be copied into another <code>unique_ptr</code>.</label></div>
+  <div class="answer" data-question="q26"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 13 -->
+  <div class="question">
+    <p><b>2.</b> Which of the following is NOT a difference between deterministic problems in your code and non-deterministic problems?</p>
+    <div class="options"><label><input type="radio" name="q13" value="(A)">(A) In a debug build, deterministic problems can typically be replicated, but non-deterministic problems will often change symptoms.</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(B)">(B) Non-deterministic problems are usually caused by invoking non-deterministic behavior, while deterministic problems are more typically issues with logic, syntax, or configuration.</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(C)">(C) Deterministic problems can be replicated perfectly given identical inputs, but non-deterministic problems may change symptoms from one run to the next.</label></div>
+    <div class="options"><label><input type="radio" name="q13" value="(D)">(D) Asserts can help narrow down the location of deterministic problems, but are useless for non-deterministic problems.</label></div>
+  <div class="answer" data-question="q13"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 6 -->
+  <div class="question">
+    <p><b>3.</b> If a class has at least one virtual function, which cast can use this information for safer downcasting?</p>
+    <div class="options"><label><input type="radio" name="q6" value="(A)">(A) <code>dynamic_cast</code></label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(B)">(B) <code>static_cast</code></label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(C)">(C) <code>const_cast</code></label></div>
+    <div class="options"><label><input type="radio" name="q6" value="(D)">(D) <code>reinterpret_cast</code></label></div>
+  <div class="answer" data-question="q6"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 5 -->
+  <div class="question">
+    <p><b>4.</b> What happens if you use <code>const_cast</code> to cast away the constness of an object that was originally defined as <code>const</code> and then modify it?</p>
+    <div class="options"><label><input type="radio" name="q5" value="(A)">(A) The original object will remain unchanged.</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(B)">(B) The behavior is undefined.</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(C)">(C) An exception will be thrown.</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(D)">(D) The program will have a segmentation fault.</label></div>
+    <div class="options"><label><input type="radio" name="q5" value="(E)">(E) The object will be modified without any issue.</label></div>
+  <div class="answer" data-question="q5"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 19 -->
+  <div class="question">
+    <p><b>5.</b> A <code>std::shared_ptr</code> can use the same operators as a raw pointer (e.g., <code>*</code> or <code>-&gt;</code>).  How is this accomplished?</p>
+    <div class="options"><label><input type="radio" name="q19" value="(A)">(A) The operators all work by default for any class that has a pointer as its first member variable.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(B)">(B) The relevant operators are overloaded in the <code>shared_ptr</code> class.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(C)">(C) The <code>shared_ptr</code> class must be derived from raw pointers to keep this functionality.</label></div>
+    <div class="options"><label><input type="radio" name="q19" value="(D)">(D) It requires <code>shared_ptr</code> to be built-in to the compiler to work, and cannot be implemented manually.</label></div>
+  <div class="answer" data-question="q19"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 14 -->
+  <div class="question">
+    <p><b>6.</b> Which of the following debugging techniques is so time intensive that it should typically be attempted only after the other techniques fail to help you resolve the issue?</p>
+    <div class="options"><label><input type="radio" name="q14" value="(A)">(A) Systematically remove (or comment out) sections of your program to find the minimal code that exhibits the problem.</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(B)">(B) Add more related unit tests to understand the scope of your problem.</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(C)">(C) Add asserts to test pre- and post-conditions for functions that you expect to be involved.</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(D)">(D) Step backward through your code from the error, finding the earliest instance of the problem.</label></div>
+    <div class="options"><label><input type="radio" name="q14" value="(E)">(E) Run your code through a debugger to see if it identifies the problem.</label></div>
+  <div class="answer" data-question="q14"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 22 -->
+  <div class="question">
+    <p><b>7.</b> What does <code>std::make_shared</code> do?</p>
+    <div class="options"><label><input type="radio" name="q22" value="(A)">(A) It makes a <code>unique_ptr</code> into a <code>shared_ptr</code>, allowing it to have more than one instance.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(B)">(B) It allocates a new object of the specified type, initializes it, and returns a <code>shared_ptr</code> to the new object.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(C)">(C) It creates an additional instance of a provided <code>shared_ptr</code>.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(D)">(D) It upgrades a <code>weak_ptr</code> into a <code>shared_ptr</code>.</label></div>
+    <div class="options"><label><input type="radio" name="q22" value="(E)">(E) It converts any other type of existing pointer into a <code>shared_ptr</code>.</label></div>
+  <div class="answer" data-question="q22"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 31 -->
+  <div class="question">
+    <p><b>8.</b> Which of the following is **NOT** true about the relationship between unit testing and &quot;higher level&quot; tests (e.g., integration tests, component tests)?</p>
+    <div class="options"><label><input type="radio" name="q31" value="(A)">(A) Unit tests typically do not access external resources (e.g., a database), while higher level tests are more likely to.</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(B)">(B) The distinction between these tests is often blurry and can vary between projects</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(C)">(C) Unit tests can be used to &quot;regression test&quot; and detect if the program has changed. Higher level tests cannot be used this way.</label></div>
+    <div class="options"><label><input type="radio" name="q31" value="(D)">(D) Higher level tests are generally slower</label></div>
+  <div class="answer" data-question="q31"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <p><b>9.</b> For which of the following is <code>static_cast</code> NOT appropriate?</p>
+    <div class="options"><label><input type="radio" name="q3" value="(A)">(A) Converting between numeric data types (e.g., int to float).</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(B)">(B) Converting between unrelated pointer types.</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(C)">(C) Downcasting (from base to derived) when you&apos;re certain of the object&apos;s actual type.</label></div>
+    <div class="options"><label><input type="radio" name="q3" value="(D)">(D) Upcasting (from derived to base).</label></div>
+  <div class="answer" data-question="q3"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 36 -->
+  <div class="question">
+    <p><b>10.</b> Which of the following is an example of undefined behavior in C++?</p>
+    <div class="options"><label><input type="radio" name="q36" value="(A)">(A) Calling <code>sizeof</code> on types that depend on system architecture or the compiler, like <code>size_t</code></label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(B)">(B) An infinite loop with no side effects</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(C)">(C) Having a <code>return</code> statement in a <code>void</code> function</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(D)">(D) Creating a variable and then never using it</label></div>
+    <div class="options"><label><input type="radio" name="q36" value="(E)">(E) Calling a function that has a return value and then discarding (i.e., not using) the returned value</label></div>
+  <div class="answer" data-question="q36"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 33 -->
+  <div class="question">
+    <p><b>11.</b> Assume our API specifies the following integer exponentiation function declaration, and we have been asked to test it (this is <code>a</code> raised to the <code>b</code> power):<br>
+<code></code><code></code><br>
+int Exponentiate(int a, int b);<br>
+<code></code><code></code><br>
+Assuming the function declaration will not change, which of the following is not a useful test case?</p>
+    <div class="options"><label><input type="radio" name="q33" value="(A)">(A) <code>REQUIRE(Exponentiate(-1, 3) == -1);</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(B)">(B) <code>REQUIRE(Exponentiate(-1, 2) == 1);</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(C)">(C) <code>REQUIRE(Exponentiate(2, -1) == 0.5);</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(D)">(D) <code>REQUIRE(Exponentiate(3, 2) == 9);</code></label></div>
+    <div class="options"><label><input type="radio" name="q33" value="(E)">(E) <code>REQUIRE(Exponentiate(3, 0) == 1);</code></label></div>
+  <div class="answer" data-question="q33"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 11 -->
+  <div class="question">
+    <p><b>12.</b> When committing code that you have debugged, which of the following should be bundled with a fix to that code?</p>
+    <div class="options"><label><input type="radio" name="q11" value="(A)">(A) New features that you implemented that affect the same areas as the fix.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(B)">(B) Refactoring of any code that you identified during the fix.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(C)">(C) New test cases that would catch the problem if it occurred again.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(D)">(D) Fixes to other defects in your code.</label></div>
+    <div class="options"><label><input type="radio" name="q11" value="(E)">(E) All of the above.</label></div>
+  <div class="answer" data-question="q11"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 12 -->
+  <div class="question">
+    <p><b>13.</b> If you successfully compile your code, why might you still need to worry about syntax errors with this code?</p>
+    <div class="options"><label><input type="radio" name="q12" value="(A)">(A) Syntax errors do not always cause compilation to halt.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(B)">(B) Syntax errors may arise at run time.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(C)">(C) Different compilers or different platforms may trigger syntax errors on compilation.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(D)">(D) Syntax errors are non-deterministic and as such may give you problems on future compilations.</label></div>
+    <div class="options"><label><input type="radio" name="q12" value="(E)">(E) You don&apos;t -- once you get your code to compile, only other types of errors can be an issue.</label></div>
+  <div class="answer" data-question="q12"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 28 -->
+  <div class="question">
+    <p><b>14.</b> When you create a <code>std::unique_ptr</code> you can provide a function to run on deletion.  Why is this useful?</p>
+    <div class="options"><label><input type="radio" name="q28" value="(A)">(A) It is an excess feature in the interface that has little practical utility.</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(B)">(B) You must do this to make sure to delete the associated pointer.</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(C)">(C) You can use this to ensure that no other pointers are referring to this object before deleting it.</label></div>
+    <div class="options"><label><input type="radio" name="q28" value="(D)">(D) You can have it perform additional actions to manage resources, such as closing files or releasing sockets.</label></div>
+  <div class="answer" data-question="q28"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 7 -->
+  <div class="question">
+    <p><b>15.</b> What will be the result of using <code>reinterpret_cast</code> to convert an integer pointer to a character pointer?</p>
+    <div class="options"><label><input type="radio" name="q7" value="(A)">(A) It will retrieve the ASCII value of the integer.</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(B)">(B) It will return a null pointer.</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(C)">(C) It will give a compilation error.</label></div>
+    <div class="options"><label><input type="radio" name="q7" value="(D)">(D) It will point to the memory address of the integer as if it were a character.</label></div>
+  <div class="answer" data-question="q7"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 25 -->
+  <div class="question">
+    <p><b>16.</b> What do you need to do before a <code>std::unique_ptr</code> called <code>ptr</code> falls out of scope (assuming you are done with the pointed-to memory) to avoid memory leaks or corruption?</p>
+    <div class="options"><label><input type="radio" name="q25" value="(A)">(A) Make sure to run <code>ptr.delete();</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(B)">(B) Make sure to run <code>delete ptr;</code></label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(C)">(C) Nothing.  It will take care of itself.</label></div>
+    <div class="options"><label><input type="radio" name="q25" value="(D)">(D) Make sure to run <code>ptr.reset();</code></label></div>
+  <div class="answer" data-question="q25"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 20 -->
+  <div class="question">
+    <p><b>17.</b> What happens if you copy one <code>std::shared_ptr</code> to another?</p>
+    <div class="options"><label><input type="radio" name="q20" value="(A)">(A) Both <code>shared_ptr</code>s point to different copies of the object.</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(B)">(B) This is undefined behavior.</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(C)">(C) Both <code>shared_ptr</code>s point to the same copy and he reference count is incremented.</label></div>
+    <div class="options"><label><input type="radio" name="q20" value="(D)">(D) The original <code>shared_ptr</code> becomes null.</label></div>
+  <div class="answer" data-question="q20"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 17 -->
+  <div class="question">
+    <p><b>18.</b> Which of the following is NOT a productive development practice for preventing bugs in your code?</p>
+    <div class="options"><label><input type="radio" name="q17" value="(A)">(A) Add asserts to test pre-conditions and post-conditions in new functions.</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(B)">(B) Always verify that new functionality doesn&apos;t break previous tests.</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(C)">(C) Add all optimizations into the code from the beginning to ensure they are defect free.</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(D)">(D) Iterative, bottom-up development.</label></div>
+    <div class="options"><label><input type="radio" name="q17" value="(E)">(E) Each time you fix a bug, add a test to make sure a similar bug will be caught in the future.</label></div>
+  <div class="answer" data-question="q17"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 24 -->
+  <div class="question">
+    <p><b>19.</b> What happens when you run <code>std::move()</code> on a <code>unique_ptr</code> value?</p>
+    <div class="options"><label><input type="radio" name="q24" value="(A)">(A) The pointed-to memory stays where it is, but is marked as being allowed to be assigned (shifting ownership) to a different pointer.</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(B)">(B) The pointed-to object is copied to a different position in memory and that new position is returned.</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(C)">(C) The pointed-to object is moved to a specified position in memory and the <code>unique_ptr</code>&apos;s value is updated to this new position.</label></div>
+    <div class="options"><label><input type="radio" name="q24" value="(D)">(D) The <code>unique_ptr</code> is converted into a raw pointer, but otherwise unmodified. </label></div>
+  <div class="answer" data-question="q24"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 16 -->
+  <div class="question">
+    <p><b>20.</b> What is the advantage of a &quot;time-traveling&quot; debugger?</p>
+    <div class="options"><label><input type="radio" name="q16" value="(A)">(A) They work with git repositories to trace back when in time a bug was introduced to your code.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(B)">(B) None.  Time-traveling debuggers are purely theoretical and do not exist yet.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(C)">(C) They allow you to trace back how variables got the values they currently have without needing to restart a run.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(D)">(D) The produce graphs of variable values over time to help you identify unexpected correlations.</label></div>
+    <div class="options"><label><input type="radio" name="q16" value="(E)">(E) They allow you to make temporary changes to debug your code that you can then rewind back to their original state.</label></div>
+  <div class="answer" data-question="q16"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 34 -->
+  <div class="question">
+    <p><b>21.</b> Which of the following is a valid definition of undefined behavior?</p>
+    <div class="options"><label><input type="radio" name="q34" value="(A)">(A) Code that is unnecessarily confusing</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(B)">(B) Code that has multiple valid meanings according to the standard, and each compiler much pick one and specify it in their documentation</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(C)">(C) Code that has multiple valid meanings according to the standard, and a compiler is allowed to choose any of them</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(D)">(D) Code that has no official meaning according to the standard</label></div>
+    <div class="options"><label><input type="radio" name="q34" value="(E)">(E) Code that results in a warning, but not an error</label></div>
+  <div class="answer" data-question="q34"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 38 -->
+  <div class="question">
+    <p><b>22.</b> The following code snippet of a function contains undefined behavior. <br>
+Identify the cause of undefined behavior and where it arises.<br>
+<code></code><code></code><br>
+&nbsp;&nbsp;<code>Line 1)	void MyFunction(){</code><br>
+&nbsp;&nbsp;<code>Line 2)   uint8_t x;</code><br>
+&nbsp;&nbsp;<code>Line 3)   x += 10000;</code><br>
+&nbsp;&nbsp;<code>Line 4)   return;</code><br>
+&nbsp;&nbsp;<code>Line 5) }</code><br>
+<code></code><code></code></p>
+    <div class="options"><label><input type="radio" name="q38" value="(A)">(A) Line 2 - The variable <code>x</code> is declared but not initialized</label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(B)">(B) Line 3 - The variable <code>x</code> is accessed before being initialized</label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(C)">(C) Line 3 - The addition causes an overflow</label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(D)">(D) Line 4 - The function is <code>void</code> yet has a <code>return</code> statement</label></div>
+    <div class="options"><label><input type="radio" name="q38" value="(E)">(E) Line 4 - The function contains a <code>return</code> statement without a value</label></div>
+  <div class="answer" data-question="q38"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 23 -->
+  <div class="question">
+    <p><b>23.</b> Why should you use <code>std::make_unique</code> instead of <code>new</code> when constructing a <code>unique_ptr</code>?</p>
+    <div class="options"><label><input type="radio" name="q23" value="(A)">(A) To ensure exception safety and efficiency.</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(B)">(B) To manually manage memory.</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(C)">(C) To delay object creation until first usage.</label></div>
+    <div class="options"><label><input type="radio" name="q23" value="(D)">(D) They are functionally identical and it doesn&apos;t matter.</label></div>
+  <div class="answer" data-question="q23"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 39 -->
+  <div class="question">
+    <p><b>24.</b> If you trigger undefined behavior by writing outside the bounds of an array, which of the following results is possible according to the C++ standard?</p>
+    <div class="options"><label><input type="radio" name="q39" value="(A)">(A) Memory is corrupted.</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(B)">(B) A segmentation fault occurs.</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(C)">(C) An exception is triggered.</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(D)">(D) Your computer shuts down.</label></div>
+    <div class="options"><label><input type="radio" name="q39" value="(E)">(E) Any of the above are technically allowed.</label></div>
+  <div class="answer" data-question="q39"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 15 -->
+  <div class="question">
+    <p><b>25.</b> Which if the following is NOT a reason that assertions are helpful in your code?</p>
+    <div class="options"><label><input type="radio" name="q15" value="(A)">(A) They can be used to bring out-of-range function parameters back into range to restore code correctness.</label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(B)">(B) They can be easily removed and thus have no negative impact on released code.</label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(C)">(C) They interact well with debuggers, which help your trace back why an assertion failed.</label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(D)">(D) They will sometimes catch non-deterministic errors, helping you narrow down where they occurred.</label></div>
+    <div class="options"><label><input type="radio" name="q15" value="(E)">(E) They can clearly identify that a problem exists before a regular crash or incorrect output occurs.</label></div>
+  <div class="answer" data-question="q15"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 37 -->
+  <div class="question">
+    <p><b>26.</b> Which of the following is true about undefined behavior?</p>
+    <div class="options"><label><input type="radio" name="q37" value="(A)">(A) In your code, it is impossible to test if undefined behavior has occurred</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(B)">(B) Undefined behavior is an error</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(C)">(C) One major goal of the C++ standard is to eliminate all undefined behavior from the language</label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(D)">(D) Undefined behavior only occurs at runtime </label></div>
+    <div class="options"><label><input type="radio" name="q37" value="(E)">(E) The C++ standards contain a list of all undefined behavior</label></div>
+  <div class="answer" data-question="q37"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 30 -->
+  <div class="question">
+    <p><b>27.</b> Which of the following reasons is NOT motivation behind unit testing?</p>
+    <div class="options"><label><input type="radio" name="q30" value="(A)">(A) Unit testing makes us think about our API design and the accessibility of our functions and classes</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(B)">(B) If our code has a bug, unit tests can help us pinpoint where the bug is -- or is not</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(C)">(C) Unit testing builds trust in our code, improving our confidence that our changes aren&apos;t breaking old code</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(D)">(D) Unit tests provide a solid foundation of reliability so we can create higher level tests (e.g., integration tests) with more confidence</label></div>
+    <div class="options"><label><input type="radio" name="q30" value="(E)">(E) Unit testing provides performance benchmarks of how our code might perform out in the real world</label></div>
+  <div class="answer" data-question="q30"></div> <!-- Placeholder for answer --></div>
+
+  <!-- Question 21 -->
+  <div class="question">
+    <p><b>28.</b> What happens when the only two <code>shared_ptr</code>s pointing to an object both go out of scope?</p>
+    <div class="options"><label><input type="radio" name="q21" value="(A)">(A) Undefined behavior occurs.</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(B)">(B) Reference count goes to zero and the object is deleted.</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(C)">(C) Reference count goes to 1 but the object remains.</label></div>
+    <div class="options"><label><input type="radio" name="q21" value="(D)">(D) The object is deleted twice.</label></div>
+  <div class="answer" data-question="q21"></div> <!-- Placeholder for answer --></div>
+
+  <hr><p>
+  Click <b>Check Answers</b> to identify any errors and try again.  Click <b>Show Answers</b> if you also want to know which answer is the correct one.
+  </p>
+  <button type="button" id="checkAnswersBtn">Check Answers</button>
+  <button type="button" id="showAnswersBtn">Show Answers</button>
+</form>
+<div id="results"></div>
+<script src="quiz_3_sample.js"></script>
+</body>
+</html>
