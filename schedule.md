@@ -118,9 +118,12 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         |  *Watch:* [Back to Basics: Rvalues and Move Semantics in C++](https://www.youtube.com/watch?v=i_Z_o9T2fNE) (59 minutes)  |
 |         |<b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | |
-| 3/23/26 | **Measuring Efficiency** + **Profiling Code** <!--- <br> *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min)<br> *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min) (How to instrument code with above benchmarking) --> |
+| 3/23/26 | **Measuring Efficiency** + **Profiling Code** |
+|         | *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min) |
+|         | *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min)  |
 |         | <b style="color: red">Milestone:</b> Integrate compile-time operations OR value semantics into project. |
-| 3/25/26 | **Deep Dive: Implementing `std::string`** <!--- <br> *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) --> |
+| 3/25/26 | **Deep Dive: Implementing `std::string`** |
+|         | *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) |
 |         | <b style="color: red">Due:</b> Code for improved C\+\+ classes (5 pts) + initial working module (5 pts) classes |
 |         | <b style="color: blue">Quiz:</b> 4b |
 |         | <b style="color: green">Out:</b> Code review assignments and rubrics |
