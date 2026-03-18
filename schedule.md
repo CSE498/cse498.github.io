@@ -119,6 +119,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
 |         |  *Watch:* [Re-inventing move semantics in modern C++ in 13 minutes](https://www.youtube.com/watch?v=kqQ90R0_GFI) (optional: 13 minutes)  |
 |         |  *Watch:* [Back to Basics: Rvalues and Move Semantics in C++](https://www.youtube.com/watch?v=i_Z_o9T2fNE) (59 minutes)  |
+|         |  [In-Class Code](https://godbolt.org/z/f11359q7Y) |
 |         |<b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | |
 | 3/23/26 | **Measuring Efficiency** + **Profiling Code** |
