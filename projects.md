@@ -244,14 +244,14 @@ The five areas where review needs to be done are:
 1. **Code Design**
 2. **Implementation Quality**
 3. **Testing and Error Checking**
-4. **Use of Advanced C++ Features** (templates, lambdas, ranges, constexpr, value semantics, etc.)
+4. **Use of Advanced C++ Features**
 5. **Interoperability and API**
 
 **Items 1 through 3** are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
 For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not every advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.  The specific topics we are looking for are templates, lambdas, ranges, constexpr, and/or value semantics.
 
-For **Item 5**, you should make sure that the classes and modules have appropriate interfaces for use by other groups, that are well documented and linked in.  The code should have an example driver file to compile and run that shows how the group's module plugs in with others (even just example stubs).
+For **Item 5**, you should make sure that the classes and modules have appropriate interfaces for use by other groups, that are well documented and linked in.  The code should have an example driver called `source/GroupXX_main.cpp` (with XX replaced with your group number) that, when compile and run, shows how the group's module plugs in with others -- even if it just uses example stubs.
 
 ## Writing your Reviews
 
