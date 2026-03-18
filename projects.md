@@ -13,6 +13,7 @@ layout: default
 - [Company Roles](#roles)
 - [Guidelines for initial peer reviews](#review-1)
 - [Round 1 Peer Review Assignments](reviews1.md)
+- [Guidelines for second round of peer reviews](#review-2)
 
 ## Company-specific Project Pages
 
@@ -232,7 +233,6 @@ If the reviewer can't find any constructive critisism to give, nor issues to poi
 
 
 
-<!--
 # <span id="review-2">Rubric for Code Reviews of Advanced C++ Classes (Round 2)</span>
 
 During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
@@ -242,19 +242,21 @@ The five areas where review needs to be done are:
 2. **Implementation Quality**
 3. **Testing and Error Checking**
 4. **Use of Advanced C++ Features** (e.g., templates, lambdas, constexpr, value semantics, etc.)
-5. **Code Optimization and Flexibility.**
+5. **Interoperability and API**
 
 **Items 1 through 3** are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
 For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not every advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
 
-For **Item 5**, you should identify ways that the code under review could be better optimized or be made more flexible (ideally without being made too much more complex).
+For **Item 5**, you should make sure that the classes have appropriate interfaces for use by other groups, that are well documented and linked in.
 
 ## Writing your Reviews
 
 For these reviews, you should look at the appropriate pull request and comment on the specific areas that you are assigned.  Any review comments that you can place directly on the code, that's where it should go (note that code that has not changed will not be able to be commented on in place).  All other comments (and review summaries) should be placed in a general review comment.
 
 Keep a tab on the comments and please engage with any questions or comments the developers have, as appropriate, especially if clarifications are requested.
+
+<!--
 
 For your specific review assignments, go [here](reviews2.html)
 
