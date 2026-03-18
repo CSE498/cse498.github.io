@@ -217,7 +217,9 @@ Below are the topics that the C++ classes should be reviewed on during the first
 - **Error handling.** Are error conditions that can occur during correct execution (such as resource limitations, files not available, or division by zero) checked for and reported back with `std::expected`, other return conditions, or some other technique like exceptions (if your group is comfortable with the speed hit)?
 
 In the future we will also be considering code optimization as a component of the reviews.  If you see serious optimization issues at this point, however, you should still make sure to identify them.
+
 <!--
+
 Proposed additions by Josh
 
 Simple short functions / KISS
@@ -228,12 +230,13 @@ Perhaps the class spec should be included in its header file.
 Peer Reviews must be made on the files (or better yet) the specific lines. 
 Peer reviews must include the hash of the commit they are running and a screenshot of test runner output. And note if wrong files are part of the pull request.
 
-If the reviewer can't find any constructive critisism to give, nor issues to point out, thy must leave a compliment about the code.
+If the reviewer can't find any constructive criticism to give, nor issues to point out, thy must leave a compliment about the code.
+
 -->
 
 
 
-# <span id="review-2">Rubric for Code Reviews of Advanced C++ Classes (Round 2)</span>
+# <span id="review-2">Rubric for Code Reviews Round 2: Revised C++ Classes and Initial Working Modules</span>
 
 During this second round of code reviews, you will have a more specific assignment for what aspects of the target code you need to review.
 
@@ -241,14 +244,14 @@ The five areas where review needs to be done are:
 1. **Code Design**
 2. **Implementation Quality**
 3. **Testing and Error Checking**
-4. **Use of Advanced C++ Features** (e.g., templates, lambdas, constexpr, value semantics, etc.)
+4. **Use of Advanced C++ Features** (templates, lambdas, ranges, constexpr, value semantics, etc.)
 5. **Interoperability and API**
 
 **Items 1 through 3** are the same as the first review round (see above!), but this time we will have higher expectations.  If you do not find any issue with a particular topic area, you should comment in your writeup about what you believe the developers did particularly well with their code.
 
-For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not every advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.
+For **Item 4**, you should comment on how well the developers incorporated some of the more advanced course topics into their code.  While not every advanced topic needs to be represented, at least two (done very well) or three newer techniques should be there.  The specific topics we are looking for are templates, lambdas, ranges, constexpr, and/or value semantics.
 
-For **Item 5**, you should make sure that the classes have appropriate interfaces for use by other groups, that are well documented and linked in.
+For **Item 5**, you should make sure that the classes and modules have appropriate interfaces for use by other groups, that are well documented and linked in.  The code should have an example driver file to compile and run that shows how the group's module plugs in with others (even just example stubs).
 
 ## Writing your Reviews
 
