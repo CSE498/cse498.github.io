@@ -112,6 +112,9 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         |  *Watch:* [Why constexpr Matters](https://youtu.be/QZxfyGmpanM?si=UL5mAc-6ENhmp51Z) (6 minutes)  |
 |         |  *Watch:* [More constexpr Math!](https://youtu.be/reWnel5uLS4?si=xhzPssGc2g6raILO) (9 minutes)  |
 |         |  *Watch:* [How To Use `constexpr` In C++23](https://youtu.be/MUOAovwQbFA?si=rucbG2mISRWFV1Uq&t=720) (Can start at 12:00 and stop at 35:30, but you are welcome to watch the whole video; 24 minutes)  |
+|         |  [In-Class Code](https://godbolt.org/z/8Wer3rKP8) |
+|         |  [More Examples constexpr Code](https://godbolt.org/z/MEj7EvjaT) |
+|         |  [Lecture Slides [constexpr]](https://docs.google.com/presentation/d/1t7efF1TDAnkZ63IedG6m0srK1RCAffmz2x6KcDdTQIE/edit?usp=sharing) |
 |         | <b style="color: red">Milestone:</b> Integrate lambdas into project. |
 | 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
 |         |  *Watch:* [Re-inventing move semantics in modern C++ in 13 minutes](https://www.youtube.com/watch?v=kqQ90R0_GFI) (optional: 13 minutes)  |
