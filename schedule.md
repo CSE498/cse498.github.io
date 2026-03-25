@@ -140,7 +140,8 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 3/30/26  | **Using AI with C\+\+** |
 |          | *Watch:* [Best Practices for AI Tool Use in C\+\+](https://www.youtube.com/watch?v=xCuRUjxT5L8) (62 min) |
 |          | <b style="color: red">Milestone:</b> Integration tests for full software system |
-| 4/1/26   | **Concepts** <!--- <br> *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min) --> |
+| 4/1/26   | **Concepts** |
+|          | *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min; watch at least first 38 min) |
 |          | <b style="color: blue">Quiz:</b> 5a | 
 |          | <b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | |
