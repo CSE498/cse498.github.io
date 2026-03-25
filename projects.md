@@ -14,6 +14,7 @@ layout: default
 - [Guidelines for initial peer reviews](#review-1)
 - [Round 1 Peer Review Assignments](reviews1.md)
 - [Guidelines for second round of peer reviews](#review-2)
+- [Round 2 Peer Review Assignments](reviews2.md)
 
 ## Company-specific Project Pages
 
