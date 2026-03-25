@@ -145,12 +145,12 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: blue">Quiz:</b> 5a | 
 |          | <b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | |
-| 4/6/26   | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> |
+| 4/6/26   | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> |
 |          | <b style="color: red">Milestone:</b> Alpha version of full software system complete. |
 | 4/8/26   | **Attributes** and **User-defined Literals** <!--- <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=VQiIzcuMiIc) (15 min) <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) --> |
 |          | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | |
-| 4/13/26  | **Concurrency** <!--- <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=F6Ipn7gCOsY) - FIRST ~31 minutes only (to question break) --> |
+| 4/13/26  | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> |
 |          | <b style="color: red">Milestone:</b> Efficiency analyses with bottleneck identification |
 | 4/15/26  | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> |
 | **Week 14** | |
