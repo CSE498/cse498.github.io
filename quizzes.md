@@ -26,6 +26,7 @@ Quiz 4 focuses on **Generic C++ Code**
 + [Sample Quiz 4](sample_quizzes/quiz_4/quiz_4_sample.html)
 
 Quiz 5 focuses on **Efficient C++ Code**.
++ [Sample Quiz 5](sample_quizzes/quiz_5/quiz_5_sample.html)
 
 The advanced topics unit will not have an associated quiz.
 

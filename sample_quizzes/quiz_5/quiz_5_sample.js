@@ -17,22 +17,45 @@ function clearResults(button_name) {
 
 function PrintResults(show_correct) {  event.preventDefault(); // Prevent form from submitting to a server
   let correctAnswers = {
-    q21: "(E)",
-    q11: "(E)",
-    q7: "(B)",
-    q15: "(A)",
-    q19: "(D)",
-    q30: "(B)",
-    q3: "(E)",
+    q6: "(A)",
+    q11: "(A)",
+    q19: "(C)",
+    q15: "(C)",
+    q24: "(E)",
+    q18: "(A)",
+    q35: "(A)",
     q37: "(B)",
-    q33: "(A)",
-    q25: "(A)",
+    q42: "(C)",
+    q38: "(A)",
+    q28: "(E)",
+    q1: "(E)",
+    q3: "(A)",
+    q9: "(E)",
+    q22: "(A)",
+    q5: "(A)",
+    q4: "(E)",
+    q8: "(E)",
+    q17: "(E)",
+    q10: "(D)",
+    q2: "(C)",
+    q29: "(D)",
+    q23: "(A)",
+    q21: "(B)",
+    q27: "(B)",
+    q39: "(D)",
+    q7: "(C)",
+    q16: "(B)",
+    q40: "(B)",
+    q41: "(A)",
   };
 
   let userAnswers = {};
   for (let key in correctAnswers) {
     let selectedAnswer = document.querySelector(`input[name="${key}"]:checked`);
-    userAnswers[key] = selectedAnswer ? selectedAnswer.value : "";
+    userAnswers[key] = selectedAnswer ? selectedAnswer.value : ""; 
+    if (userAnswers[key] === "" && document.querySelector(`#${key}`)) {
+      userAnswers[key] = document.querySelector(`#${key}`).value; 
+    }
   }
 
   let score = 0;
