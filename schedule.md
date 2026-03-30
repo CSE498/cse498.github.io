@@ -146,11 +146,11 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | |
 | 4/6/26   | **Concurrency** |
-|          | <br> *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=8rEGu20Uw4g) - at least until 44:30; through `std::atomic` |
+|          | *Watch:* [Back to Basics: Concurrency](https://www.youtube.com/watch?v=8rEGu20Uw4g) - at least until 44:30; through `std::atomic` |
 |          | <b style="color: red">Milestone:</b> Alpha version of full software system complete. |
 | 4/8/26   | **Attributes** and **User-defined Literals** |
-|          | <br> *Watch:* [Attributes](https://www.youtube.com/watch?v=BpulWncdn9Y) (13 min) |
-|          | <br> *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) |
+|          | *Watch:* [Attributes](https://www.youtube.com/watch?v=BpulWncdn9Y) (13 min) |
+|          | *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) |
 |          | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | |
 | 4/13/26  | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> |
