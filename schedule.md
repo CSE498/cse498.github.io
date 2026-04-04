@@ -147,9 +147,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: red">Milestone:</b> Integration tests for full software system |
 | 4/1/26   | **Concepts** |
 |          | *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min; watch at least first 38 min) |
-|          |  [Lecture Slides [A sneak peak into modern
-
-LLMs]](https://drive.google.com/file/d/1oljzWZYBdzuK-ymqYCshWYPQFcipNAzc/view?usp=sharing) |
+|          |  [Lecture Slides [A sneak peak into modern LLMs]](https://drive.google.com/file/d/1mpN_tm_8_DlFtoVZczRlom-Bl9iWCJ2-/view?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 5a | 
 |          | <b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | |
