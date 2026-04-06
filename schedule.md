@@ -115,19 +115,23 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |         |  [In-Class Code](https://godbolt.org/z/8Wer3rKP8) |
 |         |  [More Examples constexpr Code](https://godbolt.org/z/MEj7EvjaT) |
 |         |  [Lecture Slides [constexpr]](https://docs.google.com/presentation/d/1t7efF1TDAnkZ63IedG6m0srK1RCAffmz2x6KcDdTQIE/edit?usp=sharing) |
+|         |  [Lecture Slides [Software Testing (Part II)]](https://drive.google.com/file/d/1Qp1ELf_1BTpbkuyb_vvplT2JWKu3J5jA/view?usp=sharing) |
 |         | <b style="color: red">Milestone:</b> Integrate lambdas into project. |
 | 3/18/26 | **Value semantics** <!--- <br> *Watch:* [Back to Basics: Cpp Value Semantics](https://www.youtube.com/watch?v=G9MxNwUoSt0) (48 min) --> |
 |         |  *Watch:* [Re-inventing move semantics in modern C++ in 13 minutes](https://www.youtube.com/watch?v=kqQ90R0_GFI) (optional: 13 minutes)  |
 |         |  *Watch:* [Back to Basics: Rvalues and Move Semantics in C++](https://www.youtube.com/watch?v=i_Z_o9T2fNE) (59 minutes)  |
 |         |  [In-Class Code](https://godbolt.org/z/f11359q7Y) |
+|         |  [Lecture Slides [Value and move semantics]](https://drive.google.com/file/d/1lRAw_ccH89lGMV93n95NlzWCMTBn7-vN/view?usp=sharing) |
 |         |<b style="color: blue">Quiz:</b> 4a |
 | **Week 10** | |
 | 3/23/26 | **Measuring Efficiency** + **Profiling Code** |
 |         | *Watch:* [BENCHMARKING in C++](https://www.youtube.com/watch?v=YG4jexlSAjc) (15 min) |
 |         | *Watch:* [Intro to Profiling](https://www.youtube.com/watch?v=YbYV8rRo9_A) (25 min)  |
+|         |  [Lecture Slides [Edsger W. Dijkstra and Structured Programming]](https://drive.google.com/file/d/1aptM8sYIttXV6dtOG80oOYsXMB6yZq9v/view?usp=sharing) |
 |         | <b style="color: red">Milestone:</b> Integrate compile-time operations OR value semantics into project. |
 | 3/25/26 | **Deep Dive: Implementing `std::string`** |
 |         | *Watch:* [The strange details of std::string at Facebook](https://www.youtube.com/watch?v=kPR8h4-qZdk) (31 min) |
+|         |  [Lecture Slides [Optimisation - Branch Prediction]](https://drive.google.com/file/d/1qN1nW18Nxu7xxXxpqbDDYCeyVKin288K/view?usp=sharing) |
 |         | <b style="color: red">Due:</b> Code for improved C\+\+ classes (5 pts) + initial working module (5 pts) classes |
 |         | <b style="color: blue">Quiz:</b> 4b |
 |         | <b style="color: green">Out:</b> Code review assignments and rubrics |
@@ -139,9 +143,11 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | **Week 11** | |
 | 3/30/26  | **Using AI with C\+\+** |
 |          | *Watch:* [Best Practices for AI Tool Use in C\+\+](https://www.youtube.com/watch?v=xCuRUjxT5L8) (62 min) |
+|         |  [Lecture Slides [Technical debt and other challenges]](https://drive.google.com/file/d/1mpN_tm_8_DlFtoVZczRlom-Bl9iWCJ2-/view?usp=sharing) |
 |          | <b style="color: red">Milestone:</b> Integration tests for full software system |
 | 4/1/26   | **Concepts** |
 |          | *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min; watch at least first 38 min) |
+|          |  [Lecture Slides [A sneak peak into modern LLMs]](https://drive.google.com/file/d/1mpN_tm_8_DlFtoVZczRlom-Bl9iWCJ2-/view?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 5a | 
 |          | <b style="color: red">Due:</b> Code Reviews |
 | **Week 12** | |
