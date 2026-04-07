@@ -29,6 +29,6 @@ public:
 
     m_Stopped = true;
 
-    std::println("Duration: {}ms", end - start);
+    std::println("{} duration: {}ms", m_Name, end - start);
   }
 };
