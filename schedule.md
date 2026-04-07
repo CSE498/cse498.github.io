@@ -159,9 +159,11 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) |
 |          | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | |
-| 4/13/26  | **Deep Dive: Sorting** <!--- <br> *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (75 min + optional questions) --> |
+| 4/13/26  | **Deep Dive: Sorting** |
+|          | *Watch:* [Sorting Algorithms: Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ) (90 min; participation Q will come from first 30 min, but the whole talk is amazing.) |
 |          | <b style="color: red">Milestone:</b> Efficiency analyses with bottleneck identification |
-| 4/15/26  | **Understanding Code Licenses** <!--- <br> *Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) --> |
+| 4/15/26  | **Understanding Code Licenses** |
+|          |*Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) |
 | **Week 14** | |
 | 4/20/26  | **Catchup** or **Special Topics** |
 |          | <b style="color: red">Due:</b> Code for final module (15 pts) + project video (5 pts) |
