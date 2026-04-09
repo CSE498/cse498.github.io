@@ -157,6 +157,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | 4/8/26   | **Attributes** and **User-defined Literals** |
 |          | *Watch:* [Attributes](https://www.youtube.com/watch?v=BpulWncdn9Y) (13 min) |
 |          | *Watch:* [User Defined Literals // How to invent custom literal values](https://www.youtube.com/watch?v=_AbAjeTAYvE) (11 min) |
+|          |  [Lecture Slides [Design Patterns]](https://drive.google.com/file/d/17gy4HVn6kmYODBnMMegT3L56IAJrjjCJ/view?usp=sharing) |
 |          | <b style="color: blue">Quiz:</b> 5b |
 | **Week 13** | |
 | 4/13/26  | **Deep Dive: Sorting** |
