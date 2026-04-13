@@ -143,7 +143,7 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 | **Week 11** | |
 | 3/30/26  | **Using AI with C\+\+** |
 |          | *Watch:* [Best Practices for AI Tool Use in C\+\+](https://www.youtube.com/watch?v=xCuRUjxT5L8) (62 min) |
-|         |  [Lecture Slides [Technical debt and other challenges]](https://drive.google.com/file/d/1mpN_tm_8_DlFtoVZczRlom-Bl9iWCJ2-/view?usp=sharing) |
+|         |  [Lecture Slides [Technical debt and other challenges]](https://drive.google.com/file/d/1oljzWZYBdzuK-ymqYCshWYPQFcipNAzc/view?usp=sharing) |
 |          | <b style="color: red">Milestone:</b> Integration tests for full software system |
 | 4/1/26   | **Concepts** |
 |          | *Watch:* [Back to Basics: Concepts in C++](https://www.youtube.com/watch?v=jzwqTi7n-rg) (61 min; watch at least first 38 min) |
