@@ -165,11 +165,13 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | <b style="color: red">Milestone:</b> Efficiency analyses with bottleneck identification |
 | 4/15/26  | **Understanding Code Licenses** |
 |          |*Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) |
+|          | <b style="color: blue">Quiz:</b> 6a |
 | **Week 14** | |
 | 4/20/26  | **Catchup** or **Special Topics** |
-|          | <b style="color: red">Due:</b> Code for final module (15 pts) + project video (5 pts) |
+|          | <b style="color: red">Due:</b> Code for final module (15 pts) |
 |          | <b style="color: green">Out:</b> Code review assignments and rubrics |
 | 4/22/26  | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> |
+|          | <b style="color: red">Due:</b> Final project video (5 pts) |
 | **Week 15** | (Finals Week) |
 | <b style="color: #700000">Sun</b> 4/26/26 | <b style="color: red">Due:</b> Peer reviews of Final Projects! |
 | 4/29/26  | **Project Demonstrations and Final Quiz Redos**                |
