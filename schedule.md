@@ -167,10 +167,13 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          |*Watch:* [Free and Open Source software licenses explained](https://www.youtube.com/watch?v=UMIG4KnM8xw) (15 min) |
 |          | <b style="color: blue">Quiz:</b> 6a |
 | **Week 14** | |
-| 4/20/26  | **Catchup** or **Special Topics** |
+| 4/20/26  | **Course Discussions** |
 |          | <b style="color: red">Due:</b> Code for final module (15 pts) |
 |          | <b style="color: green">Out:</b> Code review assignments and rubrics |
-| 4/22/26  | **Newer features in C++** <!--- <br> *Watch:* [C++23: An Overview of Almost All New and Updated Features](https://www.youtube.com/watch?v=Cttb8vMuq-Y) (60 min) <br> *Optional:* [C++26 Preview - The Smaller Features](https://www.youtube.com/watch?v=xmqkRcAslw8) (62 min) --> |
+| 4/22/26  | **Newer features in C++** |
+|          | *Watch:* [C++26 is Complete!](https://www.youtube.com/watch?v=TOKP7k66VBw) (10 min) |
+|          | *Optional:* [C++26 - What's In It For You?](https://www.youtube.com/watch?v=PcidhLUYp-4) (60 min) |
+|          | *Optional Read:* [C++26 Is Here — And It Finally Caught Up to the Way We Think About Code](https://medium.com/@ed.sav/c-26-is-here-and-it-finally-caught-up-to-the-way-we-think-about-code-ca41a87cb9b4) (Best, but requires free Medium account) |
 |          | <b style="color: red">Due:</b> Final project video (5 pts) |
 | **Week 15** | (Finals Week) |
 | <b style="color: #700000">Sun</b> 4/26/26 | <b style="color: red">Due:</b> Peer reviews of Final Projects! |
