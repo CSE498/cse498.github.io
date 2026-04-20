@@ -174,10 +174,10 @@ This course is divided up into five units, covering a range of C\+\+ topics.  Be
 |          | *Watch:* [C++26 is Complete!](https://www.youtube.com/watch?v=TOKP7k66VBw) (10 min) |
 |          | *Optional:* [C++26 - What's In It For You?](https://www.youtube.com/watch?v=PcidhLUYp-4) (60 min) |
 |          | *Optional Read:* [C++26 Is Here — And It Finally Caught Up to the Way We Think About Code](https://medium.com/@ed.sav/c-26-is-here-and-it-finally-caught-up-to-the-way-we-think-about-code-ca41a87cb9b4) (Best, but requires free Medium account) |
-|          | <b style="color: red">Due:</b> Final project video (5 pts) |
 | **Week 15** | (Finals Week) |
 | <b style="color: #700000">Sun</b> 4/26/26 | <b style="color: red">Due:</b> Peer reviews of Final Projects! |
 | 4/29/26  | **Project Demonstrations and Final Quiz Redos**                |
 |          | Wednesday, April 29th, 3pm-5pm                                 |
 |          | <b style="color: blue">Quiz:</b> redos                         |
 |          | <b style="color: red">Due:</b> Code fixes before final grading |
+|          | <b style="color: red">Due:</b> Final project video (5 pts)     |

@@ -36,9 +36,9 @@ The largest chunk of the work for this course will be developing C++ code, first
 | Wed, Mar 25  | **Code for advanced C\+\+ classes** (5 pts) and **initial module** (5 pts) | 10 points (_project_)     |
 | Wed, Apr 1   | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
 | Mon, Apr 6   | **Code fixes based on peer reviews**                                       | Improved code for grading |
-| Mon, Apr 20  | **Code for final module** (15 pts) and **project video** (5 pts)           | 20 points (_project_)     |
+| Mon, Apr 20  | **Code for final module** (15 pts)                                         | 15 points (_project_)     |
 | Sun, Apr 26  | **Peer reviews** (5 pts)                                                   | 5  points (_peer review_) |
-| Wed, Apr 29  | **Code fixes based on peer reviews**                                       | Improved code for grading |
+| Wed, Apr 29  | **Code fixes based on peer reviews** and **project video** (5 pts)         | 5 points (_project_) + Improved code for grading |
 
 Your project code grades will be based on three factors.  The first two of these will be weighted evenly:
 
